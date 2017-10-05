@@ -53,14 +53,17 @@ This project is still alive and growing, probably forever.
    since a lot needs to be learned about making directives and children routes
 - Merge Open Weather Map API and search form from VCE app into first service item still using 
    boostrap grid
+   
 #[2017-08-27]
 - Create/merge youtube sample into second service item with 20 videos per request, only search function
 - Change top right menu items to fa icons
 - Created "Country Service" from API 'restcountries.eu', allows query for individual country information
 - Adapt new strategy for service, have real Angular services do dirty work, hooking up HTTP instead
   doing it within components, adapted weather client and youtube client
+  
 #[2017-08-28]
 - Created JSON test service with IP, date, time, echo and header services  
+
 #[2017-08-29]
 - Integrated with 3rd party map component AGM on service tab with places search capability
 #[2017-08-30]
