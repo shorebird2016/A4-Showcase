@@ -1,9 +1,32 @@
 # Showcase
+This project came about because of so many small programs that I wrote during the past 16 months are scattered 
+everywhere, it is very difficult to find what I learned during this intensive learning period.  I often remember
+something I did that maybe useful int the new project, but it takes too long to find them both for presentation
+and underline code.  They are scattered in many folders  across several drives.  One day it dawns upon me; hey I'm
+learning how to code web pages, why not put them behind pages and a few clicks will find what I want.  This definitely
+beats looking at folders after folders in finder followed by copying over code and run under Webstorm.  That's when
+this "showcase" idea becomes meaningful.  First of all, I have one place to look for dev information, better search,
+central storage.  Added benefits are for easy demonstration to others.  Obviously it's not meant for large apps with
+multiple pages and special backend.  But for basic dev information, this should beat google search.
+
+This project is still alive and growing, probably forever.
+
 
 ## Goals
-1. To provide a way to reference Angular 4 feature implementations
-2. To access code associated with each specific features
-3. To serve as a log of my capabilities
+1. To provide a way to reference Angular 4 dev information very quickly
+2. To access code associated with specific topics
+3. To provide a view for others to know about my capabilities
+4. To serve as a log of my learning journey
+
+
+## Sample Screen Shots
+![Apps | Calculator](doc/app-calc.png)
+![Apps | Weather](doc/app-weather.png)
+![Apps | Badge](doc/app-badge.png)
+![Apps | Pomodoro Timer](doc/app-pomodoro.png)
+![Apps | Tic-Tac-toe](doc/app-ttt.png)
+
+
 
 ## Dev Logs
 [2017-08-26]
@@ -213,7 +236,8 @@ So far, 15 small apps are ported over.
  When one has such experience, those are probably not desirable jobs any more.
  - Watched almost all Xpose's 15 videos, only #13 and #14 taught me something, repro them here (1)ngClass vs ngStyle
    (2) Add level 3 routes w/o component (3)Hyperlink to live sample (4) Capture both #13 and #14, Xpose done {1.5h}
- - 
+[2017-10-05]
+ - Add and update README, sample images, push to github
  
  - Port some old CSS animation over from A1 times
  
