@@ -1,0 +1,35 @@
+<div class="container-fluid">
+  <div class="div-calc">
+    <div class="div-ttl">Free Code Camp Calculator</div>
+    <div class="div-lcd"><!-- display line and label -->
+      <span id="div-entry" class="pull-right">{{display}}</span>
+    </div>
+
+    <div class="div-buttons">
+      <button class="div-btn" value="7" (click)="digitClicked('7')">7</button>
+      <button class="div-btn" value="8" (click)="digitClicked('8')">8</button>
+      <button class="div-btn" value="9" (click)="digitClicked('9')">9</button>
+      <button class="div-btn" value="." (click)="periodClicked()">.</button>
+      <button class="div-btn div-bgblue" value="sign" (click)="signClicked()">+/-</button>
+      <button class="div-btn div-bgred" value="CE" (click)="ceClicked()">CE</button>
+      <button class="div-btn div-bgred" value="C" (click)="cClicked()">C</button>
+
+      <button class="div-btn" value="4" (click)="digitClicked('4')">4</button>
+      <button class="div-btn" value="5" (click)="digitClicked('5')">5</button>
+      <button class="div-btn" value="6" (click)="digitClicked('6')">6</button>
+      <button class="div-btn invisible" value="0">N</button>
+      <button class="div-btn div-bgblue" style="font-size: x-large" value="+" (click)="operatorClicked('+')">+</button>
+      <button class="div-btn div-bgblue" style="font-size: x-large" value="-" (click)="operatorClicked('-')">-</button>
+      <button class="div-btn invisible">=</button>
+
+      <button class="div-btn" value="1" (click)="digitClicked('1')">1</button>
+      <button class="div-btn" value="2" (click)="digitClicked('2')">2</button>
+      <button class="div-btn" value="3" (click)="digitClicked('3')">3</button>
+      <button class="div-btn div-zero" value="0" (click)="digitClicked('0')">0</button>
+      <button class="div-btn invisible">=</button>
+      <button class="div-btn div-bgblue" value="*" (click)="operatorClicked('x')">x</button>
+      <button class="div-btn div-bgblue" value="/" (click)="operatorClicked('/')">/</button>
+      <button class="div-btn div-bgblue div-equal" style="font-size: x-large" (click)="operatorClicked('=')">=</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,53 @@
+<div class="container">
+  <h4>Template Driven Form</h4>
+
+  <form #ref_form class="form-group-sm" (ngSubmit)="submitForm(ref_form.value)" *ngIf="user">
+
+    <label>Name:</label>
+    <input class="form-control" #ref_name="ngModel" name="user-name" minlength="5" required [(ngModel)]="user.name">
+      <div *ngIf="ref_name.errors && (ref_name.dirty || ref_name.touched)" class="alert alert-danger">
+        <div [hidden]="!ref_name.errors.required">You must enter something...</div>
+        <div [hidden]="!ref_name.errors.minlength">At least 5 char</div>
+      </div>
+    <br/>
+
+    <div ngModelGroup="fullAddress">
+      <label>Address:</label>
+      <input class="form-control" [(ngModel)]="user.address" name="user-addr" id="ADDR"><br/>
+
+      <label>City:</label>
+      <input class="form-control" [(ngModel)]="user.city" name="user-city">
+
+      <label>State:</label>
+      <input class="form-control" [(ngModel)]="user.state" name="user-state" id="STATE"><br/>
+
+      <label>Zip:</label>
+      <input class="form-control" #ref_zip="ngModel" [(ngModel)]="user.zip" name="user-zip" minlength="5" maxlength="5"
+             pattern="^[1-9][0-9]{4}$" required>
+        <div *ngIf="ref_zip.errors && (ref_zip.dirty || ref_zip.touched)" class="alert alert-danger">
+          <div [hidden]="!ref_zip.errors.required">Required field</div>
+          <div [hidden]="!ref_zip.errors.minlength">Must have exactly 5 digits</div>
+          <div [hidden]="!ref_zip.errors.maxlength">Must have exactly 5 digits</div>
+          <div [hidden]="!ref_zip.errors.pattern">Only numeric digits are allowed</div>
+        </div>
+      <br/>
+    </div>
+
+    <label>Gender:</label><br/>
+    <input type="radio" [(ngModel)]="user.gender" value="male" name="user-male" id="MALE">Male<br/>
+    <input type="radio" [(ngModel)]="user.gender" value="female" name="user-female" id="FEMALE">Female<br/>
+
+    <input type="submit" class="form-control btn btn-success pull-right">
+
+  </form>
+  Name field validation code:
+  <img src="../assets/concept/form/valid-1.png" class="img img-responsive" >
+  Validate Zipcode field
+  <img src="../assets/concept/form/zip-check.png" class="img img-responsive" >
+  Angular inserted CSS classes
+  <img src="../assets/concept/form/form-class.png" class="img img-responsive" width="300">
+  Alternative way to check error
+  <img src="../assets/concept/form/field-err1.png" class="img img-responsive" >
+
+</div>
+

@@ -1,0 +1,46 @@
+
+<div class="container-fluid">
+  <h4>Hover to Change color</h4>
+  <div class="well">
+    <pre>&lt;p [appHoverColor]="'#f5f216'" [leaveColor]="'#e802f3'" id="P1"&gt;</pre>
+    <p [appHoverColor]="'#f5f216'" [leaveColor]="'#e802f3'" id="P1">paragraph</p>
+    <button [appHoverColor]="'#dea00b'" [leaveColor]="'#08de4b'" id="BTN1">button</button>
+    <div [appHoverColor]="'#1fdedd'" [leaveColor]="'#de1929'" id="DIV1">div</div>
+  </div>
+
+  <h4>Auto Grow/Hightlight on Focus</h4>
+  <button class="btn btn-primary" (mouseenter)="animateVisibility()"  (mouseleave)="animateVisibility()"
+          (click)="toggleSize()">Animate </button>
+  <div class="well">
+    <pre>&lt;button class="DIR" appAutogrow [@showHide]="visibility" [@sizing]="size"&gt;</pre>
+    <br/>
+    <button class="DIR" appAutogrow [@showHide]="visibility" [@sizing]="size">(button)click me</button>
+    <div class="DIR" appAutogrow [@sizing]="size">div</div>
+    <input class="DIR" placeholder="(input)click me" appAutogrow [@showHide]="visibility">
+  </div>
+
+  <h4>Zoom on Hover</h4>
+  <div class="well">
+    <p appZoomHover="1.5em">This is the day the LORD has it made</p>
+    <input appZoomHover="2.2em" placeholder="hover over me">
+    <button appZoomHover="0.3em" class="btn btn-success">Goes Nowhere</button>
+    <div appZoomHover="2.5em">
+      <br/>
+      ngx-warehouse comes with a default configuration to get up and running quickly.
+      However, if you'd like to customize the options, it's easy to do so.
+      <i class="fa fa-train"></i>
+      <!--<figure><img src="../assets/animation/train.png" width="200px" height="50"></figure>-->
+    </div>
+  </div>
+
+
+  <div class="panel">
+    <div class="panel-body" appCollapsable>
+      <i class="fa fa-long-arrow-down"></i>
+      <section id="COL">This is the day the LORD has it made,<br/>
+        let us rejoice and be HAPPY in it....
+      </section>
+    </div>
+  </div>
+</div>
+

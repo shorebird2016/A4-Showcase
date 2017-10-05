@@ -1,0 +1,11 @@
+.alert-success, input {
+  display: inline-block;
+  width: 100px;
+  text-align: center; }
+
+.alert-success {
+  border: 1px green solid;
+  border-radius: 5px;
+  padding: 10px; }
+
+/*# sourceMappingURL=math.component.css.map */

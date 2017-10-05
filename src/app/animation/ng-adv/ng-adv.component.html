@@ -1,0 +1,7 @@
+<div id="stagger-container" [@listAnimation]="items.length">
+  <button (click)="pushItem()">Add item</button>
+  <button (click)="removeItem()">Remove item</button>
+
+  <div id="list" *ngFor="let ITEM of items">
+    {{ITEM}}
+  </div>

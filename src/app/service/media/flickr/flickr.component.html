@@ -1,0 +1,21 @@
+<!--This is an example using lightbox data-lightbox and data-title will do, doesn't need button images any more-->
+
+<div class="container-fluid">
+
+  <div class="container-fluid">
+    <h4>Flickr Gallery</h4>
+
+    <input class="form-control" placeholder="search keyword" [(ngModel)]="searchTerm">
+    <button class="btn btn-primary" (click)="searchImages()">Search</button>
+
+    <div class="photo-container" *ngIf="photos">
+      <div class="photo" *ngFor="let PHOTO of photos">
+        <a href="{{getImageUrl(PHOTO)}}" data-lightbox="flickr" data-title="{{PHOTO.title}}">
+          <img src="{{getImageUrl(PHOTO)}}"></a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+

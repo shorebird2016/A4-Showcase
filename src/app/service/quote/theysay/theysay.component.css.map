@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,EAAE;EACA,aAAa,EAAE,IAAI;;AAErB,YAAY;EACV,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,KAAK;;AAElB,YAAY;EACV,WAAW,EAAE,UAAU;EACvB,SAAS,EAAE,MAAM;;AAEnB,WAAW;EACT,WAAW,EAAE,oBAAoB",
+"sources": ["theysay.component.sass"],
+"names": [],
+"file": "theysay.component.css"
+}

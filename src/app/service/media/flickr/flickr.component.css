@@ -1,0 +1,26 @@
+.container-fluid {
+  padding: 0 0 0 10px; }
+
+h4 {
+  display: inline-block; }
+
+input {
+  width: 300px;
+  display: inline-block;
+  margin: 10px 0 10px 20px; }
+
+.btn {
+  margin-top: -3px;
+  margin-left: -5px; }
+
+.photo-container {
+  display: flex;
+  flex-wrap: wrap; }
+
+.photo img {
+  width: 160px;
+  height: 90px;
+  margin: 0 5px 5px 0;
+  border-radius: 5px; }
+
+/*# sourceMappingURL=flickr.component.css.map */

@@ -1,0 +1,26 @@
+<div class="container-fluid">
+
+  <h4>Barchart&#8482; Stock Quotes</h4>
+
+  <input class="form-control" placeholder="symbol" [(ngModel)]="ticker">
+  <button class="btn btn-primary" (click)="getQuote()">Get</button>
+
+  <!--display table for quotes received -->
+  <table class="table table-hover table-striped table-bordered table-responsive" *ngIf="quoteObjects">
+    <tbody>
+    <tr><td>Time</td> <td>{{quoteObjects.tradeTimestamp}}</td></tr>
+    <tr><td>Symbol</td> <td>{{quoteObjects.symbol}}</td></tr>
+    <tr><td>Name</td> <td>{{quoteObjects.name}}</td></tr>
+    <tr><td>Exchange</td> <td>{{quoteObjects.exchange}}</td></tr>
+    <tr><td>Close</td> <td>{{quoteObjects.lastPrice}}</td></tr>
+
+    <tr><td>Open</td> <td>{{quoteObjects.open}}</td></tr>
+    <tr><td>High</td> <td>{{quoteObjects.high}}</td></tr>
+    <tr><td>Low</td> <td>{{quoteObjects.low}}</td></tr>
+    <tr><td>Volume</td> <td>{{quoteObjects.volume}}</td></tr>
+
+    </tbody>
+
+  </table>
+
+</div>

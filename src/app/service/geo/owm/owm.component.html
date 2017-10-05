@@ -1,0 +1,37 @@
+<div class="owm-box">
+  <h4>Search Weather via Open Weather Map&#8482;</h4>
+
+  <label>City:</label>
+  <input class="form-control" type="text" placeholder="Which city?" [(ngModel)]="cityName">
+  <button class="btn btn-primary" (click)="searchWeather()">Search</button><br/>
+  <!--<ng4geo-autocomplete (componentCallback)="autoCompleteWeather($event)"></ng4geo-autocomplete>-->
+
+  <table class="table table-responsive table-hover table-bordered table-striped">
+    <thead>
+      <th>Weather Detail</th><th>Value</th>
+    </thead>
+    <tbody *ngIf="cityWeather">
+    <tr><td>City Name</td><td>{{cityWeather.name}}</td></tr>
+    <tr><td>Country</td><td>{{cityWeather.sys.country}}</td></tr>
+    <tr><td>Coordinate</td><td>Logitude: {{cityWeather.coord.lon}}<br/>
+      Lattitude: {{cityWeather.coord.lat}}</td></tr>
+
+    <tr><td>Basic Weather</td><td>
+      Condition: {{cityWeather.weather[0].description}}<br/>
+      Wind Speed: {{cityWeather.wind.speed}}<br/>
+      Wind Direction: {{cityWeather.wind.deg}}<br/>
+      Wind Gust: {{cityWeather.wind.gust}}<br/>
+      Temperarute: {{cityWeather.main.temp}}<br/>
+      Barometric Presssure: {{cityWeather.pressure}}<br/>
+      Temp Range: {{cityWeather.temp_min}} - {{cityWeather.temp_max}}
+    </td></tr>
+
+    <tr><td>Sunrise</td><td>{{cityWeather.sys.sunrise}}</td>
+    <tr><td>Sunset</td><td>{{cityWeather.sys.sunset}}</td>
+    <tr><td>Clouds</td><td>{{cityWeather.clouds.all}}</td></tr>
+    <tr><td>Visibility</td><td>{{cityWeather.visibility}}</td></tr>
+    </tbody>
+  </table>
+
+</div>
+

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,gBAAgB;EACd,MAAM,EAAE,IAAI;;AAEd,CAAC;EACC,MAAM,EAAE,gBAAgB;;AAE1B,EAAE;EACA,eAAe,EAAE,SAAS",
+"sources": ["api.component.sass"],
+"names": [],
+"file": "api.component.css"
+}

@@ -1,0 +1,18 @@
+
+<div class="container-fluid">
+  <div class="quote-box" *ngIf="quoteObj">
+    <div class="quote-text">
+      <i class="fa fa-quote-left"></i>
+      <span>"{{quoteObj.quote}}"</span>
+    </div>
+    <div class="quote-author">
+      - <span>{{quoteObj.author}}</span>
+    </div>
+
+    <div>
+      <a (click)="tweetQuote()" target="_blank">
+        <i class="fa fa-2x fa-twitter" title="Tweet this quote!"></i></a>
+      <button class="btn btn-primary pull-right" (click)="getRadomQuote()">New quote</button>
+    </div>
+  </div>
+</div>

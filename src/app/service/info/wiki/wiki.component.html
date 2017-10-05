@@ -1,0 +1,29 @@
+<div class="container-fluid">
+  <h1>Wikipedia Knows!</h1>
+  <h3>Anything on your mind ?</h3>
+  <div class="entry">
+    <input [(ngModel)]="userEntry" placeholder="Say it here...">
+    <button (click)="search()" class="btn btn-primary">Go</button>
+  </div>
+
+  <h3>Feeling lucky today ?
+    <a data-toggle="tooltip" title="Random search" target="_blank"
+       href="https://en.wikipedia.org/wiki/Special:Random">
+    <img src="../assets/icon/dice.png" class="img img-circle" id="RANDOM"></a></h3>
+
+  <table class="table table-responsive table-hover table-bordered table-striped">
+    <!--<col width="5%"> <col width="10%"> <col width="35%"> <col width="20%">-->
+    <thead><tr>
+      <th>#</th> <th>Name</th> <th>Description</th> <th>URL</th> </tr>
+    </thead>
+    <tbody *ngIf="searchResults">
+      <tr *ngFor="let NAME of names; let idx = index">
+        <td>{{idx + 1}}</td>
+        <td>{{NAME}}</td>
+        <td>{{descriptions[idx]}}</td>
+        <td>{{links[idx]}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>

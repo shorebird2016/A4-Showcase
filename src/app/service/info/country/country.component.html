@@ -1,0 +1,48 @@
+<div class="country-box">
+  <h4>Country Information via REST Countries &#8482;</h4>
+  <label>Country:</label>
+  <input class="form-control" type="text" placeholder="Which country (partial name ok)?"
+         [(ngModel)]="countryName">
+  <button class="btn btn-primary" (click)="findCountry()">Get it</button>
+
+  <table class="table table-responsive table-hover table-bordered table-striped">
+    <thead>
+      <tr><td>Key</td><td>Value</td></tr>
+    </thead>
+    <tbody *ngIf="countryInfo">
+      <tr>
+        <td>Names / Codes</td>
+        <td>
+          {{countryInfo.name}}<br/>
+          {{countryInfo.nativeName}}<br/>
+          Code: {{countryInfo.alpha2Code}} {{countryInfo.alpha3Code}}<br/>
+<!--TODO loop thru all spellings-->
+          Spellings: [ {{countryInfo.altSpellings[0]}} ] [
+          {{countryInfo.altSpellings[1]}} ][ {{countryInfo.altSpellings[2]}} ]<br/>
+          [ {{countryInfo.altSpellings[3]}} ][ {{countryInfo.altSpellings[4]}} ]
+        </td>
+      </tr>
+
+      <tr><td>Flag</td><td><img src="{{countryInfo.flag}}" width="120" height="80"></td></tr>
+
+      <tr><td>Calling Code</td><td>{{countryInfo.callingCodes[0]}}</td></tr>
+
+      <tr><td>Currency</td><td>Name: {{countryInfo.currencies[0].name}}<br/>
+        Symbol: {{countryInfo.currencies[0].symbol}} Code: {{countryInfo.currencies[0].code}}</td></tr>
+<!--TODO loop thru all time zones-->
+      <tr><td>Time Zone</td><td>{{countryInfo.timezones[0]}}</td></tr>
+
+      <tr><td>Demonym</td><td>{{countryInfo.demonym}}</td></tr>
+
+      <tr><td>Geocode, Region</td><td>Lattitude: {{countryInfo.latlng[0]}}<br/>
+          Longitude: {{countryInfo.latlng[1]}}<br/>
+          Region: {{countryInfo.region}}<br/>
+          Sub-Region: {{countryInfo.subregion}}
+      </td></tr>
+
+      <tr><td>Population</td><td>{{countryInfo.population}}</td></tr>
+
+      <tr><td>Domain Postfix</td><td>{{countryInfo.topLevelDomain}}</td></tr>
+    </tbody>
+  </table>
+</div>

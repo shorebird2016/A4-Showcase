@@ -1,0 +1,33 @@
+<div class="container-fluid">
+    <div>
+      <h3>Github Popularity</h3>
+      <p>This app lets you search by topic for the top users for a search term.
+      <img src="../assets/reference/api/github.png" width="120" class="pull-right">
+    <div>
+
+    <div class="srch"><h5>Observable Implementation</h5>
+      <input placeholder='e.g., "Angular 4 HTTP service return observable"'
+             #term size="60" autofocus required>
+      <button class="btn btn-primary" (click)="getPopularUsers(term.value)">See</button>
+    </div>
+
+    <ul>
+      <li *ngFor="let USR of userResults">ß
+        {{USR.id}}
+      </li>
+    </ul>
+
+    <div class="srch"><h5>Promise Implenmentation</h5>
+      <input placeholder='e.g., "Angular 4 HTTP service return promise"'
+             #term_promise size="60" autofocus required>
+      <button class="btn btn-primary"
+              (click)="getPopularUsersViaPromise(term_promise.value)">See</button>
+    </div>
+  </div>
+
+  <ul>
+    <li *ngFor="let USR of userResults2">
+      {{USR.id}}
+    </li>
+  </ul>
+</div>

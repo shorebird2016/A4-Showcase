@@ -1,0 +1,27 @@
+<div class="logo-container">
+  <!--<h5 [@morph]="animFlag" (mouseenter)="changeState()" (mouseleave)="changeState()">{{title}}</h5>-->
+  <h5>{{title}}</h5>
+  <ul>
+    <li><i class="fa fa-gear fa-2x"><a routerLink="/admin"></a></i></li>
+    <li><i class="fa fa-question fa-2x"><a routerLink="/help"></a></i></li>
+    <li><i class="fa fa-sign-out fa-2x"><a routerLink="/help"></a></i></li>
+  </ul>
+  <img class="logo" src="../assets/icon/logo4.png">
+</div>
+
+<!--header with a row of buttons-->
+
+<div class="app-header">
+  <ul>
+    <li class="menu-item"><a routerLink="/apps" routerLinkActive="active">Apps</a></li>
+    <li class="menu-item"><a routerLink="/component" routerLinkActive="active">Component</a></li>
+    <li class="menu-item"><a routerLink="/service" routerLinkActive="active">Service</a></li>
+    <li class="menu-item"><a routerLink="/directive" routerLinkActive="active">Directive</a></li>
+    <li class="menu-item"><a routerLink="/animation" routerLinkActive="active">Animation</a></li>
+    <li class="menu-item"><a routerLink="/reference" routerLinkActive="active">References</a></li>
+  </ul>
+</div>
+
+<router-outlet></router-outlet>
+
+<img class="ng-logo" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAyNTAgMjUwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNTAgMjUwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDojREQwMDMxO30NCgkuc3Qxe2ZpbGw6I0MzMDAyRjt9DQoJLnN0MntmaWxsOiNGRkZGRkY7fQ0KPC9zdHlsZT4NCjxnPg0KCTxwb2x5Z29uIGNsYXNzPSJzdDAiIHBvaW50cz0iMTI1LDMwIDEyNSwzMCAxMjUsMzAgMzEuOSw2My4yIDQ2LjEsMTg2LjMgMTI1LDIzMCAxMjUsMjMwIDEyNSwyMzAgMjAzLjksMTg2LjMgMjE4LjEsNjMuMiAJIi8+DQoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIxMjUsMzAgMTI1LDUyLjIgMTI1LDUyLjEgMTI1LDE1My40IDEyNSwxNTMuNCAxMjUsMjMwIDEyNSwyMzAgMjAzLjksMTg2LjMgMjE4LjEsNjMuMiAxMjUsMzAgCSIvPg0KCTxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik0xMjUsNTIuMUw2Ni44LDE4Mi42aDBoMjEuN2gwbDExLjctMjkuMmg0OS40bDExLjcsMjkuMmgwaDIxLjdoMEwxMjUsNTIuMUwxMjUsNTIuMUwxMjUsNTIuMUwxMjUsNTIuMQ0KCQlMMTI1LDUyLjF6IE0xNDIsMTM1LjRIMTA4bDE3LTQwLjlMMTQyLDEzNS40eiIvPg0KPC9nPg0KPC9zdmc+DQo=">

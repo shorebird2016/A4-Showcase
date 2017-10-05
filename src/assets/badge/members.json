@@ -1,0 +1,4434 @@
+[
+ {
+   "ID": 718,
+   "Last": "Der",
+   "First": "Linda",
+   "Location": "Milbrae 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1858,
+   "Last": "Wong",
+   "First": "Rose",
+   "Location": "Milbrae 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2096,
+   "Last": "Tai",
+   "First": "Louisa",
+   "Location": "Milbrae 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2598,
+   "Last": "Chen",
+   "First": "Bing",
+   "Location": "Milbrae 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 190,
+   "Last": "Sui",
+   "First": "Guiling",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 205,
+   "Last": "Leu",
+   "First": "Jennifer",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 268,
+   "Last": "Lee",
+   "First": "Kathy",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 273,
+   "Last": "Chou",
+   "First": "Venus ",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 391,
+   "Last": "Chu",
+   "First": "Judy",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 465,
+   "Last": "Li",
+   "First": "Yi Mei",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 569,
+   "Last": "Liu",
+   "First": "Erykah",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 734,
+   "Last": "Wei",
+   "First": "Grace",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 735,
+   "Last": "Liem",
+   "First": "Weini",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 881,
+   "Last": "Doan",
+   "First": "Fumiko",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1150,
+   "Last": "Lan",
+   "First": "Jiang",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1156,
+   "Last": "Yang",
+   "First": "Josephine",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1183,
+   "Last": "Jin",
+   "First": "Jian",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1481,
+   "Last": "Liang",
+   "First": "Lily",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "11/12/2015"
+ },
+ {
+   "ID": 1583,
+   "Last": "Yu",
+   "First": "Ellen",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "11/19/2015"
+ },
+ {
+   "ID": 1833,
+   "Last": "Teng",
+   "First": "Hsiao-Jung",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1868,
+   "Last": "Lam",
+   "First": "Hoi",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1873,
+   "Last": "Fujiki",
+   "First": "Jean",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1882,
+   "Last": "Wong",
+   "First": "Pat ",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1885,
+   "Last": "Ding",
+   "First": " Sandra",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1905,
+   "Last": "Lipkin",
+   "First": "Mark",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1964,
+   "Last": "Ding",
+   "First": "Ying",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "11/19/2015"
+ },
+ {
+   "ID": 2019,
+   "Last": "Jiang",
+   "First": "Cathy",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2061,
+   "Last": "Leung  ",
+   "First": "Jenny",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2068,
+   "Last": "Lee",
+   "First": "Li-Mey",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2069,
+   "Last": "Yu",
+   "First": "Maria",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/22/2015"
+ },
+ {
+   "ID": 2226,
+   "Last": "Mei",
+   "First": "Rui",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2247,
+   "Last": "Xia ",
+   "First": "Ying",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2356,
+   "Last": "Sato",
+   "First": "Kimiko",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2430,
+   "Last": "Cheng",
+   "First": "Amy",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2433,
+   "Last": "Tai",
+   "First": "Wen-Mei",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2447,
+   "Last": "Li",
+   "First": "Li",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "1/14/2016"
+ },
+ {
+   "ID": 2476,
+   "Last": "He",
+   "First": "Xiaotong",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2512,
+   "Last": "Wang",
+   "First": "Min",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2514,
+   "Last": "Shea",
+   "First": "Joanna",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "11/12/2015"
+ },
+ {
+   "ID": 2565,
+   "Last": "Zhang",
+   "First": "Ping",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2623,
+   "Last": "Xing",
+   "First": "Dai-Hong",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "12/17/2016"
+ },
+ {
+   "ID": 2625,
+   "Last": "Li",
+   "First": "Yan ",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "12/17/2016"
+ },
+ {
+   "ID": 127,
+   "Last": "Wong",
+   "First": "Judy",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 193,
+   "Last": "Chien",
+   "First": "Colette",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 209,
+   "Last": "King",
+   "First": "Kathy",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 220,
+   "Last": "Yang",
+   "First": "Lisa",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 232,
+   "Last": "Yang",
+   "First": "Eva",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 234,
+   "Last": "Lu",
+   "First": "Nancy",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 242,
+   "Last": "Tsai",
+   "First": "Mindy",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 292,
+   "Last": "Tsai",
+   "First": "Ken",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 364,
+   "Last": "Chu",
+   "First": "Jennifer",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 396,
+   "Last": "Ng",
+   "First": "Holly",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 404,
+   "Last": "Chang",
+   "First": "Merab",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 467,
+   "Last": "Hsieh",
+   "First": "Shirley",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 512,
+   "Last": "Wang",
+   "First": "Tina",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 693,
+   "Last": "Wu",
+   "First": "Nancy",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 825,
+   "Last": "Lu",
+   "First": "Pao-Chen",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 827,
+   "Last": "Mar Tang",
+   "First": "Shirley",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 862,
+   "Last": "Tsui",
+   "First": "Miriam",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 965,
+   "Last": "Zhang ",
+   "First": "Jean",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1031,
+   "Last": "Gan",
+   "First": "Lin",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1108,
+   "Last": "Lee",
+   "First": "Che Ing",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1110,
+   "Last": "Yeung",
+   "First": "Sherry",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1129,
+   "Last": "Nagatsuyu",
+   "First": "Tamae",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/29/2015"
+ },
+ {
+   "ID": 1155,
+   "Last": "Wei",
+   "First": "David",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1181,
+   "Last": "Wang",
+   "First": "Shu Chen",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1208,
+   "Last": "Chang",
+   "First": "Wendy",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1230,
+   "Last": "Su",
+   "First": "Hsiu Mei",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1243,
+   "Last": "Hsu",
+   "First": "Shiang Ling",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/29/2015"
+ },
+ {
+   "ID": 1288,
+   "Last": "Tran ",
+   "First": "Pamela",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1359,
+   "Last": "Sun",
+   "First": "Charlene",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1392,
+   "Last": "Ting",
+   "First": "Nicole",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1509,
+   "Last": "Chiu",
+   "First": "Jenny",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1524,
+   "Last": "Ku ",
+   "First": "Carol",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1552,
+   "Last": "Chao",
+   "First": "Regina",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1574,
+   "Last": "Lau",
+   "First": "Winnie",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1650,
+   "Last": "Lee",
+   "First": "Alice",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1670,
+   "Last": "Tsao",
+   "First": "Ling",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1672,
+   "Last": "Chang",
+   "First": "Jessica",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1674,
+   "Last": "Ting",
+   "First": "Priscilla",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1700,
+   "Last": "Dong",
+   "First": "Cherie",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1702,
+   "Last": "Luo ",
+   "First": "Hannah",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/29/2015"
+ },
+ {
+   "ID": 1729,
+   "Last": "Xu",
+   "First": "Hazel",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1838,
+   "Last": "Chik",
+   "First": "Annie",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1878,
+   "Last": "Peng",
+   "First": "Yun",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1922,
+   "Last": "Tzeng",
+   "First": "Pamela",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1952,
+   "Last": "Wu",
+   "First": "Sue",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1991,
+   "Last": "Yang",
+   "First": "Sophia ",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "11/5/2015"
+ },
+ {
+   "ID": 2038,
+   "Last": "Chen",
+   "First": "Lisa",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2042,
+   "Last": "Lin",
+   "First": "Huichen",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2067,
+   "Last": "Li",
+   "First": "Whitney",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2089,
+   "Last": "Hsing",
+   "First": "Sharon",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2114,
+   "Last": "Hou",
+   "First": "Tracy",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2118,
+   "Last": "Lin",
+   "First": "Joyce",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2123,
+   "Last": "Hu",
+   "First": "Qing Wen",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2134,
+   "Last": "Gao",
+   "First": "Xiuyu",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2154,
+   "Last": "Cheng",
+   "First": "Ying-Ju",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2233,
+   "Last": "Huang",
+   "First": "Teresa",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2257,
+   "Last": "Zhang",
+   "First": "Tong",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/29/2015"
+ },
+ {
+   "ID": 2270,
+   "Last": "Ip",
+   "First": "Tiffany",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2271,
+   "Last": "Ho",
+   "First": "Isabel",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2276,
+   "Last": "Fok",
+   "First": "Pik-may",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2285,
+   "Last": "Chen",
+   "First": "Annie",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2298,
+   "Last": "He",
+   "First": "Wendy",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2345,
+   "Last": "Chen",
+   "First": "Jian F",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2363,
+   "Last": "Chang",
+   "First": "Sally",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2379,
+   "Last": "Lau",
+   "First": "Muriel",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/29/2015"
+ },
+ {
+   "ID": 2391,
+   "Last": "Lee",
+   "First": "Jamy",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2401,
+   "Last": "Sung",
+   "First": "Hsiac-Fang",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2410,
+   "Last": "Wang",
+   "First": "Yizhi",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2421,
+   "Last": "Chiu",
+   "First": "Annie",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2454,
+   "Last": "Tian",
+   "First": "Wen",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2478,
+   "Last": "Meng",
+   "First": "Sherry",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2489,
+   "Last": "Zhu",
+   "First": "Vivian ",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2496,
+   "Last": "Lee",
+   "First": "Tina",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2508,
+   "Last": "Zhao",
+   "First": "Ying",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2513,
+   "Last": "Yang",
+   "First": "Xiaoyu",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2519,
+   "Last": "Hwang",
+   "First": "Chai Chong",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2530,
+   "Last": "Chan Wang",
+   "First": "Shou Ching",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2539,
+   "Last": "Lu",
+   "First": "Mandy",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2550,
+   "Last": "Chen",
+   "First": "Alex",
+   "Location": "",
+   "Type": "Inner Circle",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2551,
+   "Last": "Kan",
+   "First": "Kathy",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2552,
+   "Last": "Chan",
+   "First": "Kit Wan",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2553,
+   "Last": "Wu",
+   "First": "Mina",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2555,
+   "Last": "Guo",
+   "First": "Lisa",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/22/2015"
+ },
+ {
+   "ID": 2556,
+   "Last": "Ng",
+   "First": "Jenny",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2557,
+   "Last": "Tseng",
+   "First": "Yuen",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2563,
+   "Last": "Liang",
+   "First": "Angela",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2566,
+   "Last": "Chang",
+   "First": "Mary",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2567,
+   "Last": "Chien",
+   "First": "Iris",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2572,
+   "Last": "Wu",
+   "First": "June",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2576,
+   "Last": "Tan",
+   "First": "Yan",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2581,
+   "Last": "Cong",
+   "First": "Hong",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2582,
+   "Last": "Ho ",
+   "First": "donna",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "11/19/2015"
+ },
+ {
+   "ID": 2614,
+   "Last": "Zhang",
+   "First": "Xin",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "11/5/2015"
+ },
+ {
+   "ID": 2615,
+   "Last": "Chen",
+   "First": "Ruth",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "11/5/2015"
+ },
+ {
+   "ID": 369,
+   "Last": "Leung",
+   "First": "Grace",
+   "Location": "Center",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 898,
+   "Last": "Wang",
+   "First": "Ying",
+   "Location": "Center",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1135,
+   "Last": "Yu",
+   "First": "Tracy",
+   "Location": "Center",
+   "Type": "Regular",
+   "Issued": "10/22/2015"
+ },
+ {
+   "ID": 1686,
+   "Last": "Pau",
+   "First": "Man",
+   "Location": "Center",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2288,
+   "Last": "Yao ",
+   "First": "Zhuoya",
+   "Location": "Center",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2474,
+   "Last": "Lau",
+   "First": "Simon",
+   "Location": "Center",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2475,
+   "Last": "Lau",
+   "First": "Julie",
+   "Location": "Center",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2561,
+   "Last": "Cheng",
+   "First": "Sally",
+   "Location": "Center",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2575,
+   "Last": "Li",
+   "First": "Ruby",
+   "Location": "Center",
+   "Type": "Regular",
+   "Issued": "11/19/2015"
+ },
+ {
+   "ID": 2577,
+   "Last": "Hua ",
+   "First": "Cuong",
+   "Location": "Center",
+   "Type": "Regular",
+   "Issued": "10/22/2015"
+ },
+ {
+   "ID": 2600,
+   "Last": "Lin",
+   "First": "Judy",
+   "Location": "Center",
+   "Type": "Regular",
+   "Issued": "11/5/2015"
+ },
+ {
+   "ID": 2606,
+   "Last": "Chang",
+   "First": "Janet",
+   "Location": "Center",
+   "Type": "Regular",
+   "Issued": "11/5/2015"
+ },
+ {
+   "ID": 2624,
+   "Last": "Guo",
+   "First": "Connie",
+   "Location": "Center",
+   "Type": "Regular",
+   "Issued": "12/17/2016"
+ },
+ {
+   "ID": 791,
+   "Last": "Kao",
+   "First": "Spring",
+   "Location": "Fremont 2",
+   "Type": "Regular",
+   "Issued": "10/29/2015"
+ },
+ {
+   "ID": 1081,
+   "Last": "Lee",
+   "First": "Tess",
+   "Location": "Fremont 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1283,
+   "Last": "Wu",
+   "First": "Grace",
+   "Location": "Fremont 2",
+   "Type": "Regular",
+   "Issued": "10/22/2015"
+ },
+ {
+   "ID": 1694,
+   "Last": "Cheng",
+   "First": "Yan",
+   "Location": "Fremont 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1896,
+   "Last": "Afnan",
+   "First": "Jia",
+   "Location": "Fremont 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2090,
+   "Last": "Liu",
+   "First": "Mingxia",
+   "Location": "Fremont 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2316,
+   "Last": "Chang",
+   "First": "Suan",
+   "Location": "Fremont 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2357,
+   "Last": "Tin",
+   "First": "Katherine",
+   "Location": "Fremont 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2423,
+   "Last": "Luo",
+   "First": "Jenny",
+   "Location": "Fremont 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2450,
+   "Last": "Chan",
+   "First": "Christina",
+   "Location": "Fremont 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2503,
+   "Last": "Feng",
+   "First": "Ann",
+   "Location": "Fremont 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2510,
+   "Last": "Xie",
+   "First": "Helen",
+   "Location": "Fremont 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2520,
+   "Last": "Kao",
+   "First": "Ranchain",
+   "Location": "Fremont 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2544,
+   "Last": "Poon",
+   "First": "Esther",
+   "Location": "Fremont 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2554,
+   "Last": "Wang",
+   "First": "Jenny",
+   "Location": "Fremont 2",
+   "Type": "Regular",
+   "Issued": "10/22/2015"
+ },
+ {
+   "ID": 2558,
+   "Last": "Tang ",
+   "First": "Ha The",
+   "Location": "Fremont 2",
+   "Type": "Regular",
+   "Issued": "12/3/2015"
+ },
+ {
+   "ID": 2559,
+   "Last": "Bao",
+   "First": "Mei",
+   "Location": "Fremont 2",
+   "Type": "Regular",
+   "Issued": "10/22/2015"
+ },
+ {
+   "ID": 2560,
+   "Last": "Rao",
+   "First": "Sulochana",
+   "Location": "Fremont 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2578,
+   "Last": "Lu",
+   "First": "Louise",
+   "Location": "Fremont 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2579,
+   "Last": "Leung",
+   "First": "Wendy",
+   "Location": "Fremont 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2583,
+   "Last": "Foster",
+   "First": "Karen",
+   "Location": "Fremont 2",
+   "Type": "Regular",
+   "Issued": "10/22/2015"
+ },
+ {
+   "ID": 43,
+   "Last": "Hwang",
+   "First": "Pichu",
+   "Location": "Fremont 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1412,
+   "Last": "Wu",
+   "First": "Yvonne",
+   "Location": "Fremont 1",
+   "Type": "Regular",
+   "Issued": "11/12/2015"
+ },
+ {
+   "ID": 2151,
+   "Last": "Choy",
+   "First": "Margaret",
+   "Location": "Fremont 1",
+   "Type": "Regular",
+   "Issued": "10/22/2015"
+ },
+ {
+   "ID": 2545,
+   "Last": "Yen",
+   "First": "Alice",
+   "Location": "Fremont 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2547,
+   "Last": "Zhao ",
+   "First": "Cecilia",
+   "Location": "Fremont 1",
+   "Type": "Regular",
+   "Issued": "12/17/2016"
+ },
+ {
+   "ID": 2570,
+   "Last": "Rao",
+   "First": "Vinod",
+   "Location": "Fremont 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2595,
+   "Last": "Kuang",
+   "First": "Wun-Jing",
+   "Location": "Fremont 1",
+   "Type": "Regular",
+   "Issued": "12/17/2016"
+ },
+ {
+   "ID": 2086,
+   "Last": "Lau",
+   "First": "Dora",
+   "Location": "Milbrae 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2319,
+   "Last": "Song",
+   "First": "Brenda",
+   "Location": "Milbrae 1",
+   "Type": "Regular",
+   "Issued": "11/19/2015"
+ },
+ {
+   "ID": 2429,
+   "Last": "Wang",
+   "First": "Lily",
+   "Location": "Milbrae 1",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 338,
+   "Last": "Lam",
+   "First": "Windy ",
+   "Location": "Evergreen",
+   "Type": "Regular",
+   "Issued": "10/19/2015"
+ },
+ {
+   "ID": 672,
+   "Last": "Dickstein",
+   "First": "Cindy",
+   "Location": "Evergreen",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 847,
+   "Last": "Hu",
+   "First": "Judy",
+   "Location": "Evergreen",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 859,
+   "Last": "Wyngarden",
+   "First": "Karen",
+   "Location": "Evergreen",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2132,
+   "Last": "Wang",
+   "First": "Bo ",
+   "Location": "Evergreen",
+   "Type": "Regular",
+   "Issued": "11/19/2015"
+ },
+ {
+   "ID": 2351,
+   "Last": "Lin",
+   "First": "Lin",
+   "Location": "Evergreen",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2431,
+   "Last": "Li",
+   "First": "Susan",
+   "Location": "Evergreen",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2432,
+   "Last": "Chen",
+   "First": "Jane",
+   "Location": "Evergreen",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2499,
+   "Last": "Jiang",
+   "First": "Xu",
+   "Location": "Evergreen",
+   "Type": "Regular",
+   "Issued": "10/29/2015"
+ },
+ {
+   "ID": 2523,
+   "Last": "Tang ",
+   "First": "Lucy",
+   "Location": "Evergreen",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2524,
+   "Last": "Xu ",
+   "First": "James",
+   "Location": "Evergreen",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2584,
+   "Last": "He",
+   "First": "Qin",
+   "Location": "Evergreen",
+   "Type": "Regular",
+   "Issued": "12/17/2016"
+ },
+ {
+   "ID": 2586,
+   "Last": "Zhuang",
+   "First": "Yu",
+   "Location": "Evergreen",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2587,
+   "Last": "Zhang",
+   "First": "song",
+   "Location": "Evergreen",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2592,
+   "Last": "Zheng",
+   "First": "Rachel",
+   "Location": "Evergreen",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2368,
+   "Last": "Song",
+   "First": "Daniel",
+   "Location": "HQ-BG",
+   "Type": "Regular",
+   "Issued": "11/12/2015"
+ },
+ {
+   "ID": 2369,
+   "Last": "Song",
+   "First": "Jean",
+   "Location": "HQ-BG",
+   "Type": "Regular",
+   "Issued": "11/12/2015"
+ },
+ {
+   "ID": 2440,
+   "Last": "Wang",
+   "First": "Jane",
+   "Location": "HQ-BG",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2486,
+   "Last": "Chen",
+   "First": "Jessie",
+   "Location": "HQ-BG",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2515,
+   "Last": "Hsiung",
+   "First": "Tina",
+   "Location": "HQ-BG",
+   "Type": "Regular",
+   "Issued": "12/17/2016"
+ },
+ {
+   "ID": 2621,
+   "Last": "Liu",
+   "First": "Emmy",
+   "Location": "HQ-BG",
+   "Type": "Regular",
+   "Issued": "11/12/2015"
+ },
+ {
+   "ID": 2622,
+   "Last": "Lin",
+   "First": "Janey",
+   "Location": "HQ-BG",
+   "Type": "Regular",
+   "Issued": "11/12/2015"
+ },
+ {
+   "ID": 192,
+   "Last": "Huang",
+   "First": "Julie",
+   "Location": "Milpitas",
+   "Type": "Regular",
+   "Issued": "10/29/2015"
+ },
+ {
+   "ID": 1573,
+   "Last": "Chu",
+   "First": "Vickie",
+   "Location": "Milpitas",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2434,
+   "Last": "Li",
+   "First": "Jean",
+   "Location": "Milpitas",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2540,
+   "Last": "Wang",
+   "First": "Jenny",
+   "Location": "Milpitas",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2564,
+   "Last": "Wang",
+   "First": "Michelle",
+   "Location": "Milpitas",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2571,
+   "Last": "Do",
+   "First": "Lydia",
+   "Location": "Milpitas",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2593,
+   "Last": "Li",
+   "First": "Amana",
+   "Location": "Milpitas",
+   "Type": "Regular",
+   "Issued": "10/29/2015"
+ },
+ {
+   "ID": 2596,
+   "Last": "Li",
+   "First": "Jifeng",
+   "Location": "Milpitas",
+   "Type": "Regular",
+   "Issued": "11/5/2015"
+ },
+ {
+   "ID": 1979,
+   "Last": "Szeto",
+   "First": "Connie",
+   "Location": "San Jose",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2198,
+   "Last": "Chao",
+   "First": "Judy",
+   "Location": "San Jose",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2362,
+   "Last": "Chen",
+   "First": "Mei-Fen",
+   "Location": "San Jose",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2568,
+   "Last": "Crandell",
+   "First": "Ming Hsin",
+   "Location": "San Jose",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2585,
+   "Last": "Chao",
+   "First": "Minna",
+   "Location": "San Jose",
+   "Type": "Regular",
+   "Issued": "10/22/2015"
+ },
+ {
+   "ID": 2591,
+   "Last": "Lu",
+   "First": "Yan",
+   "Location": "San Jose",
+   "Type": "Regular",
+   "Issued": "11/19/2015"
+ },
+ {
+   "ID": 840,
+   "Last": "Cheng",
+   "First": "Linda",
+   "Location": "Almaden",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 992,
+   "Last": "Yu",
+   "First": "Dan",
+   "Location": "Almaden",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2126,
+   "Last": "Cao",
+   "First": "Julie",
+   "Location": "Almaden",
+   "Type": "Regular",
+   "Issued": "10/22/2015"
+ },
+ {
+   "ID": 2574,
+   "Last": "Zhong",
+   "First": "Joan",
+   "Location": "Almaden",
+   "Type": "Regular",
+   "Issued": "12/3/2015"
+ },
+ {
+   "ID": 851,
+   "Last": "Chang",
+   "First": "Amy",
+   "Location": "Almaden",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1045,
+   "Last": "Huang",
+   "First": "Karina",
+   "Location": "Almaden",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1793,
+   "Last": "Zhao ",
+   "First": "Linda",
+   "Location": "Almaden",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 903,
+   "Last": "Tsou",
+   "First": "Katrina",
+   "Location": "Almaden",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1177,
+   "Last": "Huang",
+   "First": "Maggie",
+   "Location": "Almaden",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1273,
+   "Last": "Chen",
+   "First": "Yee Ying",
+   "Location": "Almaden",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1387,
+   "Last": "Jou",
+   "First": "Michelle",
+   "Location": "Almaden",
+   "Type": "Regular",
+   "Issued": "10/22/2015"
+ },
+ {
+   "ID": 1816,
+   "Last": "Gao",
+   "First": "Jessica",
+   "Location": "Sunnyvale",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2125,
+   "Last": "Li",
+   "First": "Mu",
+   "Location": "Sunnyvale",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2498,
+   "Last": "Soon",
+   "First": "Kui",
+   "Location": "Sunnyvale",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2256,
+   "Last": "Wei",
+   "First": "Aimei",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2497,
+   "Last": "Wang",
+   "First": "Gailian",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2616,
+   "Last": "Thurlow",
+   "First": "Denise",
+   "Location": "Sunnyvale",
+   "Type": "Regular",
+   "Issued": "11/5/2015"
+ },
+ {
+   "ID": 2618,
+   "Last": "Luo",
+   "First": "Min",
+   "Location": "Sunnyvale",
+   "Type": "Regular",
+   "Issued": "11/12/2015"
+ },
+ {
+   "ID": 2562,
+   "Last": "Hsu",
+   "First": "Sunny",
+   "Location": "Sunnyvale",
+   "Type": "Regular",
+   "Issued": "11/19/2015"
+ },
+ {
+   "ID": 2601,
+   "Last": "Louie",
+   "First": "Jenny",
+   "Location": "Sunnyvale",
+   "Type": "Regular",
+   "Issued": "12/3/2015"
+ },
+ {
+   "ID": 2536,
+   "Last": "Wang",
+   "First": "Jingcong",
+   "Location": "Milpitas",
+   "Type": "Regular",
+   "Issued": "1/7/2016"
+ },
+ {
+   "ID": 2617,
+   "Last": "Ngai",
+   "First": "Hanna",
+   "Location": "Sunnyvale",
+   "Type": "Regular",
+   "Issued": "1/14/2016"
+ },
+ {
+   "ID": 2078,
+   "Last": "Zhou",
+   "First": "Bing",
+   "Location": "Milpitas",
+   "Type": "Regular",
+   "Issued": "1/14/2016"
+ },
+ {
+   "ID": 2626,
+   "Last": "Yang",
+   "First": "Michalle",
+   "Location": "Milpitas",
+   "Type": "Regular",
+   "Issued": "1/14/2016"
+ },
+ {
+   "ID": 2627,
+   "Last": "Wu",
+   "First": "Angela",
+   "Location": "Milpitas",
+   "Type": "Regular",
+   "Issued": "1/14/2016"
+ },
+ {
+   "ID": 2629,
+   "Last": "Wei",
+   "First": "Shirley",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "1/14/2016"
+ },
+ {
+   "ID": 2628,
+   "Last": "Chen",
+   "First": "Sylvia",
+   "Location": "HQ-BG",
+   "Type": "Regular",
+   "Issued": "1/14/2016"
+ },
+ {
+   "ID": 793,
+   "Last": "Chiang",
+   "First": "Bin",
+   "Location": "Sunnyvale",
+   "Type": "Regular",
+   "Issued": "1/14/2016"
+ },
+ {
+   "ID": 1166,
+   "Last": "Chen",
+   "First": "Christina",
+   "Location": "Milbrae 1",
+   "Type": "Regular",
+   "Issued": "1/24/2016"
+ },
+ {
+   "ID": 421,
+   "Last": "Lee",
+   "First": "Wendy",
+   "Location": "Milbrae 2",
+   "Type": "Regular",
+   "Issued": "1/24/2016"
+ },
+ {
+   "ID": 2630,
+   "Last": "Lin",
+   "First": "Hank",
+   "Location": "Milbrae 2",
+   "Type": "Regular",
+   "Issued": "1/24/2016"
+ },
+ {
+   "ID": 2343,
+   "Last": "Li",
+   "First": "Bin",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "1/24/2016"
+ },
+ {
+   "ID": 892,
+   "Last": "Chu",
+   "First": "Vicky",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "1/28/2016"
+ },
+ {
+   "ID": 2599,
+   "Last": "Yao",
+   "First": "Meng",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "1/28/2016"
+ },
+ {
+   "ID": 2607,
+   "Last": "Grose",
+   "First": "Tim",
+   "Location": "Center",
+   "Type": "Regular",
+   "Issued": "1/28/2016"
+ },
+ {
+   "ID": 2427,
+   "Last": "Ng ",
+   "First": "Christrina",
+   "Location": "Milbrae 1",
+   "Type": "Regular",
+   "Issued": "2/5/2016"
+ },
+ {
+   "ID": 2428,
+   "Last": "Ng",
+   "First": "Alexandra",
+   "Location": "Milbrae 1",
+   "Type": "Regular",
+   "Issued": "2/5/2016"
+ },
+ {
+   "ID": 1619,
+   "Last": "Wong-Po",
+   "First": "Jane",
+   "Location": "Milbrae 2",
+   "Type": "Regular",
+   "Issued": "2/5/2016"
+ },
+ {
+   "ID": 2619,
+   "Last": "Chan",
+   "First": "Margaret",
+   "Location": "Milbrae 2",
+   "Type": "Regular",
+   "Issued": "2/5/2016"
+ },
+ {
+   "ID": 2549,
+   "Last": "Chiu",
+   "First": "Betty",
+   "Location": "Milbrae 2",
+   "Type": "Regular",
+   "Issued": "2/5/2016"
+ },
+ {
+   "ID": 2589,
+   "Last": "Tso",
+   "First": "Theresa",
+   "Location": "Milbrae 2",
+   "Type": "Regular",
+   "Issued": "2/5/2016"
+ },
+ {
+   "ID": 2602,
+   "Last": "Mok",
+   "First": "Jane",
+   "Location": "Milbrae 2",
+   "Type": "Regular",
+   "Issued": "2/5/2016"
+ },
+ {
+   "ID": 2603,
+   "Last": "Chin",
+   "First": "Sherry",
+   "Location": "Milbrae 2",
+   "Type": "Regular",
+   "Issued": "2/5/2016"
+ },
+ {
+   "ID": 2604,
+   "Last": "Chin",
+   "First": "Jerry",
+   "Location": "Milbrae 2",
+   "Type": "Regular",
+   "Issued": "2/5/2016"
+ },
+ {
+   "ID": 2631,
+   "Last": "Yao ",
+   "First": "Pu",
+   "Location": "Milpitas",
+   "Type": "Regular",
+   "Issued": "2/5/2016"
+ },
+ {
+   "ID": 2588,
+   "Last": "Shen",
+   "First": "Joy",
+   "Location": "Milpitas",
+   "Type": "Regular",
+   "Issued": "2/5/2016"
+ },
+ {
+   "ID": 2609,
+   "Last": "Hung",
+   "First": "Wendy",
+   "Location": "Sunnyvale",
+   "Type": "Regular",
+   "Issued": "2/11/2016"
+ },
+ {
+   "ID": 1162,
+   "Last": "Chen",
+   "First": "Stella",
+   "Location": "Center",
+   "Type": "Regular",
+   "Issued": "2/11/2016"
+ },
+ {
+   "ID": 2620,
+   "Last": "Cheng",
+   "First": "Qiaomei",
+   "Location": "Milpitas",
+   "Type": "Regular",
+   "Issued": "2/11/2016"
+ },
+ {
+   "ID": 2632,
+   "Last": "Xia ",
+   "First": "Charlotte",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "2/11/2016"
+ },
+ {
+   "ID": 2633,
+   "Last": "Zuo",
+   "First": "Lisa",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "2/18/2016"
+ },
+ {
+   "ID": 2634,
+   "Last": "Tung",
+   "First": "Rosa",
+   "Location": "Fremont 1",
+   "Type": "Regular",
+   "Issued": "2/18/2016"
+ },
+ {
+   "ID": 2291,
+   "Last": "Chen",
+   "First": "Cece",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "3/10/2016"
+ },
+ {
+   "ID": 1787,
+   "Last": "Tan ",
+   "First": "Echo",
+   "Location": "Milbrae 1",
+   "Type": "Regular",
+   "Issued": "3/24/2016"
+ },
+ {
+   "ID": 2636,
+   "Last": "Li",
+   "First": "Karen",
+   "Location": " ",
+   "Type": "Regular",
+   "Issued": "3/31/2016"
+ },
+ {
+   "ID": 2637,
+   "Last": "Peng",
+   "First": "Rai",
+   "Location": " ",
+   "Type": "Regular",
+   "Issued": "3/31/2016"
+ },
+ {
+   "ID": 2638,
+   "Last": "Wing",
+   "First": "Linda",
+   "Location": " ",
+   "Type": "Regular",
+   "Issued": "4/1/2016"
+ },
+ {
+   "ID": 2639,
+   "Last": "Phu",
+   "First": "Angela",
+   "Location": "HQ-BG",
+   "Type": "Regular",
+   "Issued": "4/7/2016"
+ },
+ {
+   "ID": 2640,
+   "Last": "Chinn",
+   "First": "Lisa",
+   "Location": " ",
+   "Type": "Regular",
+   "Issued": "4/7/2016"
+ },
+ {
+   "ID": 2641,
+   "Last": "Sun",
+   "First": "Robert",
+   "Location": " ",
+   "Type": "Regular",
+   "Issued": "4/7/2016"
+ },
+ {
+   "ID": 2642,
+   "Last": "Jue",
+   "First": "Xia",
+   "Location": " ",
+   "Type": "Regular",
+   "Issued": "4/7/2016"
+ },
+ {
+   "ID": 2643,
+   "Last": "Fang",
+   "First": "Laura",
+   "Location": " ",
+   "Type": "Regular",
+   "Issued": "4/7/2016"
+ },
+ {
+   "ID": 2644,
+   "Last": "Wu",
+   "First": "Lan",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "4/7/2016"
+ },
+ {
+   "ID": 2645,
+   "Last": "Hisn",
+   "First": "Joanna",
+   "Location": "Milpitas",
+   "Type": "Regular",
+   "Issued": "4/7/2016"
+ },
+ {
+   "ID": 2435,
+   "Last": "Jeu",
+   "First": "Tai",
+   "Location": " ",
+   "Type": "Regular",
+   "Issued": "4/7/2016"
+ },
+ {
+   "ID": 2640,
+   "Last": "Chinn",
+   "First": "Lisa",
+   "Location": "Sunnyvale",
+   "Type": "Regular",
+   "Issued": "4/14/2016"
+ },
+ {
+   "ID": 2641,
+   "Last": "Sun",
+   "First": "Robert",
+   "Location": "Sunnyvale",
+   "Type": "Regular",
+   "Issued": "4/14/2016"
+ },
+ {
+   "ID": 2646,
+   "Last": "Zhang",
+   "First": "Christine",
+   "Location": "Cupertino 1",
+   "Type": "Regular",
+   "Issued": "4/14/2016"
+ },
+ {
+   "ID": 2647,
+   "Last": "Nguyen",
+   "First": "Ruby",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "4/14/2016"
+ },
+ {
+   "ID": 2648,
+   "Last": "Huang",
+   "First": "Sunny",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "4/14/2016"
+ },
+ {
+   "ID": 2649,
+   "Last": "Shen",
+   "First": "Snow",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "4/14/2016"
+ },
+ {
+   "ID": 2650,
+   "Last": "Chuang",
+   "First": "Shen-Ling",
+   "Location": "Cupertino 2",
+   "Type": "Regular",
+   "Issued": "4/21/2016"
+ },
+ {
+   "ID": 2605,
+   "Last": "Tse ",
+   "First": "Mary",
+   "Location": "Milbrae 2",
+   "Type": "Regular",
+   "Issued": "5/12/2016"
+ },
+ {
+   "ID": 2612,
+   "Last": "Ying",
+   "First": "Mary",
+   "Location": "Milbrae 2",
+   "Type": "Regular",
+   "Issued": "5/12/2016"
+ },
+ {
+   "ID": 2651,
+   "Last": "Yang",
+   "First": "Ming",
+   "Location": "",
+   "Type": "Regular",
+   "Issued": "5/5/2016"
+ },
+ {
+   "ID": 2652,
+   "Last": "Chou",
+   "First": "Li Fang",
+   "Location": "",
+   "Type": "Regular",
+   "Issued": "5/5/2016"
+ },
+ {
+   "ID": 2653,
+   "Last": "Lai",
+   "First": "Chiu Min",
+   "Location": "",
+   "Type": "Regular",
+   "Issued": "5/5/2016"
+ },
+ {
+   "ID": 2654,
+   "Last": "Ching",
+   "First": "Nancy",
+   "Location": "",
+   "Type": "Regular",
+   "Issued": "5/5/2016"
+ },
+ {
+   "ID": 2655,
+   "Last": "Lin",
+   "First": "Annie",
+   "Location": "",
+   "Type": "Regular",
+   "Issued": "5/12/2016"
+ },
+ {
+   "ID": 2656,
+   "Last": "Wang",
+   "First": "Kalin",
+   "Location": "",
+   "Type": "Regular",
+   "Issued": "5/12/2016"
+ },
+ {
+   "ID": 2659,
+   "Last": "Wang",
+   "First": "Shiu Fang",
+   "Location": "",
+   "Type": "Regular",
+   "Issued": "6/9/2016"
+ },
+ {
+   "ID": 2663,
+   "Last": "Lee",
+   "First": "Chu Fin",
+   "Location": "Fremont 2",
+   "Type": "Regular",
+   "Issued": "6/9/2016"
+ },
+ {
+   "ID": 2063,
+   "Last": "Lam",
+   "First": "Joyen",
+   "Location": "Milbrae 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2251,
+   "Last": "Wong",
+   "First": "Lorraine",
+   "Location": "Milbrae 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 18,
+   "Last": "Liu",
+   "First": "Show Eng",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 26,
+   "Last": "Chen",
+   "First": "Audrey",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 59,
+   "Last": "Cheng",
+   "First": "Rei",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 255,
+   "Last": "Su",
+   "First": "Mei-Ling",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 323,
+   "Last": "Cheng",
+   "First": "Win",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 733,
+   "Last": "Lee",
+   "First": "Gina",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 933,
+   "Last": "Tan",
+   "First": "Carolyne",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 934,
+   "Last": "Tan",
+   "First": "Charles",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1096,
+   "Last": "Zhang",
+   "First": "Jenny",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1293,
+   "Last": "Hsieh",
+   "First": "Ofelia",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1445,
+   "Last": "Yang",
+   "First": "Lily",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/22/2015"
+ },
+ {
+   "ID": 1522,
+   "Last": "Jiang",
+   "First": "Ning ",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1550,
+   "Last": "Wu",
+   "First": "Jessie",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1616,
+   "Last": "Ou",
+   "First": "Jennifer",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1624,
+   "Last": "Lee",
+   "First": "Hsin-Ping",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/22/2015"
+ },
+ {
+   "ID": 1656,
+   "Last": "Chen",
+   "First": "Anna",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1789,
+   "Last": "Chen",
+   "First": "Tony",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1842,
+   "Last": "Chen",
+   "First": "Jenny",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1851,
+   "Last": "Wang",
+   "First": "Lan Fang",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1861,
+   "Last": "Yang",
+   "First": "Kehming",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1862,
+   "Last": "Chen",
+   "First": "May",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1877,
+   "Last": "Loughry",
+   "First": "Ruoyu",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1948,
+   "Last": "Chen",
+   "First": "Sonia",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2060,
+   "Last": "Hsia",
+   "First": "Wei-Jen",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2109,
+   "Last": "Chen",
+   "First": "Christine",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2157,
+   "Last": "Chu",
+   "First": "Sally",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2265,
+   "Last": "Chen",
+   "First": "Joy",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/29/2015"
+ },
+ {
+   "ID": 38,
+   "Last": "Lan",
+   "First": "Annie",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/29/2015"
+ },
+ {
+   "ID": 169,
+   "Last": "Cheng",
+   "First": "Samantha",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 189,
+   "Last": "Chang",
+   "First": "Grace ",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 196,
+   "Last": "Wu",
+   "First": "I-Chen",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 197,
+   "Last": "Wu",
+   "First": "Leo",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 200,
+   "Last": "Lee",
+   "First": "Lisa",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 206,
+   "Last": "Yu",
+   "First": "Linda",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 218,
+   "Last": "Lee",
+   "First": "Anne",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 221,
+   "Last": "Fu",
+   "First": "Thomas",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 223,
+   "Last": "Lee",
+   "First": "Nellie",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 224,
+   "Last": "Hu",
+   "First": "Dolly",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "11/5/2016"
+ },
+ {
+   "ID": 243,
+   "Last": "Liu",
+   "First": "Ray Ming",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 321,
+   "Last": "Choi",
+   "First": "Grace",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 392,
+   "Last": "Chou",
+   "First": "Lily",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 406,
+   "Last": "Shieh",
+   "First": "Angela",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 453,
+   "Last": "Huang",
+   "First": "Wendy",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 459,
+   "Last": "Chang",
+   "First": "Yu",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 560,
+   "Last": "Hu",
+   "First": "Polly",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "11/19/2015"
+ },
+ {
+   "ID": 608,
+   "Last": "Liu",
+   "First": "Irene",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "12/17/2015"
+ },
+ {
+   "ID": 1608,
+   "Last": "Shih",
+   "First": "Madison",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "12/17/2015"
+ },
+ {
+   "ID": 609,
+   "Last": "Lin",
+   "First": "Zhong-Heng",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/29/2015"
+ },
+ {
+   "ID": 610,
+   "Last": "Zhao",
+   "First": "Lily",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/29/2015"
+ },
+ {
+   "ID": 616,
+   "Last": "Wu",
+   "First": "Linda",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 645,
+   "Last": "Hwang",
+   "First": "Steve",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 646,
+   "Last": "Hwang",
+   "First": "Jennifer",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 663,
+   "Last": "Tsai",
+   "First": "Fay",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 767,
+   "Last": "Chao",
+   "First": "Lily",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 768,
+   "Last": "Chao",
+   "First": "Mike",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 789,
+   "Last": "Cheng",
+   "First": "Shirley",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 801,
+   "Last": "Chang",
+   "First": "Christine",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1052,
+   "Last": "Chen",
+   "First": "Lina",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1116,
+   "Last": "Lai",
+   "First": "Gloria",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1154,
+   "Last": "Jan",
+   "First": "Jenny",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1159,
+   "Last": "Niu",
+   "First": "Lin",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1240,
+   "Last": "Jan ",
+   "First": "Jinping",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1253,
+   "Last": "Tan",
+   "First": "Connie",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1352,
+   "Last": "Wong ",
+   "First": "Wai Lee",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1360,
+   "Last": "Chen ",
+   "First": "Catherine ",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "12/17/2015"
+ },
+ {
+   "ID": 1487,
+   "Last": "Tsai",
+   "First": "Lin ",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1575,
+   "Last": "Erhardt",
+   "First": "Jennifer",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1599,
+   "Last": "Liu",
+   "First": "Alice",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1600,
+   "Last": "Wu ",
+   "First": "June",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1629,
+   "Last": "Zhang",
+   "First": "Jane",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/29/2015"
+ },
+ {
+   "ID": 1647,
+   "Last": "Wang",
+   "First": "Tai-Ling",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/22/2015"
+ },
+ {
+   "ID": 1675,
+   "Last": "Hwung",
+   "First": "Ping",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1701,
+   "Last": "Chang",
+   "First": "Mei - Teh",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1711,
+   "Last": "Ma",
+   "First": "Lilian",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "11/18/2015"
+ },
+ {
+   "ID": 1726,
+   "Last": "Liu",
+   "First": "Shuang",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1752,
+   "Last": "Chen",
+   "First": "Amy",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1799,
+   "Last": "Sung",
+   "First": "Juiling",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1807,
+   "Last": "Yang",
+   "First": "Lin",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1920,
+   "Last": "Lee",
+   "First": "Jeanet",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1923,
+   "Last": "Chan",
+   "First": "Lisa",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2008,
+   "Last": "Lee",
+   "First": "Ping",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2122,
+   "Last": "Yuen",
+   "First": "Lily",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2160,
+   "Last": "Ting",
+   "First": "Luh-Luh",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2230,
+   "Last": "Lee",
+   "First": "Ching  ",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2297,
+   "Last": "Chen",
+   "First": "XinYi",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2330,
+   "Last": "Zhang",
+   "First": "Yuxia",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2346,
+   "Last": "Wang",
+   "First": "John",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2409,
+   "Last": "Ding",
+   "First": "Cheng_Liang",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 888,
+   "Last": "Chu",
+   "First": "Lih-Rong",
+   "Location": "Almaden 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 956,
+   "Last": "Hla",
+   "First": "Tin",
+   "Location": "Almaden 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1768,
+   "Last": "Li",
+   "First": "Mei",
+   "Location": "Almaden 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2205,
+   "Last": "Doong",
+   "First": "Jane",
+   "Location": "Almaden 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 797,
+   "Last": "Chi",
+   "First": "Mingli ",
+   "Location": "Sunnyvale",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1095,
+   "Last": "Qian",
+   "First": "Ruzheng",
+   "Location": "Sunnyvale",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2287,
+   "Last": "Qian",
+   "First": "Morris",
+   "Location": "Sunnyvale",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 550,
+   "Last": "Dai",
+   "First": "Sa",
+   "Location": "Center",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 572,
+   "Last": "Wang",
+   "First": "Lucy",
+   "Location": "Center",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 668,
+   "Last": "Chang",
+   "First": "Wen",
+   "Location": "Center",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 744,
+   "Last": "Chang",
+   "First": "Pei-Yu",
+   "Location": "Center",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 749,
+   "Last": "Chien",
+   "First": "Julie",
+   "Location": "Center",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1867,
+   "Last": "Chao",
+   "First": "Lisheng",
+   "Location": "Center",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2211,
+   "Last": "Chang",
+   "First": "Jenny",
+   "Location": "Center",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2405,
+   "Last": "Kwong",
+   "First": "Tai",
+   "Location": "Center",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2406,
+   "Last": "Kwong",
+   "First": "Alex",
+   "Location": "Center",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 738,
+   "Last": "Han",
+   "First": "Christine",
+   "Location": "Fremont 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2222,
+   "Last": "Hu",
+   "First": "Keya",
+   "Location": "Fremont 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2232,
+   "Last": "Lu",
+   "First": "Jennifer",
+   "Location": "Fremont 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2458,
+   "Last": "Lin",
+   "First": "Vickie",
+   "Location": "Fremont 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2459,
+   "Last": "Huang",
+   "First": "Chin-Liang",
+   "Location": "Fremont 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 713,
+   "Last": "Chiu",
+   "First": "Megan",
+   "Location": "Fremont 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1604,
+   "Last": "Ding",
+   "First": "Anne ",
+   "Location": "Fremont 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 573,
+   "Last": "Lee",
+   "First": "Ellen",
+   "Location": "Milbrae 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2085,
+   "Last": "Lee",
+   "First": "Iris",
+   "Location": "Milbrae 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1499,
+   "Last": "Tong ",
+   "First": "Rita",
+   "Location": "Milbrae 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1836,
+   "Last": "Kuo",
+   "First": "Albert",
+   "Location": "Milbrae 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1837,
+   "Last": "Kuo",
+   "First": "Anita",
+   "Location": "Milbrae 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1127,
+   "Last": "Lin",
+   "First": "Judy",
+   "Location": "Fremont 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 957,
+   "Last": "Quach",
+   "First": "Lilian",
+   "Location": "Almaden 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1050,
+   "Last": "Yang",
+   "First": "Amy",
+   "Location": "Almaden 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1506,
+   "Last": "Fan",
+   "First": "HeFang",
+   "Location": "Almaden 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2238,
+   "Last": "Young   ",
+   "First": "Donna",
+   "Location": "Almaden 2",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 395,
+   "Last": "Hong",
+   "First": "Irene",
+   "Location": "Evergreen",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1013,
+   "Last": "Sun",
+   "First": "Linda",
+   "Location": "Evergreen",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1026,
+   "Last": "Cheung",
+   "First": "Michelle",
+   "Location": "Evergreen",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2094,
+   "Last": "Li",
+   "First": "Chiping",
+   "Location": "HQ-BG",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2234,
+   "Last": "Tam",
+   "First": "Elaine",
+   "Location": "HQ-BG",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2254,
+   "Last": "Li",
+   "First": "Sheng Wei",
+   "Location": "HQ-BG",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2258,
+   "Last": "Chung",
+   "First": "Chi  H.",
+   "Location": "HQ-BG",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1745,
+   "Last": "Wu",
+   "First": "Doreen",
+   "Location": "Evergreen",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2055,
+   "Last": "Huynh",
+   "First": "Nancy",
+   "Location": "Evergreen",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2541,
+   "Last": "Chuan",
+   "First": "Rex",
+   "Location": "HQ-BG",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 289,
+   "Last": "Lee",
+   "First": "Sheryl",
+   "Location": "Milpitas",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 362,
+   "Last": "Tzeng",
+   "First": "Christine",
+   "Location": "Milpitas",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 995,
+   "Last": "Peir",
+   "First": "Mei Li",
+   "Location": "Milpitas",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1109,
+   "Last": "Ha",
+   "First": "Anita",
+   "Location": "Milpitas",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1280,
+   "Last": "Koo",
+   "First": "Sophie",
+   "Location": "Milpitas",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1606,
+   "Last": "Jiang",
+   "First": "Eva",
+   "Location": "Milpitas",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 7,
+   "Last": "Chang",
+   "First": "Anita",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 136,
+   "Last": "Chan",
+   "First": "Cindy",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 410,
+   "Last": "Wang",
+   "First": "Diana",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 547,
+   "Last": "Ly",
+   "First": "Can",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 676,
+   "Last": "Maeda",
+   "First": "Akemi",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 681,
+   "Last": "Wang",
+   "First": "Stephanie",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 715,
+   "Last": "Chen",
+   "First": "Vivian",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1025,
+   "Last": "Vuong",
+   "First": "Lana",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1173,
+   "Last": "Chen",
+   "First": "Wendy",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1227,
+   "Last": "Tan ",
+   "First": "Helen",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1267,
+   "Last": "Wu",
+   "First": "Joy",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1592,
+   "Last": "Fung",
+   "First": "Alice",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1685,
+   "Last": "Phan",
+   "First": "Lilian",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2066,
+   "Last": "Peir",
+   "First": "Jong",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 2294,
+   "Last": "Chang",
+   "First": "Allen",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 931,
+   "Last": "Suen",
+   "First": "Elaine",
+   "Location": "Palo Alto",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1870,
+   "Last": "Suen",
+   "First": "Ky",
+   "Location": "Palo Alto",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1254,
+   "Last": "Hsieh",
+   "First": "Nancy",
+   "Location": "Palo Alto ",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 1442,
+   "Last": "Lee",
+   "First": "Iva",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "10/8/2015"
+ },
+ {
+   "ID": 487,
+   "Last": "Chen",
+   "First": "Janet",
+   "Location": "Fremont 1",
+   "Type": "Lifetime",
+   "Issued": "10/9/2015"
+ },
+ {
+   "ID": 1309,
+   "Last": "Chow",
+   "First": "Katie",
+   "Location": "Center",
+   "Type": "Lifetime",
+   "Issued": "10/22/2015"
+ },
+ {
+   "ID": 669,
+   "Last": "Sheu",
+   "First": "Jean",
+   "Location": "Center",
+   "Type": "Lifetime",
+   "Issued": "10/22/2015"
+ },
+ {
+   "ID": 2354,
+   "Last": "Low",
+   "First": "June",
+   "Location": "Center",
+   "Type": "Lifetime",
+   "Issued": "10/22/2015"
+ },
+ {
+   "ID": 1699,
+   "Last": "Niu",
+   "First": "Anna",
+   "Location": "Fremont 2",
+   "Type": "Lifetime",
+   "Issued": "10/22/2015"
+ },
+ {
+   "ID": 2072,
+   "Last": "Chang",
+   "First": "Teresa",
+   "Location": "Almaden 2",
+   "Type": "Lifetime",
+   "Issued": "10/22/2015"
+ },
+ {
+   "ID": 1260,
+   "Last": "Tong ",
+   "First": "Richard",
+   "Location": "Evergreen",
+   "Type": "Lifetime",
+   "Issued": "10/22/2015"
+ },
+ {
+   "ID": 1261,
+   "Last": "Song",
+   "First": "Jennie",
+   "Location": "Evergreen",
+   "Type": "Lifetime",
+   "Issued": "10/22/2015"
+ },
+ {
+   "ID": 1590,
+   "Last": "Zhang",
+   "First": "Yang",
+   "Location": "Evergreen",
+   "Type": "Lifetime",
+   "Issued": "10/22/2015"
+ },
+ {
+   "ID": 1239,
+   "Last": "Xu",
+   "First": "Ping Ping",
+   "Location": "Milpitas",
+   "Type": "Lifetime",
+   "Issued": "10/22/2015"
+ },
+ {
+   "ID": 1954,
+   "Last": "Yeh",
+   "First": "Vanessa",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "10/22/2015"
+ },
+ {
+   "ID": 2278,
+   "Last": "Lu",
+   "First": "Lucy",
+   "Location": "Center",
+   "Type": "Lifetime",
+   "Issued": "10/29/2015"
+ },
+ {
+   "ID": 1532,
+   "Last": "Chen",
+   "First": "Yvonne",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "10/29/2015"
+ },
+ {
+   "ID": 746,
+   "Last": "Yu",
+   "First": "Charlene",
+   "Location": "Sunnyvale",
+   "Type": "Lifetime",
+   "Issued": "10/29/2015"
+ },
+ {
+   "ID": 24,
+   "Last": "Wang",
+   "First": "Ai-Chu",
+   "Location": "Almaden 1",
+   "Type": "Lifetime",
+   "Issued": "10/29/2015"
+ },
+ {
+   "ID": 1172,
+   "Last": "Yeh",
+   "First": "Nancy",
+   "Location": "Milpitas",
+   "Type": "Lifetime",
+   "Issued": "10/29/2015"
+ },
+ {
+   "ID": 2580,
+   "Last": "Zhu",
+   "First": "Ying",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "11/5/2015"
+ },
+ {
+   "ID": 741,
+   "Last": "Chiu",
+   "First": "Terrie",
+   "Location": "Center",
+   "Type": "Lifetime",
+   "Issued": "11/5/2015"
+ },
+ {
+   "ID": 742,
+   "Last": "Fan ",
+   "First": "Angela",
+   "Location": "Center",
+   "Type": "Lifetime",
+   "Issued": "11/5/2015"
+ },
+ {
+   "ID": 1709,
+   "Last": "Ip",
+   "First": "Elaine",
+   "Location": "HQ-BG",
+   "Type": "Lifetime",
+   "Issued": "11/5/2015"
+ },
+ {
+   "ID": 2245,
+   "Last": "Lo",
+   "First": "Ka Nang",
+   "Location": "HQ-BG",
+   "Type": "Lifetime",
+   "Issued": "11/5/2015"
+ },
+ {
+   "ID": 2466,
+   "Last": "Su",
+   "First": "Vicky",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "11/5/2015"
+ },
+ {
+   "ID": 1718,
+   "Last": "Chen",
+   "First": "Raymond",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "11/5/2015"
+ },
+ {
+   "ID": 805,
+   "Last": "Wong",
+   "First": "Michelle",
+   "Location": "Center",
+   "Type": "Lifetime",
+   "Issued": "11/12/2016"
+ },
+ {
+   "ID": 2411,
+   "Last": "Zhang",
+   "First": "Paula",
+   "Location": "Fremont 2",
+   "Type": "Lifetime",
+   "Issued": "11/12/2015"
+ },
+ {
+   "ID": 947,
+   "Last": "Chuan",
+   "First": "Wen Chi",
+   "Location": "Fremont 1",
+   "Type": "Lifetime",
+   "Issued": "11/12/2015"
+ },
+ {
+   "ID": 2393,
+   "Last": "Ku",
+   "First": "Larry",
+   "Location": "Fremont 1",
+   "Type": "Lifetime",
+   "Issued": "11/12/2015"
+ },
+ {
+   "ID": 1869,
+   "Last": "Wong",
+   "First": "Amy",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "11/12/2015"
+ },
+ {
+   "ID": 1310,
+   "Last": "Yang",
+   "First": "Sharon",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "11/12/2015"
+ },
+ {
+   "ID": 185,
+   "Last": "Sha",
+   "First": "Li",
+   "Location": "Almaden 2",
+   "Type": "Lifetime",
+   "Issued": "11/19/2015"
+ },
+ {
+   "ID": 247,
+   "Last": "Wang",
+   "First": "Vivian",
+   "Location": "Center",
+   "Type": "Lifetime",
+   "Issued": "11/19/2015"
+ },
+ {
+   "ID": 48,
+   "Last": "Luong",
+   "First": "Ivy",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "11/19/2015"
+ },
+ {
+   "ID": 82,
+   "Last": "Chen",
+   "First": "Donna",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "11/19/2015"
+ },
+ {
+   "ID": 1189,
+   "Last": "Wang",
+   "First": "Irene",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "11/19/2015"
+ },
+ {
+   "ID": 1560,
+   "Last": "Wong",
+   "First": "Maggie",
+   "Location": "Evergreen",
+   "Type": "Lifetime",
+   "Issued": "11/19/2015"
+ },
+ {
+   "ID": 2093,
+   "Last": "Chung",
+   "First": "Dana",
+   "Location": "HQ-BG",
+   "Type": "Lifetime",
+   "Issued": "12/3/2015"
+ },
+ {
+   "ID": 36,
+   "Last": "Lin",
+   "First": "Amy",
+   "Location": "Center",
+   "Type": "Lifetime",
+   "Issued": "12/17/2015"
+ },
+ {
+   "ID": 262,
+   "Last": "Liu",
+   "First": "Ken",
+   "Location": "Center",
+   "Type": "Lifetime",
+   "Issued": "12/17/2015"
+ },
+ {
+   "ID": 804,
+   "Last": "Yeh",
+   "First": "Leslie",
+   "Location": "Almaden 2",
+   "Type": "Lifetime",
+   "Issued": "12/17/2015"
+ },
+ {
+   "ID": 70,
+   "Last": "Pho",
+   "First": "Amy",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "12/17/2015"
+ },
+ {
+   "ID": 2392,
+   "Last": "Lin",
+   "First": "Thomas",
+   "Location": "HQ-BG",
+   "Type": "Lifetime",
+   "Issued": "12/17/2015"
+ },
+ {
+   "ID": 2390,
+   "Last": "Liaw",
+   "First": "May",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "12/17/2015"
+ },
+ {
+   "ID": 822,
+   "Last": "King",
+   "First": "Ling-Ling",
+   "Location": "Almaden 1",
+   "Type": "Lifetime",
+   "Issued": "12/17/2015"
+ },
+ {
+   "ID": 2321,
+   "Last": "Lu",
+   "First": "Shirley",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "12/17/2015"
+ },
+ {
+   "ID": 1953,
+   "Last": "Vanichsarn",
+   "First": "Amy",
+   "Location": "Evergreen",
+   "Type": "Lifetime",
+   "Issued": "1/7/2016"
+ },
+ {
+   "ID": 571,
+   "Last": "Tran",
+   "First": "Anh",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "1/7/2016"
+ },
+ {
+   "ID": 1961,
+   "Last": "Wang",
+   "First": "SueJing",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "1/14/2016"
+ },
+ {
+   "ID": 1493,
+   "Last": "Pan",
+   "First": "Emily",
+   "Location": "Fremont 1",
+   "Type": "Lifetime",
+   "Issued": "1/14/2016"
+ },
+ {
+   "ID": 2418,
+   "Last": "Juang",
+   "First": "Sharon",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "1/14/2016"
+ },
+ {
+   "ID": 1444,
+   "Last": "Cheng",
+   "First": "Joanne",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "1/14/2016"
+ },
+ {
+   "ID": 1871,
+   "Last": "Yeh",
+   "First": "Christine",
+   "Location": "Milbrae 2",
+   "Type": "Lifetime",
+   "Issued": "1/24/2016"
+ },
+ {
+   "ID": 582,
+   "Last": "Yen ",
+   "First": "Pau-Ling",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "1/31/2016"
+ },
+ {
+   "ID": 1250,
+   "Last": "Yeh",
+   "First": "Doris",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "1/31/2016"
+ },
+ {
+   "ID": 144,
+   "Last": "Ho",
+   "First": "You Lee",
+   "Location": "Center",
+   "Type": "Lifetime",
+   "Issued": "1/31/2016"
+ },
+ {
+   "ID": 432,
+   "Last": "Man",
+   "First": "Jenifer",
+   "Location": "Milbrae 1",
+   "Type": "Lifetime",
+   "Issued": "1/31/2016"
+ },
+ {
+   "ID": 835,
+   "Last": "Chow",
+   "First": "John",
+   "Location": "Milbrae 2",
+   "Type": "Lifetime",
+   "Issued": "1/31/2016"
+ },
+ {
+   "ID": 879,
+   "Last": "Chien",
+   "First": "Gloria",
+   "Location": "Milbrae 2",
+   "Type": "Lifetime",
+   "Issued": "1/31/2016"
+ },
+ {
+   "ID": 1464,
+   "Last": "Wong",
+   "First": "Mary",
+   "Location": "Milbrae 2",
+   "Type": "Lifetime",
+   "Issued": "1/24/2016"
+ },
+ {
+   "ID": 2200,
+   "Last": "Xia ",
+   "First": "Shelly",
+   "Location": "HQ-BG",
+   "Type": "Lifetime",
+   "Issued": "1/24/2016"
+ },
+ {
+   "ID": 1874,
+   "Last": "Luo",
+   "First": "Ren Sha",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "1/31/2016"
+ },
+ {
+   "ID": 1213,
+   "Last": "Chen-Chow",
+   "First": "Pai-Chie",
+   "Location": "Milbrae 2",
+   "Type": "Lifetime",
+   "Issued": "2/5/2016"
+ },
+ {
+   "ID": 2102,
+   "Last": "Chung",
+   "First": "Wen-Li",
+   "Location": "Milbrae 2",
+   "Type": "Lifetime",
+   "Issued": "2/5/2016"
+ },
+ {
+   "ID": 2481,
+   "Last": "Huang",
+   "First": "Vivian",
+   "Location": "Milbrae 2",
+   "Type": "Lifetime",
+   "Issued": "2/5/2016"
+ },
+ {
+   "ID": 1802,
+   "Last": "Hong",
+   "First": "Stella",
+   "Location": "Milbrae 2",
+   "Type": "Lifetime",
+   "Issued": "2/5/2016"
+ },
+ {
+   "ID": 1680,
+   "Last": "Lee",
+   "First": "Shaowei",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "2/5/2016"
+ },
+ {
+   "ID": 5,
+   "Last": "Juang",
+   "First": "Ping",
+   "Location": "Center",
+   "Type": "Lifetime",
+   "Issued": "2/11/2016"
+ },
+ {
+   "ID": 1336,
+   "Last": "Juang",
+   "First": "Rudy",
+   "Location": "Center",
+   "Type": "Lifetime",
+   "Issued": "2/11/2016"
+ },
+ {
+   "ID": 1292,
+   "Last": "Hsu",
+   "First": "Lisa",
+   "Location": "Center",
+   "Type": "Lifetime",
+   "Issued": "2/11/2016"
+ },
+ {
+   "ID": 899,
+   "Last": "Chow",
+   "First": "Joe",
+   "Location": "Center",
+   "Type": "Lifetime",
+   "Issued": "2/28/2016"
+ },
+ {
+   "ID": 1313,
+   "Last": "Tsai",
+   "First": "Teh Foo",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "3/10/2016"
+ },
+ {
+   "ID": 1832,
+   "Last": "Lee",
+   "First": "Linda",
+   "Location": "Cupertino 1",
+   "Type": "Lifetime",
+   "Issued": "3/24/2016"
+ },
+ {
+   "ID": 994,
+   "Last": "Liu",
+   "First": "Nancy",
+   "Location": "San Jose",
+   "Type": "Lifetime",
+   "Issued": "3/24/2016"
+ },
+ {
+   "ID": 425,
+   "Last": "Yu",
+   "First": "Peter",
+   "Location": "Milbrae 1",
+   "Type": "Lifetime",
+   "Issued": "3/24/2016"
+ },
+ {
+   "ID": 426,
+   "Last": "Yu",
+   "First": "Angel",
+   "Location": "Milbrae 1",
+   "Type": "Lifetime",
+   "Issued": "3/24/2016"
+ },
+ {
+   "ID": 1838,
+   "Last": "Chik",
+   "First": "Annie",
+   "Location": "Milbrae 1",
+   "Type": "Lifetime",
+   "Issued": "3/24/2016"
+ },
+ {
+   "ID": 2522,
+   "Last": "Tsai",
+   "First": "Roy",
+   "Location": "Fremont 1",
+   "Type": "Lifetime",
+   "Issued": "4/7/2016"
+ },
+ {
+   "ID": 2058,
+   "Last": "Guan",
+   "First": "Tong",
+   "Location": "Milpitas",
+   "Type": "Lifetime",
+   "Issued": "4/14/2016"
+ },
+ {
+   "ID": 2494,
+   "Last": "Wu",
+   "First": "Shu-Chen",
+   "Location": "Cupertino 2",
+   "Type": "Lifetime",
+   "Issued": "4/14/2016"
+ },
+ {
+   "ID": 430,
+   "Last": "Wu",
+   "First": "Susan",
+   "Location": "Milbrae 2",
+   "Type": "Lifetime",
+   "Issued": "4/21/2016"
+ },
+ {
+   "ID": 56,
+   "Last": "Sung",
+   "First": "Peggy",
+   "Location": "",
+   "Type": "Inner Circle",
+   "Issued": ""
+ },
+ {
+   "ID": 722,
+   "Last": "Yu",
+   "First": "Dorian",
+   "Location": "",
+   "Type": "Inner Circle",
+   "Issued": ""
+ },
+ {
+   "ID": 752,
+   "Last": "Lam",
+   "First": "Cai",
+   "Location": "",
+   "Type": "Inner Circle",
+   "Issued": ""
+ },
+ {
+   "ID": 999,
+   "Last": "Chok",
+   "First": "Jane ",
+   "Location": "",
+   "Type": "Inner Circle",
+   "Issued": ""
+ },
+ {
+   "ID": 12,
+   "Last": "Chiu",
+   "First": "Sharon",
+   "Location": "",
+   "Type": "Inner Circle",
+   "Issued": "12/3/2015"
+ },
+ {
+   "ID": 65,
+   "Last": "Cheng",
+   "First": "Jenny",
+   "Location": "",
+   "Type": "Inner Circle",
+   "Issued": "12/3/2015"
+ },
+ {
+   "ID": 100,
+   "Last": "Lin",
+   "First": "Joanna",
+   "Location": "",
+   "Type": "Inner Circle",
+   "Issued": "12/3/2015"
+ },
+ {
+   "ID": 170,
+   "Last": "Chiang",
+   "First": "Shiao Ping",
+   "Location": "",
+   "Type": "Inner Circle",
+   "Issued": "12/3/2015"
+ },
+ {
+   "ID": 309,
+   "Last": "Wang",
+   "First": "Doris",
+   "Location": "",
+   "Type": "Inner Circle",
+   "Issued": "12/3/2015"
+ },
+ {
+   "ID": 388,
+   "Last": "Lin",
+   "First": "Kico",
+   "Location": "",
+   "Type": "Inner Circle",
+   "Issued": "12/3/2015"
+ },
+ {
+   "ID": 389,
+   "Last": "Lin",
+   "First": "Mike",
+   "Location": "",
+   "Type": "Inner Circle",
+   "Issued": "12/3/2015"
+ },
+ {
+   "ID": 1111,
+   "Last": "Kanemitsu",
+   "First": "Letty",
+   "Location": "",
+   "Type": "Inner Circle",
+   "Issued": "12/3/2015"
+ },
+ {
+   "ID": 2217,
+   "Last": "Ho",
+   "First": "Martha",
+   "Location": "",
+   "Type": "Inner Circle",
+   "Issued": "12/3/2015"
+ },
+ {
+   "ID": 1294,
+   "Last": "Peng",
+   "First": "Yu-Ching",
+   "Location": "",
+   "Type": "Inner Circle",
+   "Issued": "1/7/2016"
+ },
+ {
+   "ID": 1756,
+   "Last": "Huang",
+   "First": "Ben",
+   "Location": "",
+   "Type": "Inner Circle",
+   "Issued": "2/11/2016"
+ },
+ {
+   "ID": 927,
+   "Last": "Hou",
+   "First": "Shirley",
+   "Location": "",
+   "Type": "Inner Circle",
+   "Issued": "2/11/2016"
+ },
+ {
+   "ID": 171,
+   "Last": "Liu",
+   "First": "Chiu-Yen",
+   "Location": "",
+   "Type": "Inner Circle",
+   "Issued": "2/11/2016"
+ },
+ {
+   "ID": 52,
+   "Last": "Lin",
+   "First": "Chi Chi",
+   "Location": "",
+   "Type": "Inner Circle",
+   "Issued": "2/28/2016"
+ },
+ {
+   "ID": 64,
+   "Last": "Lee",
+   "First": "Linda",
+   "Location": "",
+   "Type": "Inner Circle",
+   "Issued": "3/10/2016"
+ }
+]

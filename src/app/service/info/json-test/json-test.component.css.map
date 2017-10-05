@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,MAAM;EACJ,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;EACZ,qBAAc;IACZ,MAAM,EAAE,IAAI;EACd,WAAI;IACF,WAAW,EAAE,IAAI;;AAErB,IAAI;EACF,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,GAAG",
+"sources": ["json-test.component.sass"],
+"names": [],
+"file": "json-test.component.css"
+}

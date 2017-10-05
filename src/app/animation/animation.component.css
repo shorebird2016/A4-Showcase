@@ -1,0 +1,27 @@
+.container-fluid {
+  margin: 40px 0 0 0;
+  padding: 0 0 0 5px; }
+
+.col-sm-4 {
+  padding: 0;
+  max-width: 180px; }
+
+.col-sm-9 {
+  padding: 0;
+  margin: 0; }
+
+.list-group-item {
+  padding: 6px 12px; }
+  .list-group-item:hover {
+    background-color: #dee0da; }
+
+.panel-heading {
+  padding: 6px 15px 0 11px; }
+
+.panel-body {
+  padding: 5px 5px 5px 10px; }
+
+.list-group {
+  margin-bottom: 2px; }
+
+/*# sourceMappingURL=animation.component.css.map */

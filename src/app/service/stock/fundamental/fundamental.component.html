@@ -1,0 +1,30 @@
+
+<div class="container-fluid">
+  <h4>US Fundamentals&#8482; Data:</h4>
+  <select [(ngModel)]="companyId"> <!--ngModel keeps value attribute-->
+    <option *ngFor="let COMPANY of companies | slice:0:10; let idx = index" value="{{COMPANY.company_id}}">
+      {{COMPANY.name_latest}}
+    </option>
+  </select>
+  <button class="btn btn-primary" (click)="getFundamentalByCompanyId()">Get</button>
+  <button class="btn btn-primary" (click)="getIndicatorsMeta()">Meta Data</button>
+
+  <hr/>
+
+  <!--sample company information-->
+  <h5>Company Information</h5>
+  <p *ngIf="companyId">{{companyData}}</p>
+  <hr/>
+
+  <!--sample indicator metadata-->
+  <h5>Indicators</h5>
+  <p *ngIf="indicators">{{indicators}}</p>
+  <hr/>
+
+  <!--
+    &lt;!&ndash;sample companies&ndash;&gt;
+    <div *ngFor="let CO of companies; let idx = index">
+      <p *ngIf="idx < 20">{{CO.name_latest + ' ' + CO.company_id}}</p>
+    </div>-->
+
+</div>

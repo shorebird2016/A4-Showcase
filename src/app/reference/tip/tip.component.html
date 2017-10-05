@@ -1,0 +1,22 @@
+
+<div class="binding">
+  <h4>Binding DOM property to Components</h4><p>Click small squares</p>
+  <!--First way to do binding using ElementRef-->
+  <h5>Binding with Element Reference</h5>
+  <div class="tgt" #tgt></div>
+  <div class="blk1" (click)="tgt.style.backgroundColor='yellow'"></div>
+  <div class="blk2" (click)="tgt.style.backgroundColor='cyan'"></div>
+  <img src="../assets/binding/ref-bind.png" width="370" height="70">
+  <!--Another way to bind using [ngStyle]-->
+  <h5>Binding with [ngStyle]</h5>
+  <div class="tgt" [ngStyle]="{'background-color': targetColor}"></div>
+  <div class="blk1" (click)="setTargetColor('orange')"></div>
+  <div class="blk2" (click)="setTargetColor('pink')"></div>
+  <img src="../assets/binding/ngStyle.png" width="370" height="70">
+  <!--3rd way to bind using [style.backgroundColor]-->
+  <h5>Binding with [style.xxx]</h5>
+  <div class="tgt" [style.backgroundColor]="target2Color"></div>
+  <div class="blk1" (click)="setTarget2Color('#3ed4fe')"></div>
+  <div class="blk2" (click)="setTarget2Color('#ff33d8')"></div>
+  <img src="../assets/binding/style-xx.png" width="370" height="70">
+</div>

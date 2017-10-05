@@ -1,0 +1,43 @@
+.container-fluid {
+  padding: 10px;
+  background-color: lightgoldenrodyellow;
+  font-size: 14px; }
+
+.blog-box, .blog-entry {
+  border: 2px gray solid;
+  border-radius: 5px;
+  margin: 1%;
+  padding: 8px;
+  width: 95%;
+  min-height: 45px;
+  background-color: lightcyan;
+  box-shadow: 5px 5px 2px lightgray; }
+  .blog-box div, .blog-entry div {
+    border-bottom: 2px solid lightgrey; }
+  .blog-box span, .blog-entry span {
+    padding: 2px;
+    display: inline-block;
+    font-size: 14px; }
+  .blog-box i, .blog-entry i {
+    float: right; }
+  .blog-box p, .blog-entry p {
+    padding: 3px;
+    font-family: "Times New Roman"; }
+
+.name-box {
+  font-size: 14px;
+  border: 2px solid lightgrey; }
+
+.comment-box {
+  font-size: 14px;
+  width: 100%;
+  box-shadow: 4px 4px 2px lightgray; }
+
+.submit-btn {
+  font-size: 16px;
+  float: right;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: lavenderblush; }
+
+/*# sourceMappingURL=blog-1.component.css.map */

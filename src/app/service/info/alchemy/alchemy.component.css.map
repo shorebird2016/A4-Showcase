@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAK;EACH,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,YAAY;;AAEvB,MAAM;EACJ,UAAU,EAAE,IAAI;EAChB,WAAW,EAAE,IAAI",
+"sources": ["alchemy.component.sass"],
+"names": [],
+"file": "alchemy.component.css"
+}

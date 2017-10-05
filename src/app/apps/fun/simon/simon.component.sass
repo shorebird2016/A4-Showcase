@@ -1,0 +1,144 @@
+.outer-circle
+  width: 500px
+  height: 500px
+  border-radius: 80%
+  position: relative /*to body tag, without this, top will not work*/
+  margin: auto
+  margin-top: 30px
+  box-shadow: 0 0 50px #838383
+
+.pie-green
+  border-top-left-radius: 96%
+  width: 220px
+  height: 220px
+  background-color: #005B00
+  border: 20px solid black
+  position: absolute
+  display: inline-block
+  cursor: pointer
+  left: 30px
+  top: 30px
+
+.pie-red
+  border-top-right-radius: 96%
+  width: 220px
+  height: 220px
+  background-color: #7d150e
+  cursor: pointer
+  border: 20px solid black
+  position: absolute
+  display: inline-block
+  margin-left: -25px /*not sure why 25, 96 is good*/
+  left: 270px
+  top: 30px
+
+.pie-yellow
+  border-bottom-left-radius: 96%
+  width: 220px
+  height: 220px
+  background-color: #767c08
+  border: 20px solid black
+  display: inline-block
+  position: absolute
+  margin-top: -25px
+  cursor: pointer
+  left: 30px
+  top: 270px
+
+.pie-blue
+  border-bottom-right-radius : 96%
+  width: 220px
+  height: 220px
+  background-color: #070d88
+  cursor: pointer
+  border: 20px solid black
+  display: inline-block
+  position: absolute
+  margin-left: -25px
+  margin-top: -25px
+  left: 270px
+  top: 270px
+
+#ctrl-circle
+  border: 10px solid black
+  width: 250px
+  height: 250px
+  border-radius: 50%
+  background-color: white
+  position: absolute
+  text-align: center
+  top: 120px
+  left: 120px
+
+#dv-simon
+  font-family: 'Comic Sans MS'
+  font-size: 300%
+  font-style: italic
+  margin-top: 25px
+  span
+    vertical-align: super
+    font-size: small
+
+#dv-start
+  width: 18px
+  height: 18px
+  border-radius: 50%
+  border: 1px dotted gray
+  background-color: red
+  display: inline-block
+  box-shadow: 0 0 2px 2px gray
+  margin-right: 30px
+  cursor: pointer
+
+#dv-control
+  margin-top: 0
+  font-size: x-large
+  font-family: Arial
+
+#LED
+  background-color: black
+  width: 70px
+  color: red
+  margin-right: 20px
+  display: inline-block
+  height: 30px
+  border-radius: 5px
+
+#dv-label
+  font-family: Arial
+  font-size: smaller
+  text-align: center
+
+#dv-pwr
+  width: 50px
+  height: 30px
+  display: inline-block
+  cursor: pointer
+  margin-top: -25px
+
+#dv-pwr-left
+  background-color: blue
+  width: 45%
+  height: 80%
+  display: inline-block
+
+#dv-pwr-rite
+  background-color: black
+  width: 48%
+  height: 80%
+  display: inline-block
+  margin-left: -5px
+
+#dv-strict
+  width: 18px
+  height: 18px
+  border-radius: 50%
+  background-color: #d0d608
+  display: inline-block
+  box-shadow: 0 0 2px 2px gray
+  cursor: pointer
+  opacity: 0.5
+
+.unclickable
+  pointer-events: none
+  user-select: none

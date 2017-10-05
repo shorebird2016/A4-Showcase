@@ -1,0 +1,35 @@
+.container {
+  width: 90%; }
+
+form {
+  border: 1px lightgrey solid;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px;
+  padding: 20px;
+  background-color: #f0fbf4;
+  padding-bottom: 50px; }
+
+input.ng-invalid {
+  border-left: 4px red solid; }
+
+input.ng-valid {
+  border-left: 4px green solid; }
+
+input.ng-pristine {
+  border-left: 4px gray solid; }
+
+.form-control {
+  width: 100px;
+  display: inline-block;
+  margin: 5px 10px 5px 20px; }
+
+#ADDR {
+  width: 250px; }
+
+#STATE {
+  width: 50px; }
+
+#MALE, #FEMALE {
+  margin-left: 15px; }
+
+/*# sourceMappingURL=tdf.component.css.map */

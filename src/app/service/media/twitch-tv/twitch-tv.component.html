@@ -1,0 +1,27 @@
+<div class="container-fluid">
+
+  <img src="../assets/icon/twitch.png">
+  <label>Twitch-TV Channels:</label>
+  <input class="form-control" type="text" placeholder="search keyword" [(ngModel)]="keyword">
+  <button class="btn btn-primary" (click)="getTvChannels()">Search</button>
+
+  <div class="channel-container">
+    <div class="channel-box" *ngFor="let CHANNEL of channels; let idx = index;">
+      <a href="{{CHANNEL.url}}" target="_blank">
+        <img src="{{getVideoBannerUrl(idx)}}" class="banner-style" data-toggle="tooltip"
+            data-placement="bottom" title="{{CHANNEL.description}}">
+        <!--<img src="{{liveStreams[idx].preview.medium}}" class="preview-style">-->
+      </a>
+      <span class="legend-style">
+          <a href="{{getLogoUrl(idx)}}" data-lightbox="member">
+          <img src="{{getLogoUrl(idx)}}" class="logo-style"
+               (click)="getChannelInfo(idx)">
+          </a>
+              {{CHANNEL.display_name}}
+          ( <i class="fa fa-users"> {{CHANNEL.followers | number}}</i>
+            <i class="fa fa-eye"> {{CHANNEL.views | number}}</i> )
+      </span>
+    </div>
+  </div>
+
+</div>

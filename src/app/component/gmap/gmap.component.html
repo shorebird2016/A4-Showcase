@@ -1,0 +1,12 @@
+
+<div class="map">
+  <agm-map [latitude]="latitude" [longitude]="longitude" [zoom]="zoomLevel"
+           [styles]="mapStyles">
+    <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
+  </agm-map>
+
+  <ng4geo-autocomplete (componentCallback)="autoCompleteDone($event)">
+  </ng4geo-autocomplete>
+
+  <a href="https://angular-maps.com/" target="_blank"><img src="../assets/reference/api/agm.png"></a>
+</div>

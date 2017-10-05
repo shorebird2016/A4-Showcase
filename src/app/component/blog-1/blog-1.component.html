@@ -1,0 +1,25 @@
+<div class="container-fluid">
+  <h4>JOIN THE CONVERSATION</h4>
+  <h5>{{blog.length}} BLOG(s)</h5>
+
+  <!--blogs-->
+  <div class="blog-box" *ngFor="let BLOG of blog">
+    <div>
+      <span>{{BLOG.submitter}}</span>
+      <i class="fa fa-trash" (click)="removeBlog()"></i>
+    </div>
+    <span>{{BLOG.blogText}}</span>
+  </div>
+
+  <!--blog entry-->
+  <div class="blog-entry">
+    <label>NAME: </label>
+    <input class="name-box" type="text" [(ngModel)]="nameEntry"
+     placeholder="enter name"> <br/>
+    <label>COMMENT: </label><br/>
+    <textarea class="comment-box" rows="5" cols="50"
+      placeholder="Enter your blog here" [(ngModel)]="textEntry">
+    </textarea>
+    <button class="btn btn-primary" (click)="submitPost()">Submit Posting</button>
+  </div>
+</div>

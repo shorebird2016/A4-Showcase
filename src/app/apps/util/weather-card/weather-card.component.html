@@ -1,0 +1,45 @@
+<div class="container-fluid">
+  <h5>
+    <img src="{{countryInfo.flag}}" width="50" *ngIf="countryInfo">
+    {{ addr }}
+    <span *ngIf="location">( {{ location.latitude }}, {{ location.longitude }} )</span>
+  </h5>
+
+  <div *ngIf="localWeather">
+    <div class="label label-success">
+      {{ tempUnit === 'F' ? localWeather.temp_f : localWeather.temp_c }} &#176;{{ tempUnit }}
+    </div>
+    <span *ngIf="localWeather">
+      <i class="fa fa-eye fa-2x" (click)="toggleCF()"
+         data-toggle="tooltip" data-placement="top"
+         title="toggle betweem Celcius and Fahrenheit"></i>
+    </span>
+      <span>
+        (feels like {{ tempUnit === 'F' ? localWeather.feelslike_f : localWeather.feelslike_c }})
+    </span>
+
+    <blockquote>
+      <!--Condition:-->
+      <img src="{{ localWeather.condition.icon }}">
+      <mark>{{ localWeather.condition.text }}</mark>
+
+      <!-- wind, humidity, barometric pressure, clouds, visibility -->
+      <p><mark>Humidity: {{ localWeather.humidity }} %</mark></p>
+      <p><mark>Pressure: {{ localWeather.pressure_mb }} millibar</mark></p>
+      <p><mark>Wind: {{ localWeather.wind_mph }} miles/hour
+        , {{ localWeather.wind_degree }} degree, {{ localWeather.wind_dir }} </mark>
+      </p>
+      <p><mark>Clouds: {{ localWeather.cloud }} %</mark></p>
+      <p><mark>Visibility: {{ localWeather.vis_miles }} miles</mark></p>
+    </blockquote>
+  </div>
+
+
+  <div>
+    <label>City:</label>
+    <input class="form-control" type="text" placeholder="partial name ok, use country code with duplicate"
+           [(ngModel)]="cityEntry">
+    <button class="btn btn-primary" (click)="getCityWeather()">Get it</button>
+  </div>
+
+</div>

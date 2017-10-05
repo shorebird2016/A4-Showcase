@@ -1,0 +1,20 @@
+<div class="yt-box">
+    <img class="pull-right" src="http://www.gstatic.com/youtube/img/logo.png" width="72" height="30">
+    <div class="input-group">
+      <input type="text" placeholder="Search by a keyword" [(ngModel)]="searchTerm"
+         class="input-search" name="SRCH_TXT">
+      <div class="input-group-addon">
+        <i class="fa fa-search" (click)="searchVideo()"></i></div>
+    </div>
+
+  <!--use ngFor to populate each card-->
+  <div class="video-collection">
+    <div class="panel panel-success" *ngFor="let CARD of items; let curIndex = index;">
+      <div class="panel-heading">{{items[curIndex].snippet.title}}</div>
+      <div class="panel-body">
+        <img class="img-thumbnail" src="{{items[curIndex].snippet.thumbnails.medium.url}}">
+      </div>
+    </div>
+  </div>
+
+</div>

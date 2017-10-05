@@ -1,0 +1,34 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel">
+        <div class="panel-heading">Basic Component</div>
+        <div class="panel-body">
+          <ul class="list-group">
+            <li class="list-group-item"><a routerLink="/component/blog-1">Simple Blog</a></li>
+            <li class="list-group-item"><a routerLink="/component/tdf" class="NOT-DONE">Template Driven Form</a></li>
+            <li class="list-group-item"><a routerLink="/component/line-chart" class="NOT-DONE">Line Charts</a></li>
+          </ul>
+        </div>
+
+        <div class="panel-heading">3rd Party Component</div>
+        <div class="panel-body">
+          <ul class="list-group">
+            <li class="list-group-item"><a routerLink="/component/gmap">Google Map
+              <img src="../assets/reference/api/agm.png" width="20">
+            </a></li>
+            <li class="list-group-item"><a routerLink="/component/opd-popup" class="NOT-DONE">Popup Dialog</a></li>
+            <li class="list-group-item"><a routerLink="/component/trading-view" class="NOT-DONE">TradingView</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <div class="col-sm-9">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

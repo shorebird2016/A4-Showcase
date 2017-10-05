@@ -1,0 +1,31 @@
+h5 {
+  text-align: center; }
+
+#P1, #BTN1, #DIV1, #BTN2 {
+  width: 200px;
+  font-size: 1.4em;
+  display: inline-block;
+  text-align: center; }
+
+.DIR {
+  width: 250px;
+  font-size: 1.4em;
+  background-color: #dffeea;
+  border: 2px lightgrey solid;
+  margin: 10px;
+  outline: none; }
+
+.NON-DIR {
+  font-size: 1em; }
+
+.focus {
+  width: 450px;
+  border-color: #ff8d8d; }
+
+pre {
+  background-color: #ebebeb; }
+
+.collapse #COL {
+  display: none; }
+
+/*# sourceMappingURL=basic.component.css.map */

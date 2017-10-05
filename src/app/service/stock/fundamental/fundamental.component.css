@@ -1,0 +1,17 @@
+.container-fluid {
+  padding: 0 0 0 10px; }
+
+h4 {
+  display: inline-block; }
+
+select {
+  outline: none;
+  height: 30px;
+  width: 250px;
+  margin-left: 20px; }
+
+h5 {
+  background-color: skyblue;
+  line-height: 2em; }
+
+/*# sourceMappingURL=fundamental.component.css.map */

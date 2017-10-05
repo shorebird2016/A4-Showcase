@@ -1,0 +1,29 @@
+
+<div class="container-fluid">
+
+  <h4>Quandl&#8482; Stock Quotes</h4>
+
+  <input class="form-control" placeholder="enter symbol" [(ngModel)]="ticker">
+  <button class="btn btn-primary" (click)="getDataset()">Get</button>
+
+  <!--display table for quotes received -->
+  <table class="table table-hover table-striped table-bordered table-responsive">
+    <thead>
+    <tr>
+      <td>Date</td> <td>Open</td> <td>High</td> <td>Low</td> <td>Close</td> <td>Volume</td>
+    </tr>
+    </thead>
+    <tbody *ngIf="quotes">
+    <tr *ngFor="let QUOTE_OBJ of quotes">
+      <td>{{QUOTE_OBJ[0]}}</td>
+      <td>{{QUOTE_OBJ[1]}}</td>
+      <td>{{QUOTE_OBJ[2]}}</td>
+      <td>{{QUOTE_OBJ[3]}}</td>
+      <td>{{QUOTE_OBJ[4]}}</td>
+      <td>{{QUOTE_OBJ[5]}}</td>
+    </tr>
+    </tbody>
+  </table>
+
+</div>
+

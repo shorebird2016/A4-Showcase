@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,gBAAgB;EACd,OAAO,EAAE,UAAU;;AAErB,EAAE;EACA,OAAO,EAAE,YAAY;;AAEvB,KAAK;EACH,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,YAAY;EACrB,MAAM,EAAE,gBAAgB;;AAE1B,IAAI;EACF,UAAU,EAAE,IAAI;EAChB,WAAW,EAAE,IAAI",
+"sources": ["markit.component.sass"],
+"names": [],
+"file": "markit.component.css"
+}

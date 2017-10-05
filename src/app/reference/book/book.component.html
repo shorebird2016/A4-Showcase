@@ -1,0 +1,32 @@
+<div class="container-fluid">
+  <h4>Retrieve Books via <b>promiseBooks</b></h4>
+
+  <ul>
+    <li *ngFor="let book of promiseBooks | async" class="panel">
+      <span class="panel-body"> Id: {{book.id}}, Name: {{book.name}}</span>
+    </li>
+  </ul>
+
+  <div class="well">
+    This implementation uses AsyncPipe to display results from Promise
+    <p><b>Service part</b></p>
+    <img src="../assets/reference/code/prms-2.png" width="450">
+    <p><b>Client Component part</b></p>
+    <img src="../assets/reference/code/prms-3.png" width="450">
+    <p><b>HTML part</b></p>
+    <img src="../assets/reference/code/prms-1.png" width="400">
+  </div>
+
+  <h4>Retrieve Books via <b>books</b></h4>
+  <ul>
+    <li *ngFor="let book of books"  class="panel">
+      <span class="panel-body">Id: {{book.id}}, Name: {{book.name}}</span>
+    </li>
+  </ul>
+
+  <p><b>HTML part</b></p>
+
+  <img src="../assets/reference/code/prms-4.png" width="400">
+
+  <div *ngIf="errorMessage"> {{errorMessage}} </div>
+</div>

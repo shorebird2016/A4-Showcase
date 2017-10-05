@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,qBAAqB;EACnB,OAAO,EAAE,YAAY;EACrB,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,MAAM;;AAEpB,cAAc;EACZ,MAAM,EAAE,eAAe;EACvB,aAAa,EAAE,GAAG;EAClB,OAAO,EAAE,IAAI",
+"sources": ["math.component.sass"],
+"names": [],
+"file": "math.component.css"
+}

@@ -1,0 +1,21 @@
+<h5>Math Service Demo</h5>
+
+<input class="form-control" type="number" placeholder="operand 1" [(ngModel)]="operand1">
++ <input class="form-control" type="number" placeholder="operand 2" [(ngModel)]="operand2">
+= <div class="alert-success" *ngIf="operand1 && operand2">
+  {{ addNumbers() | number: '2.2' }}</div><br/><br/>
+
+<input class="form-control" type="number" placeholder="operand 1" [(ngModel)]="operand3">
+- <input class="form-control" type="number" placeholder="operand 2" [(ngModel)]="operand4">
+= <div class="alert-success" *ngIf="operand3 && operand4">
+  {{ subtractNumbers() | number: '2.2' }}</div><br/><br/>
+
+<input class="form-control" type="number" placeholder="operand 1" [(ngModel)]="operand5">
+* <input class="form-control" type="number" placeholder="operand 2" [(ngModel)]="operand6">
+= <div class="alert-success" *ngIf="operand5 && operand6">
+  {{ multiplyNumbers() | number: '2.2' }}</div><br/><br/>
+
+<input class="form-control" type="number" placeholder="operand 1" [(ngModel)]="operand7">
+/ <input class="form-control" type="number" placeholder="operand 2" [(ngModel)]="operand8">
+= <div class="alert-success" *ngIf="operand7 && operand8">
+  {{ divideNumbers() | number: '2.2' }}</div>

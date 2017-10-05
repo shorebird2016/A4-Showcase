@@ -1,0 +1,30 @@
+<div class="container-fluid">
+
+  <div class="outer-circle">
+    <div class="pie-green" id='dv-green' (click)="clickColorButton('G')"></div>
+    <div class="pie-red" id='dv-red' (click)="clickColorButton('R')"></div>
+    <div class="pie-yellow" id='dv-yellow' (click)="clickColorButton('Y')"></div>
+    <div class="pie-blue" id="dv-blue" (click)="clickColorButton('B')"></div>
+
+    <!-- center controls and display -->
+    <div id="ctrl-circle">
+      <p id="dv-simon">Simon <span>®</span></p>
+      <div id="dv-control">
+        <div id="LED" class="unclickable">{{LED}}</div>
+        <div id="dv-start" (click)="startGame()"></div>
+        <div id="dv-strict" (click)="togleStrictMode()"></div>
+      </div>
+      <div id="dv-label">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;COUNT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;START &nbsp;&nbsp;&nbsp;STRICT</div>
+      <div style="margin-top: 20px; font-size: large; font-family: Arial">
+        <!-- power switch -->
+        <div style="display: inline-block;">OFF</div>
+        <div id="dv-pwr" (click)="powerOnOff()">
+          <div id="dv-pwr-left"></div>
+          <div id="dv-pwr-rite"></div>
+        </div>
+        <div style="display: inline-block">ON</div>
+      </div>
+    </div>
+  </div>
+
+</div>

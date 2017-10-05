@@ -1,0 +1,19 @@
+<div class="container-fluid">
+  <button class="btn btn-primary" (click)="restartGame()">Start Over</button>
+
+  <!-- overlay 9 graphics buttons -->
+  <img src="../assets/ttt-1/{{imageName[0]}}"  id="dv-q0" (click)="clickCell(0)">
+  <img src="../assets/ttt-1/{{imageName[1]}}"  id="dv-q1" (click)="clickCell(1)">
+  <img src="../assets/ttt-1/{{imageName[2]}}"  id="dv-q2" (click)="clickCell(2)">
+  <img src="../assets/ttt-1/{{imageName[3]}}"  id="dv-q3" (click)="clickCell(3)">
+  <img src="../assets/ttt-1/{{imageName[4]}}"  id="dv-q4" (click)="clickCell(4)">
+  <img src="../assets/ttt-1/{{imageName[5]}}"  id="dv-q5" (click)="clickCell(5)">
+  <img src="../assets/ttt-1/{{imageName[6]}}"  id="dv-q6" (click)="clickCell(6)">
+  <img src="../assets/ttt-1/{{imageName[7]}}"  id="dv-q7" (click)="clickCell(7)">
+  <img src="../assets/ttt-1/{{imageName[8]}}"  id="dv-q8" (click)="clickCell(8)">
+
+  <div class="dv-img" *ngIf="dlgImgVisible">
+    <img src="../assets/ttt-1/{{dlgImage}}" width="150" (click)="hideImage()">
+  </div>
+
+</div>

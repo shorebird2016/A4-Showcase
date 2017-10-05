@@ -1,0 +1,74 @@
+<div class="container-fluid">
+    <div class="col-sm-4">
+      <div class="panel">
+
+        <div class="panel-heading">Media Services</div>
+        <div class="panel-body">
+          <ul class="list-group">
+            <li class="list-group-item"><a routerLink="/service/youtube">Youtube</a></li>
+            <li class="list-group-item"><a routerLink="/service/movie" class="NOT-DONE">Movie</a></li>
+            <li class="list-group-item"><a routerLink="/service/twitch">Twitch TV</a></li>
+            <li class="list-group-item"><a routerLink="/service/flickr">Flickr</a></li>
+          </ul>
+        </div>
+
+        <div class="panel-heading">Stock Data Service</div>
+        <div class="panel-body">
+          <ul class="list-group">
+            <li class="list-group-item"><a routerLink="/service/alpha-vantage">Alpha Vantage</a></li>
+            <li class="list-group-item"><a routerLink="/service/quandl">Quandl</a></li>
+            <li class="list-group-item"><a routerLink="/service/fundamental">Fundamentals
+              <span class="jsonp-note">jsonp</span></a></li>
+            <li class="list-group-item"><a routerLink="/service/markit">Markit On Demand
+              <span class="jsonp-note">jsonp</span></a></li>
+            <li class="list-group-item"><a routerLink="/service/barchart">Barchart
+              <span class="jsonp-note">jsonp</span></a></li>
+          </ul>
+        </div>
+
+        <div class="panel-heading">Quotes</div>
+        <div class="panel-body">
+          <ul class="list-group">
+            <li class="list-group-item"><a routerLink="/service/they-say">They Said So</a></li>
+            <li class="list-group-item"><a routerLink="/service/famous-quote">Famous</a></li>
+            <li class="list-group-item"><a routerLink="/service/forismatic">Random
+              <span class="jsonp-note">jsonp</span></a></li>
+          </ul>
+        </div>
+
+        <div class="panel-heading">Basic Information</div>
+        <div class="panel-body">
+          <ul class="list-group">
+            <li class="list-group-item"><a routerLink="/service/country">Country</a></li>
+            <li class="list-group-item"><a routerLink="/service/owm">Weather</a></li>
+            <li class="list-group-item"><a routerLink="/service/wiki">Wiki
+              <span class="jsonp-note">jsonp</span></a></li>
+            <li class="list-group-item"><a routerLink="/service/geobytes">Geobytes
+              <span class="jsonp-note">jsonp</span></a></li>
+            <li class="list-group-item"><a routerLink="/service/stack">Stack Exchange</a></li>
+            <li class="list-group-item"><a routerLink="/service/git">Github Popularity</a></li>
+            <li class="list-group-item"><a routerLink="/service/git-promise">Github Popularity (promise)</a></li>
+          </ul>
+        </div>
+
+        <div class="panel-heading">Custom Service</div>
+        <div class="panel-body">
+          <ul class="list-group">
+            <li class="list-group-item"><a routerLink="/service/json-test">JSON Test</a></li>
+            <li class="list-group-item"><a routerLink="/service/math">Math Service</a></li>
+            <li class="list-group-item"><a routerLink="/service/alchemy" class="NOT-DONE">Alchemy
+              <span class="jsonp-note">jsonp</span></a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-sm-9">
+      <router-outlet></router-outlet>
+    </div>
+</div>
+
+  <!--<li class="list-group-item"><a href="#"> Todo Service      </a></li>-->
+  <!--<li class="list-group-item"><a href="#"> Timer Service     </a></li>-->
+  <!--<li class="list-group-item"><a href="#"> Math Service      </a></li>-->

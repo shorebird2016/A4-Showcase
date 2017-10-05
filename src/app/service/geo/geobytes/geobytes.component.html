@@ -1,0 +1,11 @@
+<h4>Geobytes&#8482;</h4>
+
+<input class="form-control" placeholder="enter leading letters" [(ngModel)]="term">
+<button class="btn btn-primary" (click)="getAutoCompleteCities()">Find</button>
+
+<hr/>
+<h5 *ngIf="cityList">Suggestions:</h5>
+<div *ngFor="let CITY of cityList" class="city-list">
+  {{CITY}}
+</div>
+

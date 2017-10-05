@@ -1,0 +1,36 @@
+<div class="container-fluid">
+    <div class="pull-left stack-image"></div>
+    <div class="explanation">
+      <h3>StackOverflow Reputation Builder</h3>
+      <p>This app lets you search by topic for the top answerers for a tag.
+        If you want to rise to the top ranks for a topic, see how many reputation points you'll need to aim for!</p>
+    </div>
+  <div class="stack">
+    <div class="srch"><h5>Get Top Answered Questions</h5>
+      <input placeholder='e.g., "HTML" or "HTML;CSS"' [(ngModel)]="topAnswer" size="30" autofocus required>
+      <button class="btn btn-primary" (click)="getTopAnswers()">See</button>
+    </div>
+    <div class="srch"><h5>View the Top Answerers for a Tag</h5>
+      <input placeholder="e.g., jQuery" [(ngModel)]="tagAnswer" size="30" required>
+      <button class="btn btn-success" (click)="getTagAnswers()">Find</button>
+    </div>
+  </div>
+
+  <table class="table table-bordered table-condensed table-striped table-hover">
+    <thead>
+      <tr> <td></td>
+        <td>ID</td> <td>#</td> <td>Name</td> <td>Score</td> <td>Reputation</td>
+      </tr>
+    </thead>
+    <tr *ngFor="let POST of posts">
+      <td>
+          <img class="img img-circle img-responsive" src="{{POST.user.profile_image}}">
+      </td>
+      <td>{{POST.user.user_id}}</td>
+      <td>{{POST.post_count}}</td>
+      <td><a href="{{POST.link}}" target="_blank">{{POST.user.display_name}}</a></td>
+      <td>{{POST.score}}</td>
+      <td>{{POST.user.reputation}}</td>
+    </tr>
+  </table>
+</div>

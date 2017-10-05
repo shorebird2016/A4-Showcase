@@ -1,0 +1,35 @@
+<!--This is an example using lightbox data-lightbox and data-title will do, doesn't need button images any more-->
+
+<div class="container-fluid">
+
+  <h4>Alpha Vantage&#8482; Stock Quotes</h4>
+
+  <input class="form-control" placeholder="symbol" [(ngModel)]="ticker">
+  <button class="btn btn-primary" (click)="getQuotes()">Get</button>
+  <select [(ngModel)]="frequency">
+    <option value="EOD">Daily</option>
+    <option value="EOW">Weekly</option>
+  </select>
+
+  <!--display table for quotes received -->
+  <table class="table table-hover table-striped table-bordered table-responsive">
+    <thead>
+      <tr>
+        <td>Date</td> <td>Open</td> <td>High</td> <td>Low</td> <td>Close</td> <td>Volume</td>
+      </tr>
+    </thead>
+    <tbody *ngIf="quotes">
+      <tr *ngFor="let QUOTE_OBJ of quotes">
+        <td>{{QUOTE_OBJ.date}}</td>
+        <td>{{QUOTE_OBJ.open}}</td>
+        <td>{{QUOTE_OBJ.high}}</td>
+        <td>{{QUOTE_OBJ.low}}</td>
+        <td>{{QUOTE_OBJ.close}}</td>
+        <td>{{QUOTE_OBJ.volume }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+

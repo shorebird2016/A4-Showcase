@@ -1,0 +1,8 @@
+<div class="container">
+  Chooser
+  <div class="blk1" (click)="setColor('green')"></div>
+  <div class="blk2" (click)="setColor('cyan')"></div>
+
+  <div class="tgt" #tgt [ngStyle]="{ 'background-color': myColor }"></div>
+
+</div>

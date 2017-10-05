@@ -1,0 +1,13 @@
+.panel {
+  width: 70%;
+  margin: 10px; }
+  .panel .panel-heading {
+    height: 30px; }
+  .panel span {
+    margin-left: 10px; }
+
+span {
+  width: 400px;
+  height: 80%; }
+
+/*# sourceMappingURL=json-test.component.css.map */

@@ -1,0 +1,59 @@
+.container-fluid {
+  font-family: "Comic Sans MS";
+  font-size: 250%;
+  background-image: url(/assets/ttt-1/board.jpg);
+  background-repeat: no-repeat;
+  height: 650px;
+  position: relative; }
+
+#dv-q0 {
+  position: absolute;
+  top: 60px;
+  left: 47px; }
+
+#dv-q1 {
+  position: absolute;
+  top: 60px;
+  left: 216px; }
+
+#dv-q2 {
+  position: absolute;
+  top: 60px;
+  left: 382px; }
+
+#dv-q3 {
+  position: absolute;
+  top: 250px;
+  left: 47px; }
+
+#dv-q4 {
+  position: absolute;
+  top: 250px;
+  left: 216px; }
+
+#dv-q5 {
+  position: absolute;
+  top: 250px;
+  left: 382px; }
+
+#dv-q6 {
+  position: absolute;
+  top: 432px;
+  left: 47px; }
+
+#dv-q7 {
+  position: absolute;
+  top: 432px;
+  left: 216px; }
+
+#dv-q8 {
+  position: absolute;
+  top: 432px;
+  left: 382px; }
+
+.dv-img {
+  position: absolute;
+  top: 200px;
+  left: 200px; }
+
+/*# sourceMappingURL=ttt-1.component.css.map */

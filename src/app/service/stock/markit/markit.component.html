@@ -1,0 +1,44 @@
+<!--This is an example using lightbox data-lightbox and data-title will do, doesn't need button images any more-->
+
+<div class="container-fluid">
+
+  <h4>Markit On Demanad&#8482; Stock Quotes</h4>
+
+  <input class="form-control" placeholder="symbol" [(ngModel)]="ticker">
+  <button class="btn btn-primary" (click)="getQuote()">Get</button>
+
+  <!--display table for quotes received -->
+  <table class="table table-hover table-striped table-bordered table-responsive" *ngIf="quote">
+    <tbody>
+      <tr><td>Symbol</td> <td>{{quote.Symbol}}</td></tr>
+      <tr><td>Name</td> <td>{{quote.Name}}</td></tr>
+      <tr><td>Open</td> <td>{{quote.Open}}</td></tr>
+      <tr><td>High</td> <td>{{quote.High}}</td></tr>
+      <tr><td>Low</td> <td>{{quote.Low}}</td></tr>
+      <tr><td>Close</td> <td>{{quote.LastPrice}}</td></tr>
+      <tr><td>Volume</td> <td>{{quote.Volume}}</td></tr>
+
+      <tr><td>Change</td> <td>{{quote.Change}}</td></tr>
+      <tr><td>ChangePercent</td> <td>{{quote.ChangePercent}}</td></tr>
+      <tr><td>ChangeYTD</td> <td>{{quote.ChangeYTD}}</td></tr>
+      <tr><td>ChangePercentYTD</td> <td>{{quote.ChangePercentYTD}}</td></tr>
+
+      <tr><td>Timestamp</td> <td>{{quote.Timestamp}}</td></tr>
+      <tr><td>MarketCap</td> <td>{{quote.MarketCap}}</td></tr>
+      <tr><td>Status</td> <td>{{quote.Status}}</td></tr>
+    </tbody>
+
+  </table>
+
+</div>
+
+<!--
+{
+"Status":"SUCCESS",
+"Name":"Agilent Technologies Inc","Symbol":"A",
+"LastPrice":65.02,"Change":-0.120000000000005,"ChangePercent":-0.184218606079221,
+"Timestamp":"Fri Sep 8 16:03:00 UTC-04:00 2017",
+"MSDate":42986.66875,"MarketCap":20936440000,"Volume":1588439,
+"ChangeYTD":45.56,"ChangePercentYTD":42.7129060579455,"High":65.68,"Low":64.83,"Open":65.03
+}
+-->

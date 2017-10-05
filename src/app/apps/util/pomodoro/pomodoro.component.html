@@ -1,0 +1,34 @@
+<div class="container-fluid">
+  <img src="../assets/pomodoro/bkgnd.png" class="stretch" [@rotateGate]="gateState">
+
+  <!-- big digital clock -->
+  <div class="clock">{{countDown}}</div>
+
+  <!-- 2 buttons for break time -->
+  <div id="dv-session">
+    <div>
+      Session Time<br/>
+      <div>
+        <span class="fa fa-plus-circle fa-2x" (click)="incSession()"></span>
+        <span id="session-time">{{sessionTime}}</span>
+        <i class="fa fa-minus-circle fa-2x" (click)="decSession()"></i></div>
+    </div>
+  </div>
+
+  <!-- a big and obvious start/stop button (green/red) -->
+  <div class="dv-start-stop">
+    <img src="../assets/pomodoro/{{startStopFace}}.png" (click)="pauseResume()"
+         [@changeButtonSize]='buttonState'>
+  </div>
+
+  <!-- 2 buttons for session time -->
+  <div id="dv-break">
+    <div>
+      Break Time<br/>
+      <div>
+        <i class="fa fa-plus-circle fa-2x" (click)="incBreak()"></i>
+        <span id="break-time">{{breakTime}}</span>
+        <i class="fa fa-minus-circle fa-2x" (click)="decBreak()"></i></div>
+    </div>
+  </div>
+</div>

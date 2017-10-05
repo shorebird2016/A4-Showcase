@@ -1,0 +1,110 @@
+
+  <div class="container-fluid">
+
+    <!--top level nav, label on left, 2 drop downs on right-->
+    <nav class="collapse navbar-collapse">
+        <div class="navbar-header">
+          <div class="navbar-brand">CLDAA Member Badges</div>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+
+          <!-- member type -->
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+               aria-expanded="false">Member Type <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a (click)="filter(0)">All Members</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a (click)="filter(1)">Regular Member</a></li>
+              <li><a (click)="filter(2)">Lifetime Member</a></li>
+              <li><a (click)="filter(3)">Inner Cirle Team</a></li>
+            </ul>
+          </li>
+
+          <!-- member location -->
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" role="button"
+               aria-haspopup="true" aria-expanded="false">Location  <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a (click)="filter(10);">Milbrae 1</a></li>
+              <li><a (click)="filter(11);">Milbrae 2</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a (click)="filter(12);">Cupertino 1</a></li>
+              <li><a (click)="filter(13);">Cupertino 2</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a (click)="filter(14);">Headquarter 1</a></li>
+              <li><a (click)="filter(15);">Headquarter 2</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a (click)="filter(16);">Almaden</a></li>
+              <li><a (click)="filter(17);">Evergreen</a></li>
+              <li><a (click)="filter(18);">Milpitas</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a (click)="filter(19);">Fremont 1</a></li>
+              <li><a (click)="filter(20);">Fremont 2</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a (click)="filter(21);">San Jose</a></li>
+              <li><a (click)="filter(22);">Sunnyvale</a></li>
+            </ul>
+          </li>
+        </ul>
+
+      </nav>
+
+    <!-- top toolbar: ID, dropdowns -->
+    <div class="collapse navbar-collapse">
+
+      <!-- search widget -->
+      <form class="navbar-form navbar-right" role="search" name="SEARCH-FORM">
+        <div class="form-group">
+          <input ID="INP-ID" type="text" class="form-control" placeholder="ID" [(ngModel)]="userIdEntry" name="USR-ID">
+          <input type="text" class="form-control" placeholder="Last Name" [(ngModel)]="lastNameEntry" name="USR-LAST">
+          <input type="text" class="form-control" placeholder="First Name" [(ngModel)]="firstNameEntry" name="USR-FIRST">
+          <button class="btn btn-default" (click)="findMembersByIDFirstLast();"
+            data-toggle="tooltip" data-placement="top" title="Find member(s)">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+          <button class="btn btn-default" (click)="clearEntryFields();"
+            data-toggle="tooltip" data-placement="top" title="Clear text inputs">
+            <span class="glyphicon glyphicon-remove"></span></button>
+          <button class="btn btn-default" data-target="#DLG-NO-PHOTO"
+                  data-toggle="modal" data-placement="top" title="Find list of missing images">
+            <span class="glyphicon glyphicon-list-alt"></span>
+          </button>
+        </div>
+      </form>
+    </div><!-- navbar-collapse -->
+
+    <!-- member photos -->
+    <div class="album">
+      <div class="photo-block" *ngFor="let MBR of filteredMembers">
+        <a href="../assets/badge/member-photo/{{ MBR.Image }}.jpg" data-lightbox="CLDAA"
+           data-title="{{ MBR.First + ' ' + MBR.Last + ' ( ' + MBR.ID + ' )' }}">
+          <img class="img-rounded img-responsive center-block" (error)="markImage(MBR)"
+               src="../assets/badge/member-photo/{{MBR.Image}}.jpg"></a>
+        <p align="center" id="LBL-ID">{{ MBR.ID }}: <span>{{ MBR.First + " " + MBR.Last }}</span></p>
+        <p align="center" id="LBL-NOTE"><b>{{ getMemberType(MBR) }}</b> {{ getLocation(MBR) }}</p>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- dialog for showing members without photo -->
+  <div class="modal fade" role="dialog" id="DLG-NO-PHOTO">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">{{badImages.length}} Member(s) Missing Photo</h4>
+        </div>
+        <div class="modal-body">
+          <span *ngFor="let ID of badImages">
+            {{ ID }} &nbsp;&nbsp;
+          </span>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
