@@ -25,7 +25,24 @@ This project is still alive and growing, probably forever.
 ![Apps | Badge](doc/app-badge.png)
 ![Apps | Pomodoro Timer](doc/app-pomodoro.png)
 ![Apps | Tic-Tac-toe](doc/app-ttt.png)
-
+(doc/cmp-tdf.png)
+(doc/cmp-map.png)
+(doc/svc-youtube.png)
+(doc/svc-wiki.png)
+(doc/svc-twitch.png)
+(doc/svc-so.png)
+(doc/svc-quandl.png)
+(doc/svc-qod.png)
+(doc/svc-owm.png)
+(doc/ani-css.png)
+(doc/ani-ng.png)
+(doc/ref-tip.png)
+(doc/ref-prms.png)
+(doc/ref-io.png)
+(doc/ref-di.png)
+(doc/ref-custdir.png)
+(doc/ref-api.png)
+(doc/ref-tip.png)
 
 
 ## Dev Logs
