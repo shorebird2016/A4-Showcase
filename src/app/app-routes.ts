@@ -23,7 +23,6 @@ import {NgAdvComponent} from './animation/ng-adv/ng-adv.component';
 import {ReferenceComponent} from './reference/reference.component';
 import {ApiComponent} from './reference/api/api.component';
 import {LibComponent} from './reference/lib/lib.component';
-import {TipComponent} from './reference/tip/tip.component';
 import {AdminComponent} from './admin/admin.component';
 import {HelpComponent} from './admin/help/help.component';
 import {AppComponent} from './app.component';
@@ -63,6 +62,7 @@ import {TdfComponent} from './component/tdf/tdf.component';
 import {DrtvComponent} from './reference/drtv/drtv.component';
 import {NgClassStyleComponent} from './reference/advanced/ng-class-style/ng-class-style.component';
 import {CustomComponent} from './reference/drtv/custom/custom.component';
+import {Ref1Component} from './component/basic/ref1/ref1.component';
 
 export const AppRoutes: Routes = [
   { path: 'apps', component: AppsComponent, children: [
@@ -77,14 +77,17 @@ export const AppRoutes: Routes = [
     { path: 'ttt-1', component: Ttt1Component },
     { path: 'simon', component: SimonComponent }
   ] },
-  { path: 'component', component: ComponentComponent,
-    children: [
+  { path: 'component', component: ComponentComponent, children: [
+    { path: 'basic', children: [
+      { path: 'tdf', component: TdfComponent },
+      { path: 'ref-1', component: Ref1Component },
+      { path: 'blog-1', component: Blog1Component },
+    ]},
+    { path: 'adv', children: [
       { path: 'gmap', component: GmapComponent },
       { path: 'opd-popup', component: GmapComponent },
-      { path: 'blog-1', component: Blog1Component },
-      { path: 'tdf', component: TdfComponent },
-    ]
-  },
+    ]},
+  ] },
   { path: 'service', component: ServiceComponent, data: { title: 'Service Tab' },
     children: [
       { path: 'owm', component: OwmComponent },
@@ -125,7 +128,6 @@ export const AppRoutes: Routes = [
   { path: 'reference', component: ReferenceComponent, children: [
     { path: 'api', component: ApiComponent },
     { path: 'lib', component: LibComponent },
-    { path: 'tip', component: TipComponent },
     { path: 'comp-comm', component: CompCommComponent },
     { path: 'book', component: BookComponent },
     { path: 'ref-io', component: RefioComponent },

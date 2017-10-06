@@ -66,21 +66,26 @@ This project is still alive and growing, probably forever.
 
 #[2017-08-29]
 - Integrated with 3rd party map component AGM on service tab with places search capability
+
 #[2017-08-30]
 - Found out about geobytes.org which has a rich set of free services, create a client and service to access its data
 - Inspired by math service in Angular 1 class, actually created a sample there, now do this in Angular 4 service
+
 #[2017-08-31]
 - Migrate original tic-tac-toe into "Components" tab, reduced to 1 player only
 - Migrated my-blog into "Components" tab with minor styling
 - Migrated calculator app into "Components" tab
 - Created a new top level "Apps" tab to house apps that are more than just a component
+
 #[2017-09-01]
 - Migrated twitch-TV app from A1 set over 
 - Start working with ng2-admin on a different project but it was created from A2 environment
 - Start porting badge system, probably won't finish today
+
 #[2017-09-02]
 - Completed migrating badge system, redesign header, photo block, search methods ignoring case, show
   user w/o photo, all original features ported
+  
 #[2017-09-03]
  - Use ngOnInit() to load original content on all service items with API access (weather, youtube, country,
   twitch), it turns out to be very easy
@@ -91,28 +96,33 @@ This project is still alive and growing, probably forever.
  - Attempt to start porting wiki search pages since its API exercise, ran into problem with JSONP
  - Ported flickr API service / client to A4, but infinite scroll is still unknown
 So far, 15 small apps are ported over.
+
 #[2017-09-04] Holiday, not for me
  - Add library lightbox2 to flickr service client and badge app
  - Google map doesn't work in service tab in a strange way, so I use a separate project to 
    learn to create new one and it works, now bring back in
  - Google places API is nicely wrapped in A4 directive ng4-geoautocomplete which works amazing
    well in A4
+   
 #[2017-09-05]
  - Merge part of famous quotes into component package
  - Discover A4 can use setTimeout() and setInterval(), rework on pomodoro to fix it. 
    It turns out new Audio() also works. Now adjust button positions, digit positions/sizes to
    look better in the showcase; also attempt to rotate stargate slowly when timer is going;
    learning how to use A4 animation tools.
+   
 #[2017-09-06] 5.5
  - Create a service for stack exchange and a demo page under service tab {1.5h}
  - Merge Bo's implementation of ng2-admin onto A4 version on pc, get to log in screen {3hr}
  - Attempt to run ng2-admin on MAC, not yet {0.5h}
  - Edit Pomodoro stargate to remove background and make it rotate 10 minutes {0.5h}
+ 
 #[2017-09-07] 3.5
  - Re-arranged menu {0.5h}
  - Attempt to port Chart.js and TradingView examples over, but the former needs a lot of learning
    and the latter was a strange one using embedded JS to generate DOM element which doesn't work under A4 {1h}
  - Start A4 animation experimentation under "Basic" item of Animation tab, familiarize with basic syntax {2h}
+ 
 #[2017-09-08] 5
  - Continue A4 animation with keyframe {1h}
  - Add more flickr API service based on general search, it uses "method" for search, so I added search box {1h}
@@ -120,10 +130,12 @@ So far, 15 small apps are ported over.
    very pleasant surprise. There is hope to build my own algo/charts with EOD EOW {2h}
  - Dig up older CSS animation using cars, add a few more, now 10 cars, plan to use staggered animation to make them start
    differently and vary their speeds {1h}
+   
 #[2017-09-09] 2.5
  - Test out webstorm's refactoring facilities - re-org tool folder into sub-folders: app/geo/info/media/stock {0.5h}
  - Add service to quandl and usfundamental to stock service group {1h}
  - Also create clients for quandl and fundamental {1h}
+ 
 #[2017-09-10] 2.5
  - Finally got fundamentals to work - successfully getting 12691 companies ID/name at init time, also was able to limit
    number of records displayed using ngIf under the loop and slice:0:10 special filter not in docs {0.5h}
@@ -131,16 +143,19 @@ So far, 15 small apps are ported over.
    huge list of indicator metadata {1h}
  - Implement markitondemand service/client by turning off CORS on browser {0.5h}
  - Mimic one youtube example of stagger animation, almost duplicating it as part of learning process {0.5h}
+ 
 #[2017-09-11] 2.5
  - Attempt to port Alchemy service over but unfortunately it's JSONP and not working, also invalid API key {1h}
  - Refactor packages under services to be more manageable using nice re-factor tools {0.5h}
  - Start converting simon game, lots of code and some angular.element needs to be handled differently {0.5h}
  - Mark left nav items RED to indicate incomplete features, still quite a few {0.5h}
+ 
 #[2017-09-12] 2
  - Listen to a few CSS videos, dup them here
  - Split animation tab into multiple CSS and Angular for daily additions {0.5h}
  - Able to get Geobytes city search to work via JSONP wow, the first time {1h}
  - Attempt to type in Devtips' drop down menu but CSS was too complex, end up just download from codepen [0.5h}
+ 
 #[2017-09-13] 5
  - Trial and error on wiki string, actually works, put some data to view {1h}
  - Polish up geobytes and wiki client pages {0.5h}
@@ -151,6 +166,7 @@ So far, 15 small apps are ported over.
  - Move quote services into different service group, re-package {0.5h}
  - Reduce panel-heading/panel-body space {0.5h}
  - Attempt to get quote from forismatic.com but it needs jsonp {0.5h}
+ 
 #[2017-09-14] 3.5
  - Start 1st directive practice, learned lightpurple, lightbrown don't work in setting background
    attributes, use #xxxxx always {0.5h}
@@ -165,6 +181,7 @@ So far, 15 small apps are ported over.
    have successful JSONP response.
  - Move some "Component" items to "Apps" such as Weather, Calc, TTT, Pomodoro, consider not having this
    menu, refactoring is great in Webstorm {0.5h}
+   
 #[2017-09-15] 3
  - Studied basic animation theory, learned a few ideas never know before: transition in CSS is meant to
    smooth associated property change over time instead of sudden jump; keyframes are used to fine tune
@@ -172,6 +189,7 @@ So far, 15 small apps are ported over.
  - Able to run tour of heros sample by copying all files under app folder and add one library 
    "angular-in-memory-web-api" from npm. {0.5h}
  - Learn more basic CSS transition, experiment with basic concepts{0.5h}
+ 
 #[2017-09-16] 3
  - Animating CSS bubbles under CSS advanced menu {1h}
  - Trying to create a new directive called [appAutogrow] but html won't allow it {0.5h}
@@ -180,21 +198,26 @@ So far, 15 small apps are ported over.
    by the CSS rule, ID is more important than class. So change ID to class, then it works.
  - But <div> or <p> don't react to click, probably they won't go into focus when click, try input tag {0.5h}
  - Add new top level menu "Reference" for keeping helpful external resources.  Starts with API documents {0.5h}
+ 
 #[2017-09-17] 1.5
  - Animate directive is not easy, needs new AnimationBuilder another learning process. In the meantime, use
    the parent container to animate children, add animation to directives{1h}
  - Add a few more API logos to reference page {0.5h}
+ 
 #[2017-09-19] 2.5
  - Experiment some animations with query, repackage, fix bug visible/show, figure out how to animate from 
    void to initial state over 5s, this works for any component on load time, fine tune bouncing ball{2.5h} 
+   
 #[2017-09-20] 1
  - Experiment with fly in list, but not able to see animation {1h] (https://alligator.io/angular/animation-angular/) 
+ 
 #[2017-09-21] 4
  - Add 3 variations of DOM binding to reference menu/tips {1h}
  - Move all routes (100+) outside app.module.ts into a const file {0.2h}
  - put AGM inside Component/3rd Party menu with icon link inside map to site {0.2h}
  - Created Advanced sample of component communication using AU's example, {2h}
  - Also tried dialog ng2-opd-popup got a lot of errors under cli, postpone{0.5h}
+ 
 #[2017-09-22] 2.5h
  - Practice AU's attribute directive, put inside directive area, can hide once and can't click
    again. Something to do with CSS{1h}
@@ -214,17 +237,20 @@ So far, 15 small apps are ported over.
  - Augury for chrome and misc learning {1h}
  In Flight to Taiwan
  - write zoom-hover directive for 3 widgets and div w customizable font size {0.5h}
+ 
 #[2017-09-25] 2h
  - Worked on shopping project all yesterday during transit.
  - Learn to use Promise with HTTP service, start with simulated delay on JSON file
  - Then use this on github and iTunes, by default they are Observable, but HTTP can be just
    Promise.
+   
 #[2017-09-26] 3h
  - Due to jet lag, was not able to hold for long time, but managed to make github observable
    to work yesterday, somehow the promise version does not work
  - Found an example of promise reading JSON via HTTP, type it in and put under reference menu{2h}   
  - Now attempt to make it work again under github, actually worked using the reference example
  - Next change layout to make page look better, horay promise works...{1h}
+ 
 #[2017-09-30] 3h
  Coming back to this project after heavy duty 12 days porting shopping app over to A4. The plan is
  to continue this learning path/app 2 hours each day.  What to learn? go back to all youtube's 
@@ -234,10 +260,12 @@ So far, 15 small apps are ported over.
  so that I don't have to go back watching videos any more (and not missing out valuable knowledge) 
  - Watch and collect contents from video 1-21, add to reference menu w 3 selections
  - stuck on video #22, can't speed watch, must watch full {3h} 
+ 
 #[2017-10-01] 2h
  - Successfully finished 30+ videos and captured 99% tidbits and slides from video, put them inside
    showcase{1h}
  - Another hour, reach #40 video, this is done; watch more later on new ones {1h}
+ 
 #[2017-10-02] 0.5h
  Today I spent most day looking at job postings, not much dev, although I got a few ideas from kbvenkat last few
  videos plus the 2nd series.  Also counted number hours records since 9/6 after Satish metioned about 2000 hours
@@ -246,23 +274,27 @@ So far, 15 small apps are ported over.
  about 4 months or roughly end of year.  This means still more proejcts to do.  Don't stop just beacuse I was looking
  for jobs.  Must put in 25+ hour/week.  Not easy for nightly, so must steal time during the day like 2 hr/day. 
  - Add some learned code sample to reference {0.5h}
+ 
 #[2017-10-03] 2h
  - Start learning TDF from Codevolution videos, plan on similar sample inside reference menu with screen shots
    and under advanced samples menu showing real forms {1h}
  - It seems Angular disabled HTML validation (novalidate) and take over the entire validation
  - Finally implemented name field and zipcode field validation {1h} 
+ 
 #[2017-10-04]
  Spent much time looking at jobs, unfortunately the ones I wanted most require heavy industry experience(ironic).
  When one has such experience, those are probably not desirable jobs any more.
  - Watched almost all Xpose's 15 videos, only #13 and #14 taught me something, repro them here (1)ngClass vs ngStyle
    (2) Add level 3 routes w/o component (3)Hyperlink to live sample (4) Capture both #13 and #14, Xpose done {1.5h}
-#[2017-10-05]
- - Add and update README, sample images, push to github
+   
+#[2017-10-05] 2.5h
+ - Add and update README, sample images, push to github {1h}
+ - Move samples from reference menu to components, add sample links to API group {1.5h}
  
  - Port some old CSS animation over from A1 times
  
 
-## Next Steps
+## =========== Next Steps =============
  - Gradually move various reference items down to level 3 routes and folders
  - Need top level search box to quickly navigate to different subjects
  - A searchable by category youtube reference page that can play advanced topics
@@ -289,7 +321,6 @@ So far, 15 small apps are ported over.
 - Show source code next to the view, maybe a popout dialog/window? <pre> pretty code
 - Create a system level service for HTTP access (like a singleton or static methods) instead of doing
   all inside components
-  
 - Future Enhancements:
   - Stock Data: (1)Expand API capabilities (2)use filter formatting (3)User selectable date ranges
       (4)Simple line charts and candle charts (5)Fundamentals search (6)Indicators

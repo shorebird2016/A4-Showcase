@@ -1,12 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-tip',
-  templateUrl: './tip.component.html',
-  styleUrls: ['./tip.component.css']
+  selector: 'app-ref1',
+  templateUrl: './ref1.component.html',
+  styleUrls: ['./ref1.component.css']
 })
-
-export class TipComponent implements OnInit {
+export class Ref1Component implements OnInit {
 
   constructor() { }
   targetColor; target2Color;

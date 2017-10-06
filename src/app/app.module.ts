@@ -54,7 +54,6 @@ import { FunComponent } from './apps/fun/fun.component';
 import { ReferenceComponent } from './reference/reference.component';
 import { ApiComponent } from './reference/api/api.component';
 import { LibComponent } from './reference/lib/lib.component';
-import { TipComponent } from './reference/tip/tip.component';
 import { AutogrowDirective } from './directive/directive/autogrow.directive';
 import {NgBasicComponent} from './animation/ng-basic/ng-basic.component';
 import {NgAdvComponent} from './animation/ng-adv/ng-adv.component';
@@ -79,6 +78,7 @@ import { TdfComponent } from './component/tdf/tdf.component';
 import { DrtvComponent } from './reference/drtv/drtv.component';
 import { NgClassStyleComponent } from './reference/advanced/ng-class-style/ng-class-style.component';
 import { CustomComponent } from './reference/drtv/custom/custom.component';
+import { Ref1Component } from './component/basic/ref1/ref1.component';
 
 @NgModule({
   declarations: [
@@ -91,11 +91,12 @@ import { CustomComponent } from './reference/drtv/custom/custom.component';
     FundamentalComponent, MarkitComponent, NgAdvComponent, AlchemyComponent, SimonComponent,
     MovieComponent, CssBasicComponent, CssAdvComponent, TheysayComponent, RandomComponent,
     BasicComponent, BasicDirective, BarchartComponent, UtilComponent, FunComponent, ReferenceComponent,
-    ApiComponent, LibComponent, TipComponent, AutogrowDirective, NgBasicComponent, NgAdvComponent,
+    ApiComponent, LibComponent, AutogrowDirective, NgBasicComponent, NgAdvComponent,
     CompCommComponent, ChooserComponent, ViewerComponent, ColorSampleComponent,
     CollapsableDirective, ZoomHoverDirective, GithubComponent, BookComponent, ConceptComponent,
     BindingComponent, RefioComponent, RefmiscComponent, RefrouteComponent,
-    RefdiComponent, RefsvcComponent, ReftdfComponent, TdfComponent, DrtvComponent, NgClassStyleComponent, CustomComponent
+    RefdiComponent, RefsvcComponent, ReftdfComponent, TdfComponent, DrtvComponent,
+    NgClassStyleComponent, CustomComponent, Ref1Component
   ],
   imports: [
     BrowserModule, RouterModule.forRoot(AppRoutes), FormsModule, HttpModule,
