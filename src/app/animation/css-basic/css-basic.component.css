@@ -93,4 +93,83 @@
     width: 200px;
     height: 100px; }
 
+.loading-bar {
+  width: 350px;
+  height: 40px;
+  margin: 30px 0 0 20px;
+  border: 2px solid blue; }
+
+.thumb {
+  width: 15%;
+  height: 36px;
+  display: inline-block;
+  background-color: #FFEE00; }
+
+.loading-bar:hover .thumb {
+  animation: slide infinite alternate 2s, changeColor 2s infinite ease; }
+
+@keyframes slide {
+  from {
+    margin-left: 0; }
+  to {
+    margin-left: 85%;
+    background-color: fuchsia; } }
+@keyframes changeColor {
+  from {
+    background-color: darkgreen; }
+  25% {
+    background-color: beige; }
+  50% {
+    background-color: blueviolet; }
+  75% {
+    background-color: lightpink; }
+  to {
+    background-color: palevioletred; } }
+.big-circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 2px blue solid;
+  margin: 50px 0 0 20px; }
+
+.black-dot {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+  top: 85px;
+  left: 85px; }
+
+.big-circle:hover {
+  transform: rotate(360deg);
+  transform-origin: 10% 10%; }
+
+.big-circle:hover .black-dot {
+  animation: bouncy infinite 2s, color-ball 2s infinite; }
+
+@keyframes bouncy {
+  from {
+    top: 0;
+    left: 85px; }
+  25% {
+    top: 85px;
+    left: 170px; }
+  50% {
+    top: 170px;
+    left: 85px; }
+  75% {
+    top: 85px;
+    left: 0; }
+  to {
+    top: 85px;
+    left: 85px; } }
+@keyframes color-ball {
+  from {
+    background-color: black; }
+  50% {
+    background-color: limegreen; }
+  to {
+    background-color: coral; } }
+
 /*# sourceMappingURL=css-basic.component.css.map */

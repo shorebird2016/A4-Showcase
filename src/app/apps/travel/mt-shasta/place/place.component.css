@@ -1,0 +1,35 @@
+.container-fluid {
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  padding: 0; }
+
+#div-city-text {
+  flex: 4;
+  display: flex;
+  flex-direction: column; }
+
+#div-text {
+  flex: 1;
+  order: 1; }
+
+#div-thumb {
+  flex: 1;
+  order: 2;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; }
+
+p {
+  font-family: "Helvetica Neue";
+  margin: 5px;
+  color: black; }
+
+agm-map {
+  height: 500px; }
+
+#div-city-map {
+  flex: 3;
+  border: solid 1px gray;
+  margin: 15px; }
+
+/*# sourceMappingURL=place.component.css.map */

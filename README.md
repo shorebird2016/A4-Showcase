@@ -291,7 +291,18 @@ So far, 15 small apps are ported over.
  - Add and update README, sample images, push to github {1h}
  - Move samples from reference menu to components, add sample links to API group {1.5h}
  
- - Port some old CSS animation over from A1 times
+#[2017-10-06] 3h
+ - Move more reference samples over to component menu, add more sample buttons {1.5h}
+ - Port from A1 bar animation plus bouncing dot animation
+ - Finished Codeman youtube series, next is Mosh {1.5h}
+ 
+#[2017-10-07] 3h
+ - Port from A1 hot-cold game, only 1 thing left: unable to disable submit button {2h}
+ - Try using highcharts.js component angular-highcharts to do a demo.  It turns out there was ng2-charts installed
+   as well. Type in demo code for both. {1h}
+   
+#[2017-10-08] 4.5h
+ - Port Mt. Shasta from A1 over to under apps menu, use same markup and styling to speed up things {3.5h}   
  
 
 ## =========== Next Steps =============
@@ -363,8 +374,11 @@ So far, 15 small apps are ported over.
   - Google Map/Places ==> explore various fancy features  
   - Famous Quotes (1)Ability to tweet the quotes
                   (2)Make this component into a directive    
-  - Stack Exchange (1)Learn more about API, add more features
-  - Pomodoro ==> use keyframe to animate background spinning forever
+  --- Stack Exchange (1)Learn more about API, add more features
+  --- Pomodoro ==> use keyframe to animate background spinning forever
+  --- Hot cold game ==> how to disable buttons when game is not playing (main problem lies in TDF syntax)
+  --- Mt. Shasta ==> angular-maps needs a directive for directions, not available yet, also AGM show satellite map
+      is not known yet
 
   - Left nav should not continue to be 3:9 at bigger size screen, in small screen change to hamburger  
 - Add new tab for animation, add massive amount of examples

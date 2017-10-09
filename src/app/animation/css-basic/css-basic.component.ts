@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './css-basic.component.html',
   styleUrls: ['./css-basic.component.css']
 })
+
 export class CssBasicComponent implements OnInit {
   constructor() { }
   trigIf = false;

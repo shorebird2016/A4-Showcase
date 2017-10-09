@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,OAAO;EACL,MAAM,EAAE,KAAK",
+"sources": ["direction.component.sass"],
+"names": [],
+"file": "direction.component.css"
+}

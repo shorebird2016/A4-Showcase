@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,UAAU;EACR,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;EACZ,cAAc,EAAE,GAAG",
+"sources": ["day4.component.sass"],
+"names": [],
+"file": "day4.component.css"
+}

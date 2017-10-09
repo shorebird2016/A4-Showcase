@@ -20,7 +20,7 @@ import { AgmCoreModule } from '@agm/core';
 import { MathComponent } from './service/math/math.component';
 import { GeobytesComponent } from './service/geo/geobytes/geobytes.component';
 import { Ttt1Component } from './apps/fun/ttt-1/ttt-1.component';
-import { Blog1Component } from './component/blog-1/blog-1.component';
+import { Blog1Component } from './component/basic/blog-1/blog-1.component';
 import { PomodoroComponent } from './apps/util/pomodoro/pomodoro.component';
 import { CalculatorComponent } from './apps/util/calculator/calculator.component';
 import { AppsComponent } from './apps/apps.component';
@@ -49,36 +49,48 @@ import { RandomComponent } from './service/quote/random/random.component';
 import { BasicComponent } from './directive/client/basic/basic.component';
 import { BasicDirective } from './directive/directive/basic.directive';
 import { BarchartComponent } from './service/stock/barchart/barchart.component';
-import { UtilComponent } from './apps/util/util.component';
 import { FunComponent } from './apps/fun/fun.component';
 import { ReferenceComponent } from './reference/reference.component';
-import { ApiComponent } from './reference/api/api.component';
-import { LibComponent } from './reference/lib/lib.component';
+import { ApiComponent } from './reference/foundation/service/api/api.component';
 import { AutogrowDirective } from './directive/directive/autogrow.directive';
 import {NgBasicComponent} from './animation/ng-basic/ng-basic.component';
 import {NgAdvComponent} from './animation/ng-adv/ng-adv.component';
 import {AppRoutes} from './app-routes';
-import { CompCommComponent } from './reference/comp-comm/comp-comm.component';
-import { ChooserComponent } from './reference/comp-comm/chooser/chooser.component';
-import { ViewerComponent } from './reference/comp-comm/viewer/viewer.component';
-import { ColorSampleComponent } from './reference/comp-comm/color-sample/color-sample.component';
+import { CompCommComponent } from './component/basic/comp-comm/comp-comm.component';
+import { ChooserComponent } from './component/basic/comp-comm/chooser/chooser.component';
+import { ViewerComponent } from './component/basic/comp-comm/viewer/viewer.component';
+import { ColorSampleComponent } from './component/basic/comp-comm/color-sample/color-sample.component';
 import { CollapsableDirective } from './directive/directive/collapsable.directive';
 import { ZoomHoverDirective } from './directive/directive/zoom-hover.directive';
 import { GithubComponent } from './service/info/github/github.component';
-import { BookComponent } from './reference/book/book.component';
-import { ConceptComponent } from './reference/concept/concept.component';
-import { BindingComponent } from './reference/binding/binding.component';
-import { RefioComponent } from './reference/refio/refio.component';
-import { RefmiscComponent } from './reference/refmisc/refmisc.component';
-import { RefrouteComponent } from './reference/refroute/refroute.component';
-import { RefdiComponent } from './reference/refdi/refdi.component';
-import { RefsvcComponent } from './reference/refsvc/refsvc.component';
-import { ReftdfComponent } from './reference/reftdf/reftdf.component';
-import { TdfComponent } from './component/tdf/tdf.component';
-import { DrtvComponent } from './reference/drtv/drtv.component';
+import { BookComponent } from './reference/advanced/book/book.component';
+import { BindingComponent } from './reference/foundation/binding/binding.component';
+import { RefioComponent } from './reference/foundation/binding/refio/refio.component';
+import { RefmiscComponent } from './reference/advanced/refmisc/refmisc.component';
+import { RefrouteComponent } from './reference/foundation/routing/refroute/refroute.component';
+import { RefdiComponent } from './reference/advanced/refdi/refdi.component';
+import { RefsvcComponent } from './reference/foundation/service/refsvc/refsvc.component';
+import { ReftdfComponent } from './reference/form/reftdf/reftdf.component';
+import { TdfComponent } from './component/basic/tdf/tdf.component';
+import { DrtvComponent } from './reference/foundation/directive/drtv.component';
 import { NgClassStyleComponent } from './reference/advanced/ng-class-style/ng-class-style.component';
-import { CustomComponent } from './reference/drtv/custom/custom.component';
+import { CustomComponent } from './reference/foundation/directive/custom/custom.component';
 import { Ref1Component } from './component/basic/ref1/ref1.component';
+import { TriggerComponent } from './reference/foundation/animation/trigger/trigger.component';
+import { HotColdComponent } from './apps/fun/hot-cold/hot-cold.component';
+import { ChartModule } from 'angular-highcharts';
+import { HighchartComponent } from './component/adv/highchart/highchart.component';
+import { ChartjsComponent } from './component/adv/chartjs/chartjs.component';
+import { MtShastaComponent } from './apps/travel/mt-shasta/mt-shasta.component';
+import { PlaceComponent } from './apps/travel/mt-shasta/place/place.component';
+import { DirectionComponent } from './apps/travel/mt-shasta/direction/direction.component';
+import { HouseComponent } from './apps/travel/mt-shasta/house/house.component';
+import { ActivityComponent } from './apps/travel/mt-shasta/activity/activity.component';
+import { Day1Component } from './apps/travel/mt-shasta/activity/day1/day1.component';
+import { Day2Component } from './apps/travel/mt-shasta/activity/day2/day2.component';
+import { Day3Component } from './apps/travel/mt-shasta/activity/day3/day3.component';
+import { Day4Component } from './apps/travel/mt-shasta/activity/day4/day4.component';
+import { AgmDirectionDirective } from './directive/directive/agm-direction.directive';
 
 @NgModule({
   declarations: [
@@ -90,13 +102,14 @@ import { Ref1Component } from './component/basic/ref1/ref1.component';
     AnimationComponent, NgBasicComponent, AlphaVantageComponent, QuandlComponent,
     FundamentalComponent, MarkitComponent, NgAdvComponent, AlchemyComponent, SimonComponent,
     MovieComponent, CssBasicComponent, CssAdvComponent, TheysayComponent, RandomComponent,
-    BasicComponent, BasicDirective, BarchartComponent, UtilComponent, FunComponent, ReferenceComponent,
-    ApiComponent, LibComponent, AutogrowDirective, NgBasicComponent, NgAdvComponent,
+    BasicComponent, BasicDirective, BarchartComponent, FunComponent, ReferenceComponent,
+    ApiComponent, AutogrowDirective, NgBasicComponent, NgAdvComponent,
     CompCommComponent, ChooserComponent, ViewerComponent, ColorSampleComponent,
-    CollapsableDirective, ZoomHoverDirective, GithubComponent, BookComponent, ConceptComponent,
+    CollapsableDirective, ZoomHoverDirective, GithubComponent, BookComponent,
     BindingComponent, RefioComponent, RefmiscComponent, RefrouteComponent,
     RefdiComponent, RefsvcComponent, ReftdfComponent, TdfComponent, DrtvComponent,
-    NgClassStyleComponent, CustomComponent, Ref1Component
+    NgClassStyleComponent, CustomComponent, Ref1Component, TriggerComponent, HotColdComponent,
+    HighchartComponent, ChartjsComponent, MtShastaComponent, PlaceComponent, DirectionComponent, HouseComponent, ActivityComponent, Day1Component, Day2Component, Day3Component, Day4Component, AgmDirectionDirective
   ],
   imports: [
     BrowserModule, RouterModule.forRoot(AppRoutes), FormsModule, HttpModule,
@@ -105,7 +118,7 @@ import { Ref1Component } from './component/basic/ref1/ref1.component';
       libraries: ['places']
     }),
     ReactiveFormsModule, JsonpModule, Ng4GeoautocompleteModule.forRoot(),
-    BrowserAnimationsModule, ChartsModule
+    BrowserAnimationsModule, ChartsModule, ChartModule
   ],
   providers: [],
   bootstrap: [AppComponent]

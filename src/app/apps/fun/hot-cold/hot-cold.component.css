@@ -1,0 +1,204 @@
+header {
+  background-color: rgba(115, 115, 222, 0.87); }
+
+.col-sm-9 {
+  padding: 0;
+  margin: 0;
+  width: 80%; }
+
+/*float styles */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer; }
+
+ul li {
+  display: inline; }
+
+nav {
+  position: relative;
+  height: 10%;
+  padding: 1em; }
+
+nav ul li {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.2em; }
+
+nav ul li:first-child {
+  float: left; }
+
+nav ul li:last-child {
+  float: right; }
+
+nav a {
+  color: #fff; }
+
+h4 {
+  font-weight: 900;
+  font-size: 3em;
+  padding: 0.8em;
+  color: #fff; }
+
+/*style for hidden modal */
+.overlay {
+  width: 100%;
+  height: 100%;
+  color: #0c0c0c;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  z-index: 100; }
+
+.content {
+  color: #070707;
+  background: #d8e2e7;
+  position: relative;
+  height: auto;
+  width: 600px;
+  border-radius: 3px;
+  top: 15%;
+  margin: auto auto;
+  border: 1px solid rgba(0, 0, 0, 0.1); }
+
+.content h3 {
+  margin: 0;
+  padding: 0.4em;
+  text-align: center;
+  font-size: 2.4em;
+  font-weight: 300;
+  opacity: 0.8;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 3px 3px 0 0; }
+
+.content > div {
+  padding: 15px 40px 30px;
+  margin: 0;
+  font-weight: 300;
+  font-size: 1.15em; }
+
+.content > div p {
+  margin: 0;
+  padding: 10px 0;
+  line-height: 2em;
+  text-align: justify; }
+
+.content > div ul {
+  margin-bottom: -30px;
+  padding: 0 0 30px 20px;
+  text-align: left; }
+
+.content > div ul li {
+  padding: 5px 0;
+  display: block;
+  list-style-type: disc;
+  line-height: 1.5em; }
+
+.content > div ul li strong {
+  text-decoration: underline; }
+
+.content > div a {
+  font-size: 0.8em;
+  padding: 0.5em 2em;
+  margin-bottom: 20px;
+  border-radius: 3px; }
+
+.game {
+  position: relative;
+  background-color: #394264;
+  width: 480px;
+  height: 380px;
+  border-radius: 4px;
+  margin: 0 auto;
+  box-shadow: #1a1f34 1px 1px, #1a1f34 2px 2px, #1a1f34 3px 3px, #1a1f35 4px 4px, #1a2035 5px 5px, #1b2035 6px 6px, #1b2036 7px 7px, #1b2036 8px 8px, #1b2036 9px 9px, #1b2137 10px 10px, #1b2137 11px 11px, #1c2137 12px 12px, #1c2138 13px 13px, #1c2238 14px 14px, #1c2238 15px 15px, #1c2239 16px 16px, #1d2239 17px 17px, #1d2239 18px 18px, #1d233a 19px 19px, #1d233a 20px 20px, #1d233a 21px 21px, #1d233b 22px 22px, #1e233b 23px 23px, #1e243b 24px 24px, #1e243c 25px 25px, #1e243c 26px 26px, #1e243c 27px 27px, #1f253d 28px 28px; }
+
+h2 {
+  margin: 0 auto;
+  background: #cc324b;
+  padding: 1em 0.4em;
+  font-size: 1.8em;
+  font-weight: 400;
+  display: block;
+  line-height: 1em;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  color: #fff; }
+
+.game p {
+  margin-top: 0.5em;
+  font-size: 1.8em;
+  padding-bottom: 0.5em;
+  color: white;
+  text-align: center; }
+
+#count {
+  color: #f39c12;
+  font-weight: 700;
+  font-size: 1.2em; }
+
+input {
+  width: 300px;
+  height: 50px;
+  display: block;
+  padding: 0.8em 0;
+  margin: 0.8em auto 0;
+  background: #50597b;
+  color: #fff;
+  border: solid 1px #1f253d;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; }
+
+input.button {
+  background: #1F253D;
+  color: #95a5a6;
+  font-size: 2em;
+  padding: 0.2em;
+  transition: background 1s ease-in-out; }
+
+input.button:hover {
+  background: #e64c65;
+  color: #fff;
+  transition: background 1s ease-in-out;
+  cursor: pointer; }
+
+input.text {
+  text-align: center;
+  padding: 0.2em;
+  font-size: 2em; }
+
+input:focus {
+  outline: none !important; }
+
+ul.guessBox {
+  height: 80px;
+  margin: 10px auto 0;
+  background: #11a8ab;
+  padding: 0.5em;
+  display: block;
+  line-height: 2em;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: #fff;
+  overflow: auto; }
+
+ul.guessBox li {
+  display: inline;
+  background-color: #1a4e95;
+  padding: 0.3em;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  width: 95%;
+  margin: 0.2em;
+  color: #fff; }
+
+/*# sourceMappingURL=hot-cold.component.css.map */

@@ -1,0 +1,43 @@
+<header> <!--Header -->
+
+  <!-- Top Navigation -->
+  <nav>
+    <ul class="clearfix">
+      <li><a class="what" (click)="showHelp(true)">What is this ?</a></li>
+      <li><a class="new" (click)="startGame()">+ New Game</a></li>
+    </ul>
+  </nav>
+
+  <!-- Modal Information Box -->
+  <div class="overlay" *ngIf="helpVisible">
+    <div class="content">
+      <h3>How to play this?</h3>
+      <div>
+        <p>This is a Hot or Cold Number Guessing Game. The game goes like this: </p>
+        <ul>
+          <li>1. I pick a <strong>random secret number</strong> between 1 to 100 and keep it hidden.</li>
+          <li>2. You need to <strong>guess</strong> until you can find the hidden secret number.</li>
+          <li>3. You will <strong>get feedback</strong> on how close ("hot") or far ("cold") your guess is.</li>
+        </ul>
+        <p>So, Are you ready?
+          <a class="btn btn-primary pull-right" (click)="showHelp(false)">Got It!</a></p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="game"> <!-- Guessing Section -->
+  <h2 id="feedback">{{message}}</h2>
+
+  <form (ngSubmit)="handleGuess(guess_form.value, $event)" #guess_form="ngForm">
+    <input type="number" name="userGuess" class="text" maxlength="3" autocomplete="off" minlength="1"
+           placeholder="Enter your Guess" required ngModel>
+    <input type="submit" class="button" name="submit" value="Guess" [disabled]="noGame">
+  </form>
+
+  <p>Guess # <span id="count">0</span>!</p>
+  <ul id="guessList" class="guessBox clearfix">
+    <li *ngFor="let GUESS of guessList">{{GUESS}}</li>
+  </ul>
+
+</section>

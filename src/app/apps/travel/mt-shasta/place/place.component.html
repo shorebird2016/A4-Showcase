@@ -1,0 +1,45 @@
+
+<div class="container-fluid">
+
+  <div id="div-city-text">
+    <div id="div-thumb">
+      <a href="../assets/travel/shasta/mountain/mt-aerial.jpg" data-lightbox="places" data-title="Mt. Shaasta Aerial">
+        <img src="../assets/travel/shasta/mountain/mt-aerial.jpg" width="120px;"></a>
+      <a href="../assets/travel/shasta/lake-waterfall/lake-siskiyou.jpg" data-lightbox="places" data-title="Lake Siskiyou">
+        <img src="../assets/travel/shasta/lake-waterfall/lake-siskiyou.jpg" width="120px;"></a>
+      <a href="../assets/travel/shasta/mountain/mount-shasta.jpg" data-lightbox="places" data-title="Snow capped Mt. Shaasta">
+        <img src="../assets/travel/shasta/mountain/mount-shasta.jpg" width="120px;"></a>
+      <a href="../assets/travel/shasta/lake-waterfall/castle-lake.jpg" data-lightbox="places" data-title="Castle Lake">
+        <img src="../assets/travel/shasta/lake-waterfall/castle-lake.jpg" width="120px;"></a>
+      <a href="../assets/travel/shasta/city/city-4.jpeg" data-lightbox="places" data-title="City of Mt. Shasta">
+        <img src="../assets/travel/shasta/city/city-4.jpeg" width="120px;"></a>
+      <a href="../assets/travel/shasta/lake-waterfall/mossbrae-falls.jpg" data-lightbox="places" data-title="Massbrae falls">
+        <img src="../assets/travel/shasta/lake-waterfall/mossbrae-falls.jpg" width="120px;"></a>
+      <a href="../assets/travel/shasta/city/city-2.jpg" data-lightbox="places" data-title="City of Mt. Shasta">
+        <img src="../assets/travel/shasta/city/city-2.jpg" width="120px;"></a>
+      <a href="../assets/travel/shasta/lake-waterfall/mccloud-1.jpg" data-lightbox="places" data-title="McCloud river falls">
+        <img src="../assets/travel/shasta/lake-waterfall/mccloud-1.jpg" width="120px;"></a>
+    </div>
+    <div id="div-text">
+      <p>The city of
+        <b>Mount Shasta</b> is located in the Shasta Cascade area of Northern California, a city in Siskiyou County.
+        at about 3,600 feet (1,100 m) above sea level on the flanks of <b>Mount Shasta</b>, a prominent northern California landmark.
+        At an elevation of 14,179 feet (4321.8 m), it is the second highest peak in the Cascades and the fifth highest in California.
+        The city is less than 9 miles (14 km) southwest of the summit of its namesake volcano.
+      </p>
+      <p>As of the 2010 Census the city had a population of 3,394, down from 3,624 at the 2000 census.
+        Visitors use the city as a base for trout fishing in the nearby <i>Sacramento, McCloud and Klamath</i> rivers,
+        for climbing at Mount Shasta, Castle Crags or the Trinity Alps, or to view scenery.
+        Both alpine and cross-country skiing runs are available nearby as well as biking or hiking to waterfalls,
+        streams and lakes in the area, including nearby Mossbrae Falls, Lake Siskiyou, Castle Lake and Shasta Lake.
+      </p>
+    </div>
+  </div>
+
+  <div id="div-city-map">
+    <agm-map [latitude]="latitude" [longitude]="longitude" [zoom]="zoomLevel" [styles]="mapStyles">
+      <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
+    </agm-map>
+  </div>
+
+</div>

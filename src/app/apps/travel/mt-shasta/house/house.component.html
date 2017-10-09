@@ -1,0 +1,30 @@
+<div class="container-fluid">
+
+  <div id="div-house-info">
+<!--TODO display SATElLITE-->
+    <agm-map [latitude]="houseCoord[0]" [longitude]="houseCoord[1]" [zoom]="16" [styles]="mapStyles">
+      <agm-marker [latitude]="houseCoord[0]" [longitude]="houseCoord[1]"></agm-marker>
+    </agm-map>
+
+    <!--<span>Features:</span>-->
+    <ul class="well"><h4>House Features:</h4>
+      <li>Near I-5, 5 minute to city of Mt. Shasta, 15 minute to Lake Siskiyou or Lake Shastina</li>
+      <li>2800 sq. ft. four upstair bedrooms each with its own bath or shower</li>
+      <li>Full kitchen with bar, separate dining for 8</li>
+      <li>Ample dishes, cutlery, pots, pans, electric skillet, gas BBQ,
+        Jennair stove & oven, crock-pot , coffee maker, toaster oven etc.</li>
+      <li>Satellite TV, DVD, foosball table, hot tub</li>
+      <li>Full air conditioning, washer and dryer</li>
+      <li>Additional 1/2 bath downstairs</li>
+      <li>Spectacular sunsets on west windows for Mt. Eddy and Castle Crags</li>
+    </ul>
+  </div>
+
+  <div id="div-house-image">
+    <a href="./assets/travel/shasta/house/{{PHOTO}}.jpg" data-lightbox="house"
+       *ngFor="let PHOTO of housePhotos">
+      <img class="house-image" src="./assets/travel/shasta/house/{{PHOTO}}.jpg">
+    </a>
+  </div>
+
+</div>
