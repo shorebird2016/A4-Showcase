@@ -281,7 +281,7 @@ So far, 15 small apps are ported over.
  - It seems Angular disabled HTML validation (novalidate) and take over the entire validation
  - Finally implemented name field and zipcode field validation {1h} 
  
-#[2017-10-04]
+#[2017-10-04] 1.5h
  Spent much time looking at jobs, unfortunately the ones I wanted most require heavy industry experience(ironic).
  When one has such experience, those are probably not desirable jobs any more.
  - Watched almost all Xpose's 15 videos, only #13 and #14 taught me something, repro them here (1)ngClass vs ngStyle
@@ -303,24 +303,65 @@ So far, 15 small apps are ported over.
    
 #[2017-10-08] 4.5h
  - Port Mt. Shasta from A1 over to under apps menu, use same markup and styling to speed up things {3.5h}   
+ - Push showcase A4 to github as backup
+ - Keep header fixed in place so they don't scroll away
+
+#[2017-10-09] 6h
+ - Setup default for every menu, move "Apps" to the end of menu, from small to large {0.5h}
+ - to inject service into a class, must use "private" keyword at CTOR.
+ - Design a "AppModelService" as central model to store top level shared data among components, it works by setting
+   *ngIf to class col-sm-4 for each top level component, each top-level component also injects this service at CTOR,
+   ngOnInit() will subscribe to this information in service. This way extra space becomes available for main content
+   {1.5h}
+ - How to automatically enlarge the main content when left popup is hidden? this will require
+   changing styles of col-sm-9 for each top level component using property binding. {0.5h}
+ - Create a few entries in search-info.JSON, gradually adding to it; read this from service initially; expand more later
+ - Basic search matching any string, use it to list matching categories to show in drop-down list; quasi-auto completion,
+   user may select one item form list; it will navigate to correct route; also no need enter key or search icon {2.5h}
+ - Add a new home route as default, also click on logo icon goes home. {1h}
  
+#[2017-10-10]
+ - Plan on animation for home page, A1 flyin, then out, followed by A2-4, then A4. It seems to work with margin
+   but transform doesn't seem to move it.  Wasted an hour trying to line up images in single box, but in the end
+   of animation, they stacked up.  This turns out to be the block occupies whole row and final width 120px {1.5h}
+ - Was not able to slide individual image in and then out, 3 in a row; this will need more planning
+ - Add a few animation reference images to reference menu {0.5h}
+ - Strangely <a routerlink doesn't work under app.component; it turns out <i class="fa..><a..> doesn't work with
+   router at all, must use <a class="fa fa-.." routerLink=""> to make it work. {0.5h}
+ - Next try MDF with base converter {1.5h}
+ 
+#[2017-10-11]
+ - Experimented with re-useable animation, created anim-util.ts with 2 approaches: external const or function with
+   parameter passing, I see the possibility of creating my own classes for that {1h}
+ - Loaded animate.css via npm, but found out it doesn't work with A4, web tutorial suggest converting into A4 style
+   of animation.  Need to use a small project to try it out. {0.5h}
+ - Added 2 external reusable animations plus MDF to reference pages. {0.5h}
+
+MDF - need a way to avoid stack overflow due to cross event triggering
+AnimationBuilder is a way to programmatically start/stop animation at any time instead of relying on some triggers
 
 ## =========== Next Steps =============
- - Gradually move various reference items down to level 3 routes and folders
- - Need top level search box to quickly navigate to different subjects
- - A searchable by category youtube reference page that can play advanced topics
+ - How to use "forEach" in a loop, or it's a collection based method? is there for (item: collection) syntax?
+ - Home page: animate sliding in of major features listed under angular.io
+ - (Bug)After router nav to target route, top level menu was not highlighted.
+ - logo icon on the right using transparent background
+ - Home page: A4 icons flying randomly everywhere slowly...
  - Download really good YT videos and cut out pieces and fit into different parts of showcase; the goal is simple
      fast look up code samples
- - Link from References pages to actual sample; eg. under Ref | API, there are many icons, right click (or double click)
-   on Youtube send user to Service | Youtube sample (or open another browser window with it)
- - Make left nav collapsible and re-usable component 
- - Not learned areas ==> MDF/TDF, Validation(Awais, Codevolution), @HostListener(codedamn), 
-      @ViewChild(codedamn), ng-container, NgModule(codedamn), Child route/pathMatch(codedamn),
+ - Build up vocabulary for searching, is it possible to search inside a page?
+ - Gradually move various service/reference items down to level 3 routes and folders
+ - expand search to bigger areas such as sample, app, there maybe several levels of categories..etc
+ - Make left nav into a re-usable component/directive 
+ - Not learned areas ==> MDF/TDF, Validation(Awais, Codevolution), 
+      @ViewChild(codedamn), ng-container, NgModule(codedamn),
       Firebase(JavaScript Evangelist), Angular Material, MEAN4+
- - keep header fixed in place
+ - Merge my career portfolio into this project with resume and maybe a short presentation, challenge is that
+   it's based on MaterializeCSS, not sure it will work with A4, maybe redesign is a better approach  
+ - Start including 3rd party directives/components like the popup, agm..etc, color wheel would be good
+ - Try making reference images responsive for expansion, they have img-responsive but they don't expand/shrink
+   probably because size is fixed??
  - animate bubbles in A4, Codevolution has many animation videos
- - maybe color wheel directive somebody already wrote? practice more AU samples, put inside references with code
- - parallex, video in background
+ - special look and feel - parallex, video in background
  - CSS animation one per day, challenges -> A4 ways to swap out CSS classes on the fly
  - make quotes into directive? actually everybody recommends re-useable components and attribute
    directives 
@@ -330,9 +371,14 @@ So far, 15 small apps are ported over.
  ??? how to read initial font size using ElementRef.navtiveElement ?
  ??? appHoverColor must have square bracket but appZoomHover doesn't ?
 - Show source code next to the view, maybe a popout dialog/window? <pre> pretty code
-- Create a system level service for HTTP access (like a singleton or static methods) instead of doing
-  all inside components
-- Future Enhancements:
+- Learn about new HttpClient in 4.3+ not based on rxjs
+
+--- Future Enhancements/Experimentation:
+  - Showcase
+    Make left menu fixed s.t. it won't scroll away, but internally it has a scrollbar if menu is too long
+     can't just make col-sm-4 fixed since that's a bootstrap class and it will make col-sm-9 bad
+  - Animation
+    - Try putting style() inside transition() and animation() to see how it affects behavior
   - Stock Data: (1)Expand API capabilities (2)use filter formatting (3)User selectable date ranges
       (4)Simple line charts and candle charts (5)Fundamentals search (6)Indicators
       (6)Fundamental - parse blob into meaningful company data presented in table
@@ -379,10 +425,10 @@ So far, 15 small apps are ported over.
   --- Hot cold game ==> how to disable buttons when game is not playing (main problem lies in TDF syntax)
   --- Mt. Shasta ==> angular-maps needs a directive for directions, not available yet, also AGM show satellite map
       is not known yet
+  --- Add JS/HTML/CSS tips in the menu
 
   - Left nav should not continue to be 3:9 at bigger size screen, in small screen change to hamburger  
 - Add new tab for animation, add massive amount of examples
-- Re-arrange menu bar ==> Component | Service | Directive | Basic(binding/pipe/routing) | Apps
 - Ideas for routing ==> some images with code next to them, how to do routing; a tab to show image,
   steps to take, a tab for partial code (quick reference), same is true for binding/pipe, terminology
   code sample and live action
@@ -468,3 +514,4 @@ So far, 15 small apps are ported over.
     Also learned hard way, state 'visible' must be the same as underline variable content, eg. visibility
     must equal to 'visible' to make it work, use 1 or 0 won't.  The string stored in variable is used to 
     compare with state('state name') and transition('state name'), an implicit linkage.
+    Transition from void to default state still requires [@animName]="something" and something variable can NOT be '*' 

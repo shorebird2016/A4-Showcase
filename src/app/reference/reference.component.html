@@ -1,5 +1,5 @@
 <div class="container-fluid">
-  <div class="col-sm-4">
+  <div class="col-sm-4" *ngIf="popMenuVisible">
     <div class="panel">
 
       <div class="panel-heading">Knowledge Category</div>
@@ -11,8 +11,8 @@
           <li class="list-group-item"><a routerLink="/reference/directive/custom">Custom Directive</a></li>
           <li class="list-group-item"><a routerLink="/reference/ref-svc">Service</a></li>
           <li class="list-group-item"><a routerLink="/reference/ref-tdf">Template Driven Form(TDF)</a></li>
-          <li class="list-group-item"><a routerLink="/reference/ref-mdf" class="NOT-DONE">Model Driven Form(MDF)</a></li>
-          <li class="list-group-item"><a routerLink="/reference/anim/trigger" class="NOT-DONE">Animation</a></li>
+          <li class="list-group-item"><a routerLink="/reference/ref-mdf">Model Driven Form(MDF)</a></li>
+          <li class="list-group-item"><a routerLink="/reference/ref-anim">Animation</a></li>
           <li class="list-group-item"><a routerLink="/reference/lib" class="NOT-DONE">Host Listener</a></li>
         </ul>
       </div>
@@ -37,7 +37,7 @@
     </div>
   </div>
 
-  <div class="col-sm-9">
+  <div class="col-sm-9" [style.width]="contentWidth">
     <router-outlet></router-outlet>
   </div>
 

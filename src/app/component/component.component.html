@@ -1,12 +1,13 @@
 <div class="container-fluid">
   <div class="row">
-    <div class="col-sm-4">
+    <div class="col-sm-4" *ngIf="popMenuVisible">
       <div class="panel">
         <div class="panel-heading">Basic Component</div>
         <div class="panel-body">
           <ul class="list-group">
             <li class="list-group-item"><a routerLink="/component/basic/ref-1">Reference Samples</a></li>
             <li class="list-group-item"><a routerLink="/component/basic/tdf">Template Driven Form</a></li>
+            <li class="list-group-item"><a routerLink="/component/basic/mdf">Model Driven Form</a></li>
             <li class="list-group-item"><a routerLink="/component/basic/blog-1">Simple Blog</a></li>
             <li class="list-group-item"><a routerLink="/component/basic/comp-comm">Component Communication</a></li>
             <!--<li class="list-group-item"><a routerLink="/component/line-sampleChart" class="NOT-DONE">Line Charts</a></li>-->
@@ -38,7 +39,7 @@
 
     </div>
 
-    <div class="col-sm-9">
+    <div class="col-sm-9" [style.width]="contentWidth">
       <router-outlet></router-outlet>
     </div>
   </div>

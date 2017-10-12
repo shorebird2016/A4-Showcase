@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,gBAAgB;EACd,OAAO,EAAE,CAAC;;AAEZ,EAAE;EACA,UAAU,EAAE,MAAM;;AAEpB,IAAI;EACF,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,GAAG",
+"sources": ["mdf.component.sass"],
+"names": [],
+"file": "mdf.component.css"
+}

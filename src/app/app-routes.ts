@@ -21,8 +21,6 @@ import {NgBasicComponent} from './animation/ng-basic/ng-basic.component';
 import {NgAdvComponent} from './animation/ng-adv/ng-adv.component';
 import {ReferenceComponent} from './reference/reference.component';
 import {ApiComponent} from './reference/foundation/service/api/api.component';
-import {AdminComponent} from './admin/admin.component';
-import {HelpComponent} from './admin/help/help.component';
 import {AppComponent} from './app.component';
 import {ServiceComponent} from './service/service.component';
 import {OwmComponent} from './service/geo/owm/owm.component';
@@ -61,7 +59,6 @@ import {DrtvComponent} from './reference/foundation/directive/drtv.component';
 import {NgClassStyleComponent} from './reference/advanced/ng-class-style/ng-class-style.component';
 import {CustomComponent} from './reference/foundation/directive/custom/custom.component';
 import {Ref1Component} from './component/basic/ref1/ref1.component';
-import {TriggerComponent} from './reference/foundation/animation/trigger/trigger.component';
 import {HotColdComponent} from './apps/fun/hot-cold/hot-cold.component';
 import {HighchartComponent} from './component/adv/highchart/highchart.component';
 import {ChartjsComponent} from './component/adv/chartjs/chartjs.component';
@@ -74,8 +71,16 @@ import {Day1Component} from './apps/travel/mt-shasta/activity/day1/day1.componen
 import {Day4Component} from './apps/travel/mt-shasta/activity/day4/day4.component';
 import {Day3Component} from './apps/travel/mt-shasta/activity/day3/day3.component';
 import {Day2Component} from './apps/travel/mt-shasta/activity/day2/day2.component';
+import {AdminComponent} from './admin/admin.component';
+import {HelpComponent} from './admin/help/help.component';
+import {HomeComponent} from './home/home.component';
+import {AnimComponent} from './reference/foundation/anim/anim.component';
+import {MdfComponent} from './component/basic/mdf/mdf.component';
+import {RefMdfComponent} from './reference/form/ref-mdf/ref-mdf.component';
 
 export const AppRoutes: Routes = [
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
   { path: 'apps', component: AppsComponent, children: [
     { path: 'badge', component: BadgeComponent },
     { path: 'util', children: [
@@ -106,6 +111,7 @@ export const AppRoutes: Routes = [
   { path: 'component', component: ComponentComponent, children: [
     { path: 'basic', children: [
       { path: 'tdf', component: TdfComponent },
+      { path: 'mdf', component: MdfComponent },
       { path: 'ref-1', component: Ref1Component },
       { path: 'blog-1', component: Blog1Component },
       { path: 'comp-comm', component: CompCommComponent },
@@ -163,19 +169,18 @@ export const AppRoutes: Routes = [
     { path: 'ref-di', component: RefdiComponent },
     { path: 'ref-svc', component: RefsvcComponent },
     { path: 'ref-tdf', component: ReftdfComponent },
+    { path: 'ref-mdf', component: RefMdfComponent },
     { path: 'ref-directive', component: DrtvComponent },
     { path: 'ref-misc', component: RefmiscComponent },
+    { path: 'ref-anim', component: AnimComponent },
     { path: 'directive', children: [
       { path: 'custom', component: CustomComponent }
     ]},
     { path: 'adv', children: [
       { path: 'class-style', component: NgClassStyleComponent },
     ]},
-    { path: 'animation', children: [
-      { path: 'trigger', component: TriggerComponent },
-    ]}
   ] },
   { path: 'admin', component: AdminComponent },
   { path: 'help', component: HelpComponent },
-  { path: '', component: AppComponent }
+  { path: '', component: HomeComponent }
 ];

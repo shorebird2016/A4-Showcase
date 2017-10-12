@@ -1,0 +1,31 @@
+<section class="container-fluid">
+
+  <div class="jumbotron">
+    <h2>Welcome to Angular 4 Showcase...</h2><br/>
+    <p>This app is designed to quickly identify Angular 4 syntax and patterns from various parts of the framework:</p>
+    <ul class="list-group">
+      <li class="list-group-item">Component</li>
+      <li class="list-group-item">Service</li>
+      <li class="list-group-item">Directive</li>
+      <li class="list-group-item">Animation</li>
+    </ul>
+
+    <p>Each menu consists of a number of working samples,
+      Reference menu presents development information and Apps menu presents several apps.</p>
+
+    <div class="logo-holder" [@FlyInAnim1]="xxx">
+      <img id="A4" src="../assets/logo/Angular4.png" width="100"
+           class="img img-responsive" (click)="toggleYYY()">
+      <img id="A2-4" src="../assets/logo/Angular2-4.jpeg" width="150" class="img img-responsive">
+      <img id="A1" src="../assets/logo/AngularJS.svg" width="60" class="img img-responsive">
+    </div>
+
+  </div>
+
+  <img src="../assets/logo/Angular4.svg" width="120" class="img img-responsive" [@slideAnim1]="yyy">
+
+  <img src="../assets/logo/Angular4.png" width="120" class="img img-responsive" [@slideAnim2]="yyy">
+
+</section>
+
+<!--Data Binding, Reactive Forms, Routing, DI, Modules, Templates -->

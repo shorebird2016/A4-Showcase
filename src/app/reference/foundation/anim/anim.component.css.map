@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,gBAAgB;EACd,OAAO,EAAE,CAAC",
+"sources": ["anim.component.sass"],
+"names": [],
+"file": "anim.component.css"
+}

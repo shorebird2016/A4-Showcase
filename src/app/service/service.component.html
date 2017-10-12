@@ -1,5 +1,5 @@
 <div class="container-fluid">
-    <div class="col-sm-4">
+    <div class="col-sm-4" *ngIf="popMenuVisible">
       <div class="panel">
 
         <div class="panel-heading">Media Services</div>
@@ -12,7 +12,7 @@
           </ul>
         </div>
 
-        <div class="panel-heading">Stock Data Service</div>
+        <div class="panel-heading">Stock Data</div>
         <div class="panel-body">
           <ul class="list-group">
             <li class="list-group-item"><a routerLink="/service/alpha-vantage">Alpha Vantage</a></li>
@@ -64,7 +64,7 @@
       </div>
     </div>
 
-    <div class="col-sm-9">
+    <div class="col-sm-9" [style.width]="contentWidth">
       <router-outlet></router-outlet>
     </div>
 </div>

@@ -66,10 +66,6 @@ import {animate, state, style, transition, trigger, keyframes, group} from '@ang
         style({ transform: 'translateX(-20%)', offset: 0.75 }),
         style({ transform: 'translateX(0%)', offset: 1 }),
       ]))
-      // transition(':enter', style({ transform: 'translateX(-100%)', color: 'blue' }),
-      //     animate('350ms ease-in')),
-      // transition(':leave', style({ transform: 'translateX(100%)', opacity: 0 }),
-      //     animate(200))
     ]),
 
     trigger('itemAnim', [

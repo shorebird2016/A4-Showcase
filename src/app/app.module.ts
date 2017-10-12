@@ -10,8 +10,6 @@ import { AppComponent } from './app.component';
 import { ServiceComponent } from './service/service.component';
 import { DirectiveComponent } from './directive/directive.component';
 import { ComponentComponent } from './component/component.component';
-import { AdminComponent } from './admin/admin.component';
-import { HelpComponent } from './admin/help/help.component';
 import { OwmComponent } from './service/geo/owm/owm.component';
 import { YoutubeComponent } from './service/media/youtube/youtube.component';
 import { CountryComponent } from './service/info/country/country.component';
@@ -76,7 +74,6 @@ import { DrtvComponent } from './reference/foundation/directive/drtv.component';
 import { NgClassStyleComponent } from './reference/advanced/ng-class-style/ng-class-style.component';
 import { CustomComponent } from './reference/foundation/directive/custom/custom.component';
 import { Ref1Component } from './component/basic/ref1/ref1.component';
-import { TriggerComponent } from './reference/foundation/animation/trigger/trigger.component';
 import { HotColdComponent } from './apps/fun/hot-cold/hot-cold.component';
 import { ChartModule } from 'angular-highcharts';
 import { HighchartComponent } from './component/adv/highchart/highchart.component';
@@ -91,6 +88,14 @@ import { Day2Component } from './apps/travel/mt-shasta/activity/day2/day2.compon
 import { Day3Component } from './apps/travel/mt-shasta/activity/day3/day3.component';
 import { Day4Component } from './apps/travel/mt-shasta/activity/day4/day4.component';
 import { AgmDirectionDirective } from './directive/directive/agm-direction.directive';
+import { AppModelService } from './tool/app/app-model.service';
+import { AdminComponent } from './admin/admin.component';
+import { HelpComponent } from './admin/help/help.component';
+import {SearchInfoService} from './tool/app/search-info.service';
+import { HomeComponent } from './home/home.component';
+import { AnimComponent } from './reference/foundation/anim/anim.component';
+import { MdfComponent } from './component/basic/mdf/mdf.component';
+import { RefMdfComponent } from './reference/form/ref-mdf/ref-mdf.component';
 
 @NgModule({
   declarations: [
@@ -108,8 +113,11 @@ import { AgmDirectionDirective } from './directive/directive/agm-direction.direc
     CollapsableDirective, ZoomHoverDirective, GithubComponent, BookComponent,
     BindingComponent, RefioComponent, RefmiscComponent, RefrouteComponent,
     RefdiComponent, RefsvcComponent, ReftdfComponent, TdfComponent, DrtvComponent,
-    NgClassStyleComponent, CustomComponent, Ref1Component, TriggerComponent, HotColdComponent,
-    HighchartComponent, ChartjsComponent, MtShastaComponent, PlaceComponent, DirectionComponent, HouseComponent, ActivityComponent, Day1Component, Day2Component, Day3Component, Day4Component, AgmDirectionDirective
+    NgClassStyleComponent, CustomComponent, Ref1Component, HotColdComponent,
+    HighchartComponent, ChartjsComponent, MtShastaComponent, PlaceComponent,
+    DirectionComponent, HouseComponent, ActivityComponent, Day1Component,
+    Day2Component, Day3Component, Day4Component, AgmDirectionDirective, HomeComponent,
+    AnimComponent, MdfComponent, RefMdfComponent
   ],
   imports: [
     BrowserModule, RouterModule.forRoot(AppRoutes), FormsModule, HttpModule,
@@ -120,7 +128,7 @@ import { AgmDirectionDirective } from './directive/directive/agm-direction.direc
     ReactiveFormsModule, JsonpModule, Ng4GeoautocompleteModule.forRoot(),
     BrowserAnimationsModule, ChartsModule, ChartModule
   ],
-  providers: [],
+  providers: [AppModelService, SearchInfoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

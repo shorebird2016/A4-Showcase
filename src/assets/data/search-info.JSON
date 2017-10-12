@@ -1,0 +1,13 @@
+
+[
+  {"category": "binding", "path": "/reference/ref-binding" },
+  {"category": "comm", "path": "/reference/ref-io" },
+  {"category": "service", "path": "/reference/ref-svc" },
+  {"category": "routing", "path": "/reference/ref-route" },
+  {"category": "directive", "path": "/reference/ref-directive" },
+  {"category": "di", "path": "/reference/ref-di" },
+  {"category": "misc", "path": "/reference/ref-misc" },
+  {"category": "api", "path": "/reference/api" },
+  {"category": "form", "path": "/reference/ref-tdf" }
+
+]

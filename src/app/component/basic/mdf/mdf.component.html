@@ -1,0 +1,23 @@
+<div class="container-fluid">
+  <h3>Base Converter</h3>
+
+  <form [formGroup]="form" class="form-group">
+
+    <label>Decimal Number:</label>
+    <input class="form-control" type="number" formControlName="decimalNum" name="decimal"
+      (ngModelChange)="decimalChanged($event)"><br/>
+
+    <label>Binary Number:</label>
+    <input class="form-control" type="number" formControlName="binaryNum" name="binary"
+      (ngModelChange)="binaryChanged($event)"><br/>
+
+    <label>Octal Number:</label>
+    <input class="form-control" type="number" formControlName="octalNum" name="octal"
+       (ngModelChange)="octalChanged($event)"><br/>
+
+    <label>HexDecimal Number:</label>
+    <input class="form-control" type="text" formControlName="hexNum" name="hex"
+         (ngModelChange)="hexChanged($event)">
+  </form>
+
+</div>

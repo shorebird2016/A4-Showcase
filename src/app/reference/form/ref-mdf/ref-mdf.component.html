@@ -1,0 +1,22 @@
+<div class="container-fluid">
+  <section class="list-group">
+    <div class="list-group-item"><h4>How does <code>MDF</code> work ?</h4>
+      <a routerLink="/component/basic/mdf" class="pull-right btn btn-info">Live Sample</a><br/>
+      <u>Sample UI</u>
+      <img class="img img-responsive" src="../assets/concept/form/mdf1-ui.png" width="400"><br/>
+
+      <u>HTML View</u>
+      <img class="img img-responsive" src="../assets/concept/form/mdf1-v.png">
+      (1) bind [formGroup]="form" to class variable of type FormGroup<br/>
+      (2) bind [formControlName]="decimalNum" to class variable of type FormControl<br/>
+      (3) bind events like (ngModelChange)="decimalChanged($event)"<br/><br/>
+
+      <u>Component Class</u>
+      <img class="img img-responsive" src="../assets/concept/form/mdf1-c.png">
+      (1) create property "form" from type FormGroup<br/>
+      (2) add member to this object for each field using "formControlName" from view<br/>
+      (3) create event handler "decimalChanged" for user changes<br/>
+    </div>
+  </section>
+
+</div>
