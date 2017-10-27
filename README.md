@@ -11,13 +11,14 @@ multiple pages and special backend.  But for basic dev information, this should 
 
 This project is still alive and growing, probably forever.
 
-
 ## Goals
 1. To provide a way to reference Angular 4 dev information very quickly
 2. To access code associated with specific topics
 3. To provide a view for others to know about my capabilities
 4. To serve as a log of my learning journey
 
+## Live Demo
+  https://showcase-angular-4.firebaseapp.com/home
 
 ## Sample Screen Shots
 ![Apps | Calculator](doc/app-calc.png)
