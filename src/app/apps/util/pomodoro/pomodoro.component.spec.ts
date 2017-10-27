@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { PomodoroComponent } from './pomodoro.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 describe('PomodoroComponent', () => {
   let component: PomodoroComponent;
@@ -8,7 +9,8 @@ describe('PomodoroComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PomodoroComponent ]
+      declarations: [ PomodoroComponent ],
+      imports: [BrowserAnimationsModule]
     })
     .compileComponents();
   }));

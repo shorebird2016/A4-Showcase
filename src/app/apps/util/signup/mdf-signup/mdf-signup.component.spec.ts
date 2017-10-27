@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PlaceComponent } from './place.component';
+import { MdfSignupComponent } from './mdf-signup.component';
 
-describe('PlaceComponent', () => {
-  let component: PlaceComponent;
-  let fixture: ComponentFixture<PlaceComponent>;
+describe('MdfSignupComponent', () => {
+  let component: MdfSignupComponent;
+  let fixture: ComponentFixture<MdfSignupComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PlaceComponent ]
+      declarations: [ MdfSignupComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PlaceComponent);
+    fixture = TestBed.createComponent(MdfSignupComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

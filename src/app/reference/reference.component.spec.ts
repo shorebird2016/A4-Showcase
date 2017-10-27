@@ -1,6 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ReferenceComponent } from './reference.component';
+import {RouterTestingModule} from '@angular/router/testing';
+import {AppModelService} from '../tool/app/app-model.service';
 
 describe('ReferenceComponent', () => {
   let component: ReferenceComponent;
@@ -8,7 +10,9 @@ describe('ReferenceComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ReferenceComponent ]
+      declarations: [ ReferenceComponent ],
+      imports: [RouterTestingModule],
+      providers: [AppModelService]
     })
     .compileComponents();
   }));

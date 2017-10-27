@@ -10,10 +10,10 @@ import {FormControl, FormGroup} from '@angular/forms';
 export class MdfComponent implements OnInit {
   constructor() { }
 
-  form; decimalCount = 0; binaryCount = 0; octalCount = 0; hexCount = 0;
+  converterForm; decimalCount = 0; binaryCount = 0; octalCount = 0; hexCount = 0;
 
   ngOnInit() {
-    this.form = new FormGroup({
+    this.converterForm = new FormGroup({
       decimalNum: new FormControl(),
       binaryNum: new FormControl(),
       octalNum: new FormControl(),
@@ -23,51 +23,54 @@ export class MdfComponent implements OnInit {
 
   decimalChanged(new_value) {
     if (new_value !== '') {
-      this.form.patchValue({ binaryNum: parseInt(new_value, 10).toString(2) });
-      this.form.patchValue({ octalNum: parseInt(new_value, 10).toString(8) });
-      this.form.patchValue({ hexNum: parseInt(new_value, 10).toString(16) });
+      this.converterForm.patchValue({ binaryNum: parseInt(new_value, 10).toString(2) });
+      this.converterForm.patchValue({ octalNum: parseInt(new_value, 10).toString(8) });
+      this.converterForm.patchValue({ hexNum: parseInt(new_value, 10).toString(16) });
     } else {
-      this.form.patchValue({ binaryNum: '' });
-      this.form.patchValue({ octalNum: '' });
-      this.form.patchValue({ hexNum: '' });
+      this.converterForm.patchValue({ binaryNum: '' });
+      this.converterForm.patchValue({ octalNum: '' });
+      this.converterForm.patchValue({ hexNum: '' });
     }
-    this.decimalCount++;
   }
 
   binaryChanged(new_value) {
-    if (new_value !== '') {
-      this.form.patchValue({ decimalNum: parseInt(new_value, 10).toString(10) });
-      this.form.patchValue({ octalNum: parseInt(new_value, 10).toString(8) });
-      this.form.patchValue({ hexNum: parseInt(new_value, 10).toString(16) });
-    } else {
-      this.form.patchValue({ decimalNum: '' });
-      this.form.patchValue({ octalNum: '' });
-      this.form.patchValue({ hexNum: '' });
+    console.log('BCOUNT = ', this.binaryCount);
+    this.binaryCount = this.binaryCount + 1;
+    if (this.binaryCount === 1) {
+      if (new_value !== '') {
+        this.converterForm.patchValue({decimalNum: parseInt(new_value, 2).toString(10)});
+      } else {
+        this.converterForm.patchValue({decimalNum: ''});
+      }
+      // this.binaryCount = 0;
     }
-    this.binaryCount++;
   }
 
   octalChanged(new_value) {
+/*
     if (new_value !== '') {
-      this.form.patchValue({ decimalNum: parseInt(new_value, 10).toString(10) });
-      this.form.patchValue({ binaryNum: parseInt(new_value, 10).toString(2) });
-      this.form.patchValue({ hexNum: parseInt(new_value, 10).toString(16) });
+      this.converterForm.patchValue({ decimalNum: parseInt(new_value, 10).toString(10) });
+      this.converterForm.patchValue({ binaryNum: parseInt(new_value, 10).toString(2) });
+      this.converterForm.patchValue({ hexNum: parseInt(new_value, 10).toString(16) });
     } else {
-      this.form.patchValue({ decimalNum: '' });
-      this.form.patchValue({ binaryNum: '' });
-      this.form.patchValue({ hexNum: '' });
+      this.converterForm.patchValue({ decimalNum: '' });
+      this.converterForm.patchValue({ binaryNum: '' });
+      this.converterForm.patchValue({ hexNum: '' });
     }
+*/
   }
 
   hexChanged(new_value) {
+/*
     if (new_value !== '') {
-      this.form.patchValue({ decimalNum: parseInt(new_value, 10).toString(10) });
-      this.form.patchValue({ binaryNum: parseInt(new_value, 10).toString(2) });
-      this.form.patchValue({ octalNum: parseInt(new_value, 10).toString(8) });
+      this.converterForm.patchValue({ decimalNum: parseInt(new_value, 10).toString(10) });
+      this.converterForm.patchValue({ binaryNum: parseInt(new_value, 10).toString(2) });
+      this.converterForm.patchValue({ octalNum: parseInt(new_value, 10).toString(8) });
     } else {
-      this.form.patchValue({ decimalNum: '' });
-      this.form.patchValue({ binaryNum: '' });
-      this.form.patchValue({ octalNum: '' });
+      this.converterForm.patchValue({ decimalNum: '' });
+      this.converterForm.patchValue({ binaryNum: '' });
+      this.converterForm.patchValue({ octalNum: '' });
     }
+*/
   }
 }

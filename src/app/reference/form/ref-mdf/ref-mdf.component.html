@@ -1,22 +1,54 @@
 <div class="container-fluid">
   <section class="list-group">
-    <div class="list-group-item"><h4>How does <code>MDF</code> work ?</h4>
+    <div class="list-group-item"><h4>What are the dev steps?</h4>
+      <img class="img img-responsive" src="../assets/reference/form/mdf/mdf-steps.png" width="400">
+    </div>
+
+    <div class="list-group-item"><h4>Common MDF Directives?</h4>
+      <img class="img img-responsive" src="../assets/reference/form/mdf/mdf-dirs.png" width="400">
+    </div>
+
+    <div class="list-group-item"><h4>How to put <code>MDF</code> together ?</h4>
       <a routerLink="/component/basic/mdf" class="pull-right btn btn-info">Live Sample</a><br/>
       <u>Sample UI</u>
-      <img class="img img-responsive" src="../assets/concept/form/mdf1-ui.png" width="400"><br/>
+      <img class="img img-responsive" src="../assets/reference/form/mdf/mdf1-ui.png" width="400"><br/>
 
       <u>HTML View</u>
-      <img class="img img-responsive" src="../assets/concept/form/mdf1-v.png">
+      <img class="img img-responsive" src="../assets/reference/form/mdf/mdf1-v.png">
       (1) bind [formGroup]="form" to class variable of type FormGroup<br/>
       (2) bind [formControlName]="decimalNum" to class variable of type FormControl<br/>
       (3) bind events like (ngModelChange)="decimalChanged($event)"<br/><br/>
 
       <u>Component Class</u>
-      <img class="img img-responsive" src="../assets/concept/form/mdf1-c.png">
+      <img class="img img-responsive" src="../assets/reference/form/mdf/mdf1-c.png">
       (1) create property "form" from type FormGroup<br/>
       (2) add member to this object for each field using "formControlName" from view<br/>
       (3) create event handler "decimalChanged" for user changes<br/>
     </div>
+
+    <div class="list-group-item"><h4>MDF Root Object?</h4>
+      <img class="img img-responsive" src="../assets/reference/form/mdf/mdf-rootobj.png" width="400">
+    </div>
+
+    <div class="list-group-item">
+      <h4>MDF Concept</h4>
+      <img class="img img-responsive" src="../assets/reference/form/mdf/mdf-diagram.png">
+      <img class="img img-responsive" src="../assets/reference/form/mdf/comp-code.png">
+    </div>
+  </section>
+
+  <section>
+    <form [formGroup]="myForm" class="form-group form-inline">
+      <label>Field 1:</label>
+      <input class="form-control" #ref_fld1 formControlName="field1" name="name_field1"
+             (ngModelChange)="fieldChange($event)">
+      <br/>
+
+      <label>Field 2:</label>
+      <input class="form-control" #ref_fld2 formControlName="field2"
+             (ngModelChange)="fieldChange($event)">
+
+    </form>
   </section>
 
 </div>

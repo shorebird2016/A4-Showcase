@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { WikiComponent } from './wiki.component';
+import {FormsModule} from '@angular/forms';
 
 describe('WikiComponent', () => {
   let component: WikiComponent;
@@ -8,7 +9,8 @@ describe('WikiComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ WikiComponent ]
+      declarations: [ WikiComponent ],
+      imports: [FormsModule]
     })
     .compileComponents();
   }));

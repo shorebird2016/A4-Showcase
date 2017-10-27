@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { GmapComponent } from './gmap.component';
+import {AgmCoreModule} from '@agm/core';
 
 describe('GmapComponent', () => {
   let component: GmapComponent;
@@ -8,7 +9,8 @@ describe('GmapComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ GmapComponent ]
+      declarations: [ GmapComponent ],
+      imports: [AgmCoreModule]
     })
     .compileComponents();
   }));

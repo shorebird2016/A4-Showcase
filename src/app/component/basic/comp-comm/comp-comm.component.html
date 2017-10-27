@@ -3,7 +3,7 @@
   <h4>Binding DOM property to Components<span>(Click small squares)</span></h4>
   <app-chooser [myColor]="chooserInitialColor"
                (colorEmitter)="newColor = $event; viewerColor = newColor"></app-chooser>
-  <app-viewer [viewerColor]="viewerColor"></app-viewer>
+  <app-viewer [viewerColor]="newColor"></app-viewer>
 
   <app-color-sample [myColor]="inp.value"></app-color-sample>
   <label>Enter color</label>

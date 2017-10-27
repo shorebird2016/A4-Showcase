@@ -1,22 +1,16 @@
-<div id="stagger-container" [@listAnimation]="items.length">
+<div id="stagger-container">
 
   <!--very simple progress bar with a thumb that moves around-->
+  <h4>Simple Progress Bar (via margin control)</h4>
   <div class="loading-bar" (mouseenter)="slideRight()" (mouseleave)="slideLeft()">
     Mouse Hover moves thumb right, leave moves left
     <div class="thumb" [@slider]="sliding"></div>
   </div>
 
   <!--A dot within a circle that bounces around-->
+  <h4>Bouncing ball (via keyframes)</h4>
   <div class="big-circle" (click)="startBounce()">
     <div class="black-dot" [@bounceDot]="dotState"></div>
   </div>
-
-  <button (click)="pushItem()">Add item</button>
-  <button (click)="removeItem()">Remove item</button>
-
-  <div id="list" *ngFor="let ITEM of items">
-    {{ITEM}}
-  </div>
-
 
 </div>

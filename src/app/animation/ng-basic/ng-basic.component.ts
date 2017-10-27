@@ -96,8 +96,8 @@ export class NgBasicComponent implements OnInit {
   ballState = 'loc-1';
   carStateLeft = 'begin';
   carStateRite = 'begin';
-  list = [];
-  item;
+  // list = [];
+  // item;
 
   ngOnInit() {
   }
@@ -140,12 +140,5 @@ export class NgBasicComponent implements OnInit {
     }
   }
 
-  addItem() {
-    this.list.push(this.item);
-  }
-
-  removeItem() {
-    this.list.pop();
-  }
 }
 

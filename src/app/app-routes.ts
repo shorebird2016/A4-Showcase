@@ -77,6 +77,12 @@ import {HomeComponent} from './home/home.component';
 import {AnimComponent} from './reference/foundation/anim/anim.component';
 import {MdfComponent} from './component/basic/mdf/mdf.component';
 import {RefMdfComponent} from './reference/form/ref-mdf/ref-mdf.component';
+import {FormBasicComponent} from './reference/form/form-basic/form-basic.component';
+import {TdfSignupComponent} from './apps/util/signup/tdf-signup/tdf-signup.component';
+import {MdfSignupComponent} from './apps/util/signup/mdf-signup/mdf-signup.component';
+import {NgListComponent} from './animation/ng-list/ng-list.component';
+import {JsonPlaceholderService} from './tool/util/json-placeholder.service';
+import {JsonPlaceholderComponent} from "./service/util/json-placeholder/json-placeholder.component";
 
 export const AppRoutes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -87,6 +93,8 @@ export const AppRoutes: Routes = [
       { path: 'weather-card', component: WeatherCardComponent },
       { path: 'calculator', component: CalculatorComponent },
       { path: 'pomodoro', component: PomodoroComponent },
+      { path: 'signup1', component: TdfSignupComponent },
+      { path: 'signup2', component: MdfSignupComponent },
     ]},
     { path: 'travel', children: [
       { path: 'mt-shasta', component: MtShastaComponent, children: [
@@ -137,7 +145,6 @@ export const AppRoutes: Routes = [
       { path: 'git-promise', component: GithubPromiseService },
       { path: 'alchemy', component: AlchemyComponent },
       { path: 'wiki', component: WikiComponent },
-      { path: 'json-test', component: JsonTestComponent },
 
       { path: 'alpha-vantage', component: AlphaVantageComponent },
       { path: 'quandl', component: QuandlComponent },
@@ -145,6 +152,8 @@ export const AppRoutes: Routes = [
       { path: 'markit', component: MarkitComponent },
       { path: 'barchart', component: BarchartComponent },
 
+      { path: 'json-test', component: JsonTestComponent },
+      { path: 'json-ph', component: JsonPlaceholderComponent },
       { path: 'math', component: MathComponent },
       { path: 'they-say', component: TheysayComponent },
       { path: 'famous-quote', component: QuoteComponent },
@@ -158,7 +167,8 @@ export const AppRoutes: Routes = [
     { path: 'css-basic', component: CssBasicComponent },
     { path: 'css-adv', component: CssAdvComponent },
     { path: 'ng-basic', component: NgBasicComponent },
-    { path: 'ng-adv', component: NgAdvComponent }
+    { path: 'ng-adv', component: NgAdvComponent },
+    { path: 'ng-list', component: NgListComponent }
   ]},
   { path: 'reference', component: ReferenceComponent, children: [
     { path: 'api', component: ApiComponent },
@@ -168,6 +178,7 @@ export const AppRoutes: Routes = [
     { path: 'ref-route', component: RefrouteComponent },
     { path: 'ref-di', component: RefdiComponent },
     { path: 'ref-svc', component: RefsvcComponent },
+    { path: 'ref-form', component: FormBasicComponent },
     { path: 'ref-tdf', component: ReftdfComponent },
     { path: 'ref-mdf', component: RefMdfComponent },
     { path: 'ref-directive', component: DrtvComponent },

@@ -7,7 +7,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var json_test_service_1 = require("../../../tool/json-test.service");
+var json_test_service_1 = require("../../../tool/util/json-test.service");
 var JsonTestComponent = (function () {
     function JsonTestComponent(test_svc) {
         this.test_svc = test_svc;

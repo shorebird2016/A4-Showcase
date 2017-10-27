@@ -1,6 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { WeatherCardComponent } from './weather-card.component';
+import {FormsModule} from '@angular/forms';
+import {HttpModule} from '@angular/http';
 
 describe('WeatherCardComponent', () => {
   let component: WeatherCardComponent;
@@ -8,7 +10,8 @@ describe('WeatherCardComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ WeatherCardComponent ]
+      declarations: [ WeatherCardComponent ],
+      imports: [FormsModule, HttpModule]
     })
     .compileComponents();
   }));

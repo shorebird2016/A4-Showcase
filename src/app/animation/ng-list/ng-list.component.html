@@ -1,0 +1,31 @@
+
+<!-- CRUD animation -->
+
+<h4 class="text-center">List Animation</h4>
+<div class="container-fluid center-block">
+  <h4>Using external <code>Re-usable Functions</code></h4>
+  <input class="form-control" placeholder="item to be added" [(ngModel)]="item">
+  <button class="btn btn-success" (click)="addItem()">Add</button>
+  <button class="btn btn-danger" (click)="removeItem()">Delete</button>
+  <section class="panel">
+    <ul *ngIf="list">
+      <li *ngFor="let ITEM of list" [@fadeInAnim]="animState" [@fadeOutAnim]="animState">
+        {{ITEM}}
+      </li>
+    </ul>
+  </section>
+</div>
+
+<br/><br/>
+
+<div class="container-fluid" id="stagger-container" [@listAnimation]="list2.length">
+  <h4>Using <code>Query, Stagger methods</code></h4>
+  <button (click)="addItem2()">Add Last Item</button>
+  <button (click)="removeItem2()">Remove Last Item</button>
+  <button (click)="addAll2()">Add All</button>
+  <button (click)="removeAll2()">Remove All</button>
+  <div id="list" *ngFor="let ITEM of list2">
+    {{ITEM}}
+  </div>
+</div>
+

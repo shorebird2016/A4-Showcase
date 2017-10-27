@@ -96,6 +96,13 @@ import { HomeComponent } from './home/home.component';
 import { AnimComponent } from './reference/foundation/anim/anim.component';
 import { MdfComponent } from './component/basic/mdf/mdf.component';
 import { RefMdfComponent } from './reference/form/ref-mdf/ref-mdf.component';
+import { FormBasicComponent } from './reference/form/form-basic/form-basic.component';
+import { MdfSignupComponent } from './apps/util/signup/mdf-signup/mdf-signup.component';
+import { TdfSignupComponent } from './apps/util/signup/tdf-signup/tdf-signup.component';
+import { NgListComponent } from './animation/ng-list/ng-list.component';
+import { JsonPlaceholderComponent } from './service/util/json-placeholder/json-placeholder.component';
+import {JsonPlaceholderService} from './tool/util/json-placeholder.service';
+import { SbAutogrowDirective } from './directive/directive/sb-autogrow.directive';
 
 @NgModule({
   declarations: [
@@ -117,7 +124,8 @@ import { RefMdfComponent } from './reference/form/ref-mdf/ref-mdf.component';
     HighchartComponent, ChartjsComponent, MtShastaComponent, PlaceComponent,
     DirectionComponent, HouseComponent, ActivityComponent, Day1Component,
     Day2Component, Day3Component, Day4Component, AgmDirectionDirective, HomeComponent,
-    AnimComponent, MdfComponent, RefMdfComponent
+    AnimComponent, MdfComponent, RefMdfComponent, FormBasicComponent, MdfSignupComponent,
+    TdfSignupComponent, NgListComponent, JsonPlaceholderComponent, SbAutogrowDirective
   ],
   imports: [
     BrowserModule, RouterModule.forRoot(AppRoutes), FormsModule, HttpModule,
@@ -128,7 +136,7 @@ import { RefMdfComponent } from './reference/form/ref-mdf/ref-mdf.component';
     ReactiveFormsModule, JsonpModule, Ng4GeoautocompleteModule.forRoot(),
     BrowserAnimationsModule, ChartsModule, ChartModule
   ],
-  providers: [AppModelService, SearchInfoService],
+  providers: [AppModelService, SearchInfoService, JsonPlaceholderService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -13,16 +13,18 @@ import {state, trigger, style, transition, animate} from '@angular/animations';
     ]),
 
     trigger('sizing', [
-      state('narrow', style({ width: '200px' })),
-      state('wide', style({ width: '400px' })),
-      transition('narrow <=> wide', animate('500ms ease-out'))
+      state('narrow', style({ width: '200px', height: '30px' })),
+      state('wide', style({ width: '400px', height: '35px' })),
+      transition('narrow <=> wide', animate('300ms ease-out'))
     ])
   ]
 })
 
 export class BasicComponent implements OnInit {
   constructor() { }
-  visibility = 'visible'; size = 'narrow';
+
+  visibility = 'visible'; size = 'narrow'; nameEntry = 'default name';
+
   ngOnInit() {
   }
   animateVisibility() {
@@ -30,5 +32,8 @@ export class BasicComponent implements OnInit {
   }
   toggleSize() {
     this.size === 'narrow' ? this.size = 'wide' : this.size = 'narrow';
+  }
+  changeSize(sz) {
+    this.size = sz;
   }
 }

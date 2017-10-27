@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { FlickrComponent } from './flickr.component';
+import {FormsModule} from '@angular/forms';
 
 describe('FlickrComponent', () => {
   let component: FlickrComponent;
@@ -8,7 +9,8 @@ describe('FlickrComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FlickrComponent ]
+      declarations: [ FlickrComponent ],
+      imports: [FormsModule]
     })
     .compileComponents();
   }));

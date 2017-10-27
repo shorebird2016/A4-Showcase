@@ -7,8 +7,15 @@
   .jumbotron h2 {
     text-align: center; }
 
+.list-group {
+  display: flex;
+  flex-wrap: wrap; }
+
 .list-group-item {
-  width: 200px; }
+  width: 150px;
+  height: 60px;
+  margin: 5px;
+  border-radius: 10px; }
 
 .logo-holder {
   transform: translateX(-100%);

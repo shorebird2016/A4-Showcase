@@ -54,16 +54,4 @@
     </div>
   </div>
 
-  <!--fly in blocks C R D of CRUD-->
-  <div class="container">
-    <input placeholder="type something to add" class="form-control" [(ngModel)]="item">
-    <button class="btn btn-success" id="BTN-2" (click)="addItem()">Add</button>
-    <button class="btn btn-danger" id="BTN-3" (click)="removeItem()">Delete</button>
-    <section class="panel">
-      <ul *ngIf="list" [@itemAnim]>
-        <li *ngFor="let ITEM of list">{{ITEM}}</li>
-      </ul>
-    </section>
-  </div>
-
 </div>

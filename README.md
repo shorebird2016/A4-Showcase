@@ -330,48 +330,163 @@ So far, 15 small apps are ported over.
    router at all, must use <a class="fa fa-.." routerLink=""> to make it work. {0.5h}
  - Next try MDF with base converter {1.5h}
  
-#[2017-10-11]
+#[2017-10-11] 2.5h
  - Experimented with re-useable animation, created anim-util.ts with 2 approaches: external const or function with
    parameter passing, I see the possibility of creating my own classes for that {1h}
  - Loaded animate.css via npm, but found out it doesn't work with A4, web tutorial suggest converting into A4 style
    of animation.  Need to use a small project to try it out. {0.5h}
  - Added 2 external reusable animations plus MDF to reference pages. {0.5h}
+ - Created slide in animations for angular features block with staggering effect using just one external function {0.5h}
 
-MDF - need a way to avoid stack overflow due to cross event triggering
-AnimationBuilder is a way to programmatically start/stop animation at any time instead of relying on some triggers
+#[2017-10-12] 2h
+ - Replicate Courseto's animation sample, add style during animation on the home page, old code doesn't work {1h}
+ - Getting frustrated with many small projects (like simon, career can't proceed plus bored with small exercises)
+   Thought about a new idea: 3 days out of week, practice animation/directive/form to keep knowledge
+      Monday - 1 small animation app CSS or A4 
+      Wednesday - 1 small directive in A4
+      Friday - 1 small form with validation in A4
+      Other days - dev bigger app, which ones? (shopping w Firebase, deeper into each API with features/functions,
+        stock app, many ideas), each app may last 2-3 weeks then switch, try to use variety of A4 skills to keep
+        fresh.  Also can look for ideas from Pluralsight, a new add-on from Arris.
+ 
+#[2017-10-13] 2.5h
+ - Experiment to use @ViewChild to pass element reference to comp class from reactive form, it works but the cross
+   reference events are still happening in RefMdfComponent, no way to split out user entry from internal
+    field to field trigger due to change{1h}
+ - Surprisingly found quite a few videos on Pluralsight about Angular Forms, start watching them fast, capture
+   useful screen shots and plan to include them in reference section. {0.5h}
+ - Finished TDF part of PS videos, import her github project over to showcase and use it as-is {1h}
+ - Improve the sign up TDF, learned => <span *ngIf="lastNameVar.errors.minlength"> actually show red error
+   in editor about minlegth doesn't exist, but it works. Also we need to disable HTML validation via novalidate.
+ - Going thru sample projects, surprisingly found out using "npm start" can make those old app run.
+ - The next question - can I just copy over components and change app.module then will work?
+ - The idea - add those mini-apps to apps menu for (1) Quick future reference (2) 
 
+#[2017-10-16] Animation 3h
+ - Quickly go over PS videos, mentally created a small/big button, learned phrase
+   "Ending State Styles" when using state() declaration(already know this, now have a name), also emphasizing
+   on instance variable representing "Initial State" {0.5h}
+ - New idea to animate YouTube/Twitch/ apps with simple void to * transition; Learn: start style is specified
+   in CSS, end style passed in as argument to function fadeInAnim(). In this app, every video thumbnail starts
+   as a small picture and rotate 180deg enlarged to full size.  Angular does not need instruction about final
+   style with this approach. {1h}
+ - Do the same for Twitch, Flickr, "They said so", Famous quote with slightly different starting styles {0.5h}
+   Learn: it turns out begin style or end style need transform to make animating startup, opacity doesn't seem
+          to do anything via fadeInAnim() call ??? works in "Famouse" somehow ????
+   Learn: by virtue of external method, this function becomes re-usable over many apps, const doesn't do that
+ - Re-organize animation menu with another item for list based animations, fixed previously non-working add/remove
+   from list, move 2 list animations over {1h}
+   
+#[2017-10-17] Tuesday Testing 2.5h
+ - Quickly learned from PS, YT several videos plus angular.io tutorial, practice in unit-xp project (pokemon)
+   then expand back to this project trying to run all components' unit test 
+ - Trying to ng t for entire project but too many specs are still failing, 44 out of 92 are failing,
+   mostly due to no Http, Jsonp, map stuff..etc. Wait till next Tuesday
+   
+#[2017-10-18] Wednesday app dev 0.5h
+ - Since it was so easy deploying app to Firebase for hosting, try this app too, but this one is very large
+   236M+, took about 23 minutes to finish.
+   
+#[2017-10-19] Thursday JSON Placeholder and Firebase 2.5h
+ - YouTube "JavaScript Evengelist" Angular series seems to have more knowledge about Firebase than others. 
+   I'll use the next few days listening and write small components capturing new knowledge.
+ - A new endpoint json placeholder might be useful to add service, it has 6 different collections returning
+   quite useful for mock data. Use ngSwitch to display different content based on collection ID. 
+   Also use *ngIf to control number of items displayed. {1.5h}
+ - Continue with Firebase video, take his blog mock data, populate my firebase project #2 {1h}
+ 
+#[2017-10-20] Friday basic directive {2.5h}
+ - I've already done directive before a few times, now a quick review plus build a few more
+ - Must use prefix to be unique, like sbd- "shorebird directive", example sbd-autogrow
+ - Apply to many elements on the same example to demo reusability
+ - Learn:     <input appSbAutogrow> can NOT be changed to     <input [appSbAutogrow]>
+ - Learn: appSbAutogrow can be acheieved via animation which looks a lot better
+ - Learn: Rederer will go away eventually, use Renderer2 (setStyle,setProperty,setAttribute,addClass)
+ - Tried over an hour and still wasn't able to make appCollapsable to work, may have to wait next week {1h}
+
+#[2017-10-21] Sat/Sun project dev {1h}
+  - Reviewed some small YT projects, found (a)Property listing (b)Zwitter are good practice examples, plan
+    on doing them using short amount of time, then include them into showcase {1h}
+  - New idea for showcase; when Apps menu gets too big, start listing them into clickable icons, some will
+    navigate to new URL (ie. new app deployed separately) instead of keeping all resources in the app
+    
+#[2017-10-23] Mon animation {4h}
+  - Focus on stagger animation, if there is time, query and route animations, fix angular list, how to repeat
+    with AnimationBuilder, click a button on demo and related code shows up 
+  - Wasted over an hour trying to find out why my code doesn't work, use sample from angular.io and found out
+    <p> tag does not work, replace it with <div> then animation works, also the gotcha is in the area of
+    array inside array syntax, transition has array of style/query, query has array of style/stagger,
+    stagger has array of animate/style, very easy to make mistakes
+  - Learn: first style() inside query() before stagger() --> starting style; 
+           style() inside stagger.animate() for during transition  
+  - Home page: animate sliding in of major features listed under angular.io, stagger animation
+  - Prep for tomorrow's unit testing
+  
+#[2017-10-24] Automation {0.5h}
+  - Mosh's video stands out to be easily understandable, his Angular course seems to have great details almost covering
+    all the details with lots of projects, for $350 it might be a good deal.  Also like his big fonts
+  - Today's goal is still unit testing, maybe some integration testing. See logs on that project.
+
+#[2017-10-25] Wed/Thur project dev {}
+  - Inspired by "Property Listing" of TravisMedia, I'll mimic that and beef it up to replace Zillow's
+    "My Properties", make it external to showcase but in showcase, user can navigate to it.  In the
+    future, this component will become part of "Life Dashboard" as well.
+  - Start with designing the views, split them into components, this will be a new project by itself.
+    Follow the practice of TravisMedia 7 videos to start.  Plan on two days as a self measure.
+  - Kick off new project "rentals", create Firebase project also called "rentals", get bunny involved.
+  - Start new project called "rentals", steal header bar html/style from showcase, but push
+    logout to far right. (10min)
+
+
+    
 ## =========== Next Steps =============
- - How to use "forEach" in a loop, or it's a collection based method? is there for (item: collection) syntax?
- - Home page: animate sliding in of major features listed under angular.io
- - (Bug)After router nav to target route, top level menu was not highlighted.
- - logo icon on the right using transparent background
- - Home page: A4 icons flying randomly everywhere slowly...
- - Download really good YT videos and cut out pieces and fit into different parts of showcase; the goal is simple
-     fast look up code samples
- - Build up vocabulary for searching, is it possible to search inside a page?
- - Gradually move various service/reference items down to level 3 routes and folders
- - expand search to bigger areas such as sample, app, there maybe several levels of categories..etc
- - Make left nav into a re-usable component/directive 
+ - [Monday] ANIMATION
+      - Group/AnimateChild verbs
+      - AnimationBuilder is a way to programmatically start/stop animation at any time instead of 
+        relying on some trigger
+      - Home page: A4 icons flying randomly everywhere slowly...
+      - animate bubbles in A4, Codevolution has many animation videos
+      - Route animation
+      ??? can not get query to work during page start with 2 blocks animating down staggering (listAnimation)
+
+ - [Tuesday] TESTING
+      - Learn more from video about shallow testing or component integration testing (view + component)
+      - Make it a habit to write simple unit tests on non-trivial methods
+      - Mainly to learn/build unit tests and later e2e tests          
+      - Karma/Jasmine startup
+ 
+ - [Wednesday] PROJECT
+      - Project dev: My property listings
+      - Project dev: persist shopping app, hook up to Firebase via AngularFire2
+      - (Bug)After router nav to target route, top level menu was not highlighted.
+      - logo icon on the right using transparent background
+
+ - [Thursday] PROJECT
+      - Project dev: each menu item all have some code samples
+      - Download really good YT videos and cut out pieces and fit into different parts of showcase; the goal is simple
+        fast look up code samples
+      - Build up vocabulary for searching, is it possible to search inside a page?
+      - Gradually move various service/reference items down to level 3 routes and folders
+      - expand search to bigger areas such as sample, app, there maybe several levels of categories..etc
+
+ - [Friday] MISC
+      - An idea: Randomly pick up web pages and spend 5~10 minutes to conceptually implementation
+        at the high level
+      - Custom Directive: appCollapsable, structured directive (YT videos)
+      - Custom Pipes: practice a few
+      - MDF - need a way to avoid stack overflow due to cross event triggering, reactive forms
+      - Make left nav into a re-usable component/directive 
+      - Start including 3rd party directives/components like the popup, agm..etc, color wheel would be good
+      - ??? appHoverColor must have square bracket but appZoomHover doesn't ?
+
+ - [Saturday/Sunday]
+      - Developing big apps; shopping, tweeter, bots, life dashboard, financial    
+      - New idea: a new top level tool "show code", when clicked, window pops from right (w animation) show code 
+        associated with this sample
+ 
  - Not learned areas ==> MDF/TDF, Validation(Awais, Codevolution), 
-      @ViewChild(codedamn), ng-container, NgModule(codedamn),
-      Firebase(JavaScript Evangelist), Angular Material, MEAN4+
- - Merge my career portfolio into this project with resume and maybe a short presentation, challenge is that
-   it's based on MaterializeCSS, not sure it will work with A4, maybe redesign is a better approach  
- - Start including 3rd party directives/components like the popup, agm..etc, color wheel would be good
- - Try making reference images responsive for expansion, they have img-responsive but they don't expand/shrink
-   probably because size is fixed??
- - animate bubbles in A4, Codevolution has many animation videos
- - special look and feel - parallex, video in background
- - CSS animation one per day, challenges -> A4 ways to swap out CSS classes on the fly
- - make quotes into directive? actually everybody recommends re-useable components and attribute
-   directives 
- - beef up quotes.rest/qod to random quotes?
- - add github and iTunes API services
- ??? how to animate inside attribute directive ?
- ??? how to read initial font size using ElementRef.navtiveElement ?
- ??? appHoverColor must have square bracket but appZoomHover doesn't ?
-- Show source code next to the view, maybe a popout dialog/window? <pre> pretty code
-- Learn about new HttpClient in 4.3+ not based on rxjs
+      ng-container, NgModule(codedamn),
+      Firebase series(JavaScript Evangelist), Angular Material, MEAN4+
 
 --- Future Enhancements/Experimentation:
   - Showcase
@@ -426,6 +541,16 @@ AnimationBuilder is a way to programmatically start/stop animation at any time i
   --- Mt. Shasta ==> angular-maps needs a directive for directions, not available yet, also AGM show satellite map
       is not known yet
   --- Add JS/HTML/CSS tips in the menu
+      
+ - Merge my career portfolio into this project with resume and maybe a short presentation, challenge is that
+   it's based on MaterializeCSS, not sure it will work with A4, maybe redesign is a better approach  
+ - learn and do special look and feel - parallex, video in background
+ - make quotes into directive? actually everybody recommends re-useable components and attribute
+   directives 
+ - beef up all the service apps with depth and functionality
+ - add github and iTunes API services
+- Show source code next to the view, maybe a popout dialog/window? <pre> pretty code
+- Learn about new HttpClient in 4.3+ not based on rxjs
 
   - Left nav should not continue to be 3:9 at bigger size screen, in small screen change to hamburger  
 - Add new tab for animation, add massive amount of examples
@@ -436,6 +561,8 @@ AnimationBuilder is a way to programmatically start/stop animation at any time i
 - Ideas for directive ==> samples of small, reusable views w behavior; eg. highlight on hover, popout
   on hover, carousel, skin
 - Ideas for apps ==> my shopping site; dance; portfolio, life portal, stock pages 
+ 
+ - [JS] How to use "forEach" in a loop, or it's a collection based method? is there for (item: collection) syntax? 
 
 
 ## Mystery & Challenges
@@ -459,7 +586,9 @@ AnimationBuilder is a way to programmatically start/stop animation at any time i
 5. Sometimes famouse quotes app will get CORS error, may need JSONP?  
 6. Stack Exchange - name link does not open properly
 7. CORS challenge, need to do something - US fundamentals, geobytes, andruxnet, markit, barchart, alchemy
-  
+8. ??? how to animate inside attribute directive ?
+9. ??? how to read initial font size using ElementRef.navtiveElement ?
+
 ## Knowledge / Observations
 1. Bootstrap's grid system limits OWM's left nav either too narrow for 2:8 or too wide for 3:9, a lack
    of resolution
@@ -515,3 +644,35 @@ AnimationBuilder is a way to programmatically start/stop animation at any time i
     must equal to 'visible' to make it work, use 1 or 0 won't.  The string stored in variable is used to 
     compare with state('state name') and transition('state name'), an implicit linkage.
     Transition from void to default state still requires [@animName]="something" and something variable can NOT be '*' 
+
+=============Catalog of YouTube video=================
+## M E A N (A2) 
+  Traversy --- MEAN (Mongoose, Heroku, Passport)
+    https://www.youtube.com/playlist?list=PLillGF-RfqbZMNtaOXJQiDebNXjVapWPZ
+  Codevolution
+    https://www.youtube.com/playlist?list=PLC3y8-rFHvwg5gEu2KF4sbGvpUqMRSBSW
+
+## Firebase
+  Main Site
+    https://angularfirebase.com/lessons/firestore-with-angularfire-basics/
+  Javascript Eveangelist
+    https://www.youtube.com/playlist?list=PLq5m66kIJ5Z-KNR-xdK2GMiDlLLcpXLLB
+
+
+Clean up YouTube playlist for A2 videos, save them here
+
+Clean up YouTube playlist, keep all Angular2/4 tutorials here instead
+    Javascript Eveangelist
+      https://www.youtube.com/playlist?list=PLq5m66kIJ5Z-KNR-xdK2GMiDlLLcpXLLB
+    Mosh
+      https://www.youtube.com/playlist?list=PLTjRvDozrdlxAhsPP4ZYtt3G8KbJ449oT
+    Xpose    
+      https://www.youtube.com/playlist?list=PL0t62Ej_QmbEfSKlJg4uGRMYX2oq2sP6P
+    Kudvenkat
+      https://www.youtube.com/playlist?list=PL6n9fhu94yhWqGD8BuKuX-VTKqlNBj-m6
+    Codedamn
+      https://www.youtube.com/playlist?list=PLYxzS__5yYQmi8f94KAGx1ofwFIn-FLNt
+    Awais
+      https://www.youtube.com/playlist?list=PLz5rnvLVJX5VQZdTz4MTE52aKto-MoPwB
+    Codevolution
+      https://www.youtube.com/playlist?list=PLC3y8-rFHvwg5gEu2KF4sbGvpUqMRSBSW

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { JsonTestService } from '../../../tool/json-test.service';
+import { JsonTestService } from '../../../tool/util/json-test.service';
 import { Response } from '@angular/http';
 
 @Component({

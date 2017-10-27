@@ -1,6 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { AlchemyComponent } from './alchemy.component';
+import {FormsModule} from '@angular/forms';
+import {AlchemyService} from '../../../tool/info/alchemy.service';
 
 describe('AlchemyComponent', () => {
   let component: AlchemyComponent;
@@ -8,7 +10,9 @@ describe('AlchemyComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AlchemyComponent ]
+      declarations: [ AlchemyComponent ],
+      imports: [FormsModule],
+      providers: [AlchemyService]
     })
     .compileComponents();
   }));

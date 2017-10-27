@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { HomeComponent } from './home.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 describe('HomeComponent', () => {
   let component: HomeComponent;
@@ -8,7 +8,8 @@ describe('HomeComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HomeComponent ]
+      declarations: [ HomeComponent ],
+      imports: [BrowserAnimationsModule]
     })
     .compileComponents();
   }));
@@ -19,7 +20,21 @@ describe('HomeComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should be created', () => {
+  it('[Component] should be created', () => {
     expect(component).toBeTruthy();
   });
+
+  it('[Component] should have initialized variable xxx, yyy.', () => {
+    expect(component.xxx).toEqual('specific');
+    expect(component.yyy).toBe('from');
+    expect(component.animState1).toBe(undefined);
+  });
+
+  it('[Component] method toggleYYY() should go between \'to\' and \'from\' states', () => {
+    component.toggleYYY();
+    expect(component.yyy).toBe('to');
+    component.toggleYYY();
+    expect(component.yyy).toBe('from');
+  });
+
 });

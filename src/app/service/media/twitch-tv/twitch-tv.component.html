@@ -6,7 +6,7 @@
   <button class="btn btn-primary" (click)="getTvChannels()">Search</button>
 
   <div class="channel-container">
-    <div class="channel-box" *ngFor="let CHANNEL of channels; let idx = index;">
+    <div class="channel-box" *ngFor="let CHANNEL of channels; let idx = index;" [@fadeInAnim]="animState1">
       <a href="{{CHANNEL.url}}" target="_blank">
         <img src="{{getVideoBannerUrl(idx)}}" class="banner-style" data-toggle="tooltip"
             data-placement="bottom" title="{{CHANNEL.description}}">

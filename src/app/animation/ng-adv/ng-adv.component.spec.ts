@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { NgAdvComponent } from './ng-adv.component';
+import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 
 describe('NgAdvComponent', () => {
   let component: NgAdvComponent;
@@ -8,7 +9,8 @@ describe('NgAdvComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NgAdvComponent ]
+      declarations: [ NgAdvComponent ],
+      imports: [NoopAnimationsModule]
     })
     .compileComponents();
   }));

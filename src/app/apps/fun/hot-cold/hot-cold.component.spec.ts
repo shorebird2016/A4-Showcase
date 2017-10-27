@@ -1,6 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { HotColdComponent } from './hot-cold.component';
+import {FormsModule} from '@angular/forms';
+import {GoogleMapsAPIWrapper} from '@agm/core';
 
 describe('HotColdComponent', () => {
   let component: HotColdComponent;
@@ -8,7 +10,9 @@ describe('HotColdComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HotColdComponent ]
+      declarations: [ HotColdComponent ],
+      imports: [FormsModule],
+      providers: [GoogleMapsAPIWrapper]
     })
     .compileComponents();
   }));

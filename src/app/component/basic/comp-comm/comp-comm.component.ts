@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class CompCommComponent implements OnInit {
   constructor() { }
   chooserInitialColor = 'yellow';
-  newColor;
+  newColor; viewerColor;
   ngOnInit() {}
   changeColor() { /*this.inputColor = 'red';*/ }
 }

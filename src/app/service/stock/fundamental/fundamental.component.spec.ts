@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { FundamentalComponent } from './fundamental.component';
+import {FormsModule} from '@angular/forms';
 
 describe('FundamentalComponent', () => {
   let component: FundamentalComponent;
@@ -8,7 +9,8 @@ describe('FundamentalComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FundamentalComponent ]
+      declarations: [ FundamentalComponent ],
+      imports: [FormsModule]
     })
     .compileComponents();
   }));

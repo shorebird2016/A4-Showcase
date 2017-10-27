@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,EAAE;EACA,eAAe,EAAE,IAAI;;AACvB,KAAK;EACH,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI",
+"sources": ["json-placeholder.component.sass"],
+"names": [],
+"file": "json-placeholder.component.css"
+}

@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Day4Component } from './day4.component';
+import { JsonPlaceholderComponent } from './json-placeholder.component';
 
-describe('Day4Component', () => {
-  let component: Day4Component;
-  let fixture: ComponentFixture<Day4Component>;
+describe('JsonPlaceholderComponent', () => {
+  let component: JsonPlaceholderComponent;
+  let fixture: ComponentFixture<JsonPlaceholderComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ Day4Component ]
+      declarations: [ JsonPlaceholderComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Day4Component);
+    fixture = TestBed.createComponent(JsonPlaceholderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

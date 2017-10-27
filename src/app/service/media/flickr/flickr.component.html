@@ -9,7 +9,7 @@
     <button class="btn btn-primary" (click)="searchImages()">Search</button>
 
     <div class="photo-container" *ngIf="photos">
-      <div class="photo" *ngFor="let PHOTO of photos">
+      <div class="photo" *ngFor="let PHOTO of photos" [@fadeInAnim]="animState1">
         <a href="{{getImageUrl(PHOTO)}}" data-lightbox="flickr" data-title="{{PHOTO.title}}">
           <img src="{{getImageUrl(PHOTO)}}"></a>
       </div>

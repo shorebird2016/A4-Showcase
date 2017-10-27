@@ -1,13 +1,20 @@
 import { Component, OnInit } from '@angular/core';
 import { TwitchService } from '../../../tool/media/twitch.service';
 import { Response } from '@angular/http';
+import {fadeInAnim} from "../../../util/anim-util";
+import {style} from "@angular/animations";
 
 @Component({
   selector: 'app-twitch-tv',
   templateUrl: './twitch-tv.component.html',
   styleUrls: ['./twitch-tv.component.css'],
+  animations: [fadeInAnim(
+    style({ transform: 'translateY(-150px) scale(0.1)', opacity: 0.05 }),
+    style({ transform: 'scale(1)' }), // MUST have this transform to start animation, not sure why TODO????
+    '600ms')],
   providers: [TwitchService]
 })
+
 export class TwitchTvComponent implements OnInit {
   constructor(private tw_svc: TwitchService) { }
 
@@ -15,6 +22,7 @@ export class TwitchTvComponent implements OnInit {
   curChannel;
   channels = [];
   liveStreams = [];
+  animState1 = 'appear';
 
   ngOnInit() { this.getTvChannels(); this.keyword = ''; }
 

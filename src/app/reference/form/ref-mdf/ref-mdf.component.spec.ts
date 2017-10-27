@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { RefMdfComponent } from './ref-mdf.component';
+import {ReactiveFormsModule} from '@angular/forms';
 
 describe('RefMdfComponent', () => {
   let component: RefMdfComponent;
@@ -8,7 +9,8 @@ describe('RefMdfComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ RefMdfComponent ]
+      declarations: [ RefMdfComponent ],
+      imports: [ReactiveFormsModule]
     })
     .compileComponents();
   }));

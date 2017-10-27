@@ -1,0 +1,53 @@
+
+<div class="container-fluid">
+  <h4>JSON Placeholder Demo
+  <select (change)="handleComboChange($event)" #combo>
+    <option *ngFor="let OPT of collection" value="{{OPT}}">{{OPT}}</option>
+  </select>
+  </h4>
+
+  <!--{{combo.value}}-->
+
+    <ul class="panel">
+     <li class="panel-body" *ngFor="let ITEM of results;let idx = index">
+       <div [ngSwitch]="combo.value">
+         <p *ngSwitchCase="collection[0]">
+           [User ID: {{ITEM.userId}} ] [Title: {{ITEM.title}}] <br/> [Body: {{ITEM.body}}]
+         </p>
+
+         <p *ngSwitchCase="collection[1]">
+           [Post ID: {{ITEM.postId}} ] [Name: {{ITEM.name}}] <br/>
+           [Email: {{ITEM.email}} <br/> [Body: {{ITEM.body}}]
+         </p>
+
+         <p *ngSwitchCase="collection[2]">
+           [User ID: {{ITEM.userId}} ] [Title: {{ITEM.title}}]
+         </p>
+
+         <div *ngSwitchCase="collection[3]">
+           <span *ngIf="idx < 50">
+<!--
+             [Album ID: {{ITEM.albumId}} ]
+             [Link: {{ITEM.thumbnailUrl}} {{ITEM.url}} ]
+-->
+             <img src="{{ITEM.thumbnailUrl}}">
+             <span>[Title: {{ITEM.title}}]</span>
+           </span>
+         </div>
+
+         <p *ngSwitchCase="collection[4]">
+           [User ID: {{ITEM.album}} ] [Title: {{ITEM.title}}] <br/>
+           [Completed: {{ITEM.completed}} ]
+         </p>
+
+         <p *ngSwitchCase="collection[5]">
+           [Name: {{ITEM.name}} ] [User ID: {{ITEM.username}}] <br/>
+           [Phone: {{ITEM.phone}} ]<br/>
+           [Email: {{ITEM.email}}<br/>
+           [Link: {{ITEM.website}}<br/>
+         </p>
+       </div>
+     </li>
+    </ul>
+
+</div>
